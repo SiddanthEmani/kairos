@@ -5,6 +5,7 @@
     "san-jose"
   ],
   "include_virtual_global": true,
+  "local_tz": "America/Los_Angeles",
   "lookahead_days": 30,
   "max_events_per_run": 40,
   "min_weekday_hour_local": 17,

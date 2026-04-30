@@ -50,6 +50,10 @@ DEFAULT_CONFIG = {
     # local-time start hour is below this number get dropped. Weekends are
     # always allowed regardless. 17 = 5 PM (right after a 9-5).
     "min_weekday_hour_local": 17,
+    # IANA timezone for the schedule check. Required because cloud runners
+    # (e.g. GitHub Actions) run in UTC; without this, "5 PM local" wrongly
+    # means "5 PM UTC".
+    "local_tz": "America/Los_Angeles",
     # Per-run insertion cap, applied AFTER ranking. 0 = no cap.
     "max_events_per_run": 40,
 }
@@ -409,12 +413,19 @@ def is_ai_event(event: Event) -> bool:
     return bool(AI_PATTERN.search(haystack))
 
 
-def fits_schedule(event: Event, min_weekday_hour: int) -> bool:
+def fits_schedule(event: Event, min_weekday_hour: int,
+                  tz_name: str = "America/Los_Angeles") -> bool:
     """True if a working-hours person could actually attend.
     - Weekends: always pass.
-    - Weekdays: must start at or after `min_weekday_hour` local time.
+    - Weekdays: must start at or after `min_weekday_hour` in `tz_name`.
+    `tz_name` is required because cloud runners are UTC by default.
     """
-    s = event.start.astimezone()
+    try:
+        from zoneinfo import ZoneInfo
+        tz = ZoneInfo(tz_name)
+    except Exception:  # noqa: BLE001
+        tz = None
+    s = event.start.astimezone(tz) if tz else event.start.astimezone()
     if s.weekday() >= 5:
         return True
     return s.hour >= min_weekday_hour
@@ -644,6 +655,7 @@ def _filter_pipeline(events: list[Event], config: dict,
     kept: list[Event] = []
     intra: set[str] = set()
     min_wh = int(config.get("min_weekday_hour_local", 17))
+    tz_name = str(config.get("local_tz", "America/Los_Angeles"))
     seen_keys = seen if isinstance(seen, dict) else {}
 
     for ev in events:
@@ -654,7 +666,7 @@ def _filter_pipeline(events: list[Event], config: dict,
         if not in_geo_scope(ev, config["cities"],
                             config["include_virtual_global"]):
             filtered_out += 1; continue
-        if not fits_schedule(ev, min_wh):
+        if not fits_schedule(ev, min_wh, tz_name):
             filtered_out += 1; continue
         key = ev.dedup_key()
         if not key:
