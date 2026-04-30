@@ -1,0 +1,28 @@
+name: kairos-debug
+on: workflow_dispatch
+permissions: { contents: read }
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Probe Luma response shape
+        run: |
+          set +e
+          UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'
+          U='https://api.lu.ma/discover/get-paginated-events?category=ai&period=future&pagination_limit=50&city_slug=san-francisco'
+          curl -sS -A "$UA" -H 'Origin: https://lu.ma' -H 'Referer: https://lu.ma/discover' \
+            -H 'Accept: application/json' -o /tmp/r.json "$U"
+          echo "BYTES=$(wc -c </tmp/r.json)"
+          echo "--- top-level keys ---"
+          python3 -c "import json; d=json.load(open('/tmp/r.json')); print(list(d.keys())); print('entries:', len(d.get('entries',[]))); print('has_more:', d.get('has_more')); print('next_cursor:', (d.get('next_cursor') or '')[:30])"
+          echo "--- first entry keys ---"
+          python3 -c "import json; e=json.load(open('/tmp/r.json'))['entries'][0]; print(sorted(e.keys()))"
+          echo "--- first entry calendar ---"
+          python3 -c "import json; e=json.load(open('/tmp/r.json'))['entries'][0]; c=e.get('calendar'); print('type:', type(c).__name__); print('calendar.name:', c.get('name') if isinstance(c,dict) else c)"
+          echo "--- pagination round 2 ---"
+          CURSOR=$(python3 -c "import json,urllib.parse; d=json.load(open('/tmp/r.json')); print(urllib.parse.quote(d.get('next_cursor') or ''))")
+          U2="${U}&pagination_cursor=${CURSOR}"
+          curl -sS -A "$UA" -H 'Origin: https://lu.ma' -H 'Referer: https://lu.ma/discover' \
+            -H 'Accept: application/json' -o /tmp/r2.json "$U2"
+          python3 -c "import json; d=json.load(open('/tmp/r2.json')); print('p2 entries:', len(d.get('entries',[])), 'has_more:', d.get('has_more'))"
