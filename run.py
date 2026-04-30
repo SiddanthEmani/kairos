@@ -216,13 +216,15 @@ _BROWSER_UA = (
 
 def http_get(url: str, log: logging.Logger) -> bytes | None:
     # Luma silently degrades responses for non-browser clients. Use a real
-    # browser UA and add Origin/Referer for api.lu.ma calls so the server
-    # returns full payloads.
-    headers = {"User-Agent": _BROWSER_UA,
-               "Accept": "application/json, text/html, */*"}
-    if "api.lu.ma" in url:
-        headers["Origin"] = "https://lu.ma"
-        headers["Referer"] = "https://lu.ma/discover"
+    # browser UA and add Origin/Referer so the response is full data.
+    # CORS-proxy services forward these headers to the target API, so the
+    # combo works for direct calls and proxied calls alike.
+    headers = {
+        "User-Agent": _BROWSER_UA,
+        "Accept": "application/json, text/html, */*",
+        "Origin": "https://lu.ma",
+        "Referer": "https://lu.ma/discover",
+    }
     req = urllib.request.Request(url, headers=headers)
     try:
         with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as resp:
@@ -285,6 +287,15 @@ DISCOVER_URL = "https://api.lu.ma/discover/get-paginated-events"
 DISCOVER_PAGE_LIMIT = 50
 DISCOVER_MAX_PAGES = 20  # safety cap: 1000 events per source
 
+# Free CORS-relay services. Used only when the direct discover call
+# returns 0 entries (Luma silently empty-responds to many datacenter IPs,
+# notably GitHub Actions runners). Local Macs hit api.lu.ma directly.
+# These services don't require auth and proxy from non-datacenter IPs.
+DISCOVER_PROXIES = (
+    "https://api.allorigins.win/raw?url={}",
+    "https://api.codetabs.com/v1/proxy/?quest={}",
+)
+
 # Map our city slugs -> Luma's HTML place slugs (for /discover/<slug>?category=ai).
 # Many JSON `city_slug` values don't match a place page (e.g. "san-jose" has
 # no Luma place page in 2026). Slugs not in the map fall through to the
@@ -303,43 +314,69 @@ NEXT_DATA_RE = re.compile(
 )
 
 
+def _proxy_wrap(url: str, proxy_idx: int) -> str:
+    """Wrap a target URL in a CORS-relay service URL."""
+    enc = urllib.parse.quote(url, safe="")
+    return DISCOVER_PROXIES[proxy_idx % len(DISCOVER_PROXIES)].format(enc)
+
+
 def fetch_discover(city: str | None, lookahead_days: int,
                    log: logging.Logger) -> list[Event]:
     """Cursor-paginated discover fetch. Stops at the lookahead horizon
-    (events come back in chronological order) or when has_more is False."""
+    (events come back in chronological order) or when has_more is False.
+    If the direct call comes back blocked-empty (Luma silently returns
+    {"entries":[]} from datacenter IPs), falls back to a CORS proxy and
+    retries the whole pagination loop."""
     horizon = datetime.now(timezone.utc) + timedelta(days=lookahead_days)
     source = f"discover/{city or 'virtual'}"
-    out: list[Event] = []
-    cursor: str | None = None
 
-    for page in range(DISCOVER_MAX_PAGES):
-        params = {
-            "category": "ai", "period": "future",
-            "pagination_limit": str(DISCOVER_PAGE_LIMIT),
-        }
-        if city:
-            params["city_slug"] = city
-        if cursor:
-            params["pagination_cursor"] = cursor
-        url = f"{DISCOVER_URL}?{urllib.parse.urlencode(params)}"
-        raw = http_get(url, log)
-        if raw is None:
-            break
-        try:
-            payload = json.loads(raw)
-        except json.JSONDecodeError:
-            log.warning("Discover returned non-JSON (city=%s, page=%d)",
-                        city, page)
-            break
-        page_events = _extract_discover_events(payload, source=source, log=log)
-        out.extend(page_events)
-        if page_events and page_events[-1].start > horizon:
-            break
-        if not payload.get("has_more"):
-            break
-        cursor = payload.get("next_cursor") if isinstance(payload, dict) else None
-        if not cursor:
-            break
+    def _run(via_proxy: int | None) -> list[Event]:
+        out: list[Event] = []
+        cursor: str | None = None
+        for _ in range(DISCOVER_MAX_PAGES):
+            params = {
+                "category": "ai", "period": "future",
+                "pagination_limit": str(DISCOVER_PAGE_LIMIT),
+            }
+            if city:
+                params["city_slug"] = city
+            if cursor:
+                params["pagination_cursor"] = cursor
+            target = f"{DISCOVER_URL}?{urllib.parse.urlencode(params)}"
+            url = _proxy_wrap(target, via_proxy) if via_proxy is not None else target
+            raw = http_get(url, log)
+            if raw is None:
+                break
+            try:
+                payload = json.loads(raw)
+            except json.JSONDecodeError:
+                log.warning("Discover non-JSON (city=%s, proxy=%s)",
+                            city, via_proxy)
+                break
+            page_events = _extract_discover_events(
+                payload, source=source, log=log)
+            out.extend(page_events)
+            if page_events and page_events[-1].start > horizon:
+                break
+            if not payload.get("has_more"):
+                break
+            cursor = (payload.get("next_cursor")
+                      if isinstance(payload, dict) else None)
+            if not cursor:
+                break
+        return out
+
+    out = _run(via_proxy=None)
+    if out:
+        return out
+    # Direct call came back blocked-empty: try each proxy until one works.
+    for idx in range(len(DISCOVER_PROXIES)):
+        log.info("Discover empty for %s — retrying via proxy #%d",
+                 source, idx)
+        out = _run(via_proxy=idx)
+        if out:
+            log.info("Proxy #%d returned %d events", idx, len(out))
+            return out
     return out
 
 
