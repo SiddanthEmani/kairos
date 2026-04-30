@@ -372,18 +372,25 @@ def fetch_discover(city: str | None, lookahead_days: int,
                 break
         return out
 
-    out = _run(via_proxy=None)
-    if out:
-        return out
-    # Direct call came back blocked-empty: try each proxy until one works.
+    direct = _run(via_proxy=None)
+    # When Luma blocks our IP it returns a tiny geo-personalized response
+    # with has_more=False on page 0, so we get e.g. 3 photog events instead
+    # of 500 SF AI events. A real first page returns ~50. Anything under
+    # this floor is treated as blocked and retried through proxies. The
+    # results are merged and de-duplicated by event id later in the
+    # pipeline.
+    BLOCK_FLOOR = 20
+    if len(direct) >= BLOCK_FLOOR:
+        return direct
+    if direct:
+        log.info("Direct discover for %s returned only %d — looks blocked,"
+                 " trying proxies", source, len(direct))
+    merged = list(direct)
     for idx in range(len(DISCOVER_PROXIES)):
-        log.info("Discover empty for %s — retrying via proxy #%d",
-                 source, idx)
-        out = _run(via_proxy=idx)
-        if out:
-            log.info("Proxy #%d returned %d events", idx, len(out))
-            return out
-    return out
+        proxied = _run(via_proxy=idx)
+        log.info("Proxy #%d for %s: %d events", idx, source, len(proxied))
+        merged.extend(proxied)
+    return merged
 
 
 def _extract_discover_events(payload, source: str,
