@@ -205,9 +205,14 @@ def write_state(status: str, added: int, dup: int, filtered: int,
 
 
 def http_get(url: str, log: logging.Logger) -> bytes | None:
-    req = urllib.request.Request(
-        url, headers={"User-Agent": USER_AGENT, "Accept": "*/*"}
-    )
+    # Luma's discover endpoint silently returns {"entries":[]} unless the
+    # request looks like it's coming from the lu.ma frontend. Send Origin
+    # and Referer for any api.lu.ma URL.
+    headers = {"User-Agent": USER_AGENT, "Accept": "application/json, */*"}
+    if "api.lu.ma" in url:
+        headers["Origin"] = "https://lu.ma"
+        headers["Referer"] = "https://lu.ma/discover"
+    req = urllib.request.Request(url, headers=headers)
     try:
         with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as resp:
             return resp.read()
