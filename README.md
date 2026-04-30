@@ -33,41 +33,31 @@ that Luma's `category=ai` lumps in.
 
 ```
 Luma discover  ─►  filter  ─►  rank  ─►  cap  ─►  events.ics  ─►  your calendar
-   ~1700/day      ~250 left    top 40     daily        you subscribe once
+   ~1700/day      ~250 left    top 40    every 6h     subscribe once
 ```
 
-1. **Fetch** — paginates Luma's discover API across SF, San Jose, and
-   global-virtual events for the next 30 days. Falls back to a CORS relay
-   when the runner IP is blocked, so cloud and local pull the same data.
+1. **Fetch** — scrapes Luma's server-rendered discover HTML and paginates
+   the JSON discover API across SF, San Jose, and global-virtual events
+   for the next 30 days. Falls back to a CORS relay when the runner IP
+   is blocked.
 2. **Filter** — drops events past the horizon, events that don't mention
-   AI vocabulary in the title or host calendar (catches the Luma `category=ai`
-   leak), events outside SF/SJ, and weekday events that start before 5 PM.
+   AI vocabulary in the title or host calendar (catches the Luma
+   `category=ai` leak), events outside SF/SJ, and weekday events that
+   start before 5 PM local.
 3. **Rank** — scores by host reputation (LangChain, Snorkel, Modal,
    DeepMind, AI Tinkerers, …), technical title vocabulary (RAG, agentic,
    evals, fine-tuning, …), and lightly penalizes purely-social titles.
 4. **Cap** — keeps the top N (default 40) and writes a clean `.ics`.
 
-## Two ways to run
-
-### Cloud (GitHub Actions → `events.ics`)
+## How to run it yourself
 
 Fork the repo, enable Actions, done. The `kyros-refresh` workflow runs
-every 6 hours (00, 06, 12, 18 UTC), regenerates `events.ics`, and commits
-it back. Anyone subscribed to your raw URL gets the refresh automatically.
+every 6 hours (00, 06, 12, 18 UTC), regenerates `events.ics`, and
+commits it back. Anyone subscribed to your raw URL gets the refresh
+automatically.
 
-No secrets, no API keys, no servers — just a `.ics` file in a public repo.
-
-### Local (Apple Calendar via AppleScript)
-
-`run.py --mode local` (default) inserts events directly into a named macOS
-Calendar via parameterized AppleScript. Pair with launchd via `install.sh`.
-
-```bash
-./install.sh                 # one-time launchd setup
-./cli.py status              # at-a-glance
-./cli.py run-now --dry-run   # safe preview
-./cli.py run-now             # for real
-```
+No secrets, no API keys, no servers — just a `.ics` file in a public
+repo. Run locally with `python run.py` if you want to inspect.
 
 ## Configuration (`config.json`)
 
@@ -76,21 +66,18 @@ Calendar via parameterized AppleScript. Pair with launchd via `install.sh`.
 | `cities` | `["san-francisco", "san-jose"]` | Luma `city_slug`s to query |
 | `include_virtual_global` | `true` | also fetch virtual / global events |
 | `lookahead_days` | `30` | drop events past this horizon |
-| `min_weekday_hour_local` | `17` | weekday events must start at/after this hour, local TZ. `0` disables |
+| `min_weekday_hour_local` | `17` | weekday events must start at/after this hour, in `local_tz`. `0` disables |
+| `local_tz` | `"America/Los_Angeles"` | IANA tz for the schedule check |
 | `max_events_per_run` | `40` | top-N cap after ranking. `0` = unlimited |
-| `calendar_name` | `"AI Events"` | local-mode target Calendar.app calendar |
-| `run_time` | `"07:00"` | local-mode launchd schedule |
 
 ## Files
 
 ```
-run.py                       # daily job (both modes)
-cli.py                       # local TUI
-config.json                  # user-editable
-requirements.txt             # icalendar (cloud mode)
-install.sh / uninstall.sh    # local launchd setup
-.github/workflows/refresh.yml # cloud schedule
-events.ics                   # cloud output (committed by CI)
+run.py                         # the entire job
+config.json                    # user-editable
+requirements.txt               # icalendar
+.github/workflows/refresh.yml  # 6-hourly schedule
+events.ics                     # output (committed by CI)
 ```
 
 ## Why this exists

@@ -3,10 +3,9 @@ __pycache__/
 *.pyo
 .venv/
 venv/
+events.ics.tmp
 .DS_Store
 logs/
-state.json
-seen-events.json
 *.tmp
 *.log
 Image.jpeg

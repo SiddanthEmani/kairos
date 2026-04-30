@@ -34,7 +34,7 @@ jobs:
           git pull --rebase --quiet origin main
 
       - name: Build events.ics
-        run: python run.py --mode ics --ics-path events.ics
+        run: python run.py --ics-path events.ics
 
       - name: Commit if changed
         run: |
