@@ -6,10 +6,56 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Extract embedded data from city pages
+      - name: Probe city pagination + alternate slugs
         run: |
           set +e
           UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'
+          # First, find SF page structure for pagination + place api_id
+          curl -sS -L -A "$UA" -o /tmp/sf.html 'https://lu.ma/sf?category=ai'
+          python3 - <<'PY'
+          import re, json
+          src = open('/tmp/sf.html').read()
+          m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', src, re.S)
+          d = json.loads(m.group(1))
+          data = d['props']['pageProps']['initialData']['data']
+          place = data.get('place', {})
+          print('place api_id:', place.get('api_id'), 'slug:', place.get('slug'), 'name:', place.get('name'))
+          print('events:', len(data.get('events', [])))
+          print('featured_events:', len(data.get('featured_events', [])))
+          page = data.get('page')
+          print('page meta:', page if isinstance(page, dict) else type(page).__name__)
+          print('--- sample event titles ---')
+          for e in data.get('events', [])[:5]:
+              print(' ', e.get('event',{}).get('name'), '|', (e.get('calendar') or {}).get('name'))
+          PY
+          for url in 'https://lu.ma/sf?category=ai&page=2' 'https://lu.ma/sj' 'https://lu.ma/sjc' 'https://lu.ma/silicon-valley' 'https://lu.ma/south-bay' 'https://lu.ma/oakland' 'https://lu.ma/bayarea' 'https://lu.ma/peninsula'; do
+            echo "===== $url ====="
+            curl -sS -L -A "$UA" -o /tmp/p.html "$url"
+            python3 - <<PY
+          import re, json
+          src = open('/tmp/p.html').read()
+          m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', src, re.S)
+          if not m:
+              print(' no __NEXT_DATA__'); raise SystemExit
+          d = json.loads(m.group(1))
+          ini = d['props']['pageProps'].get('initialData', {})
+          if ini.get('kind') == 'place':
+              data = ini['data']
+              print(' kind=place name=', data['place'].get('name'), 'events=', len(data.get('events',[])), 'featured=', len(data.get('featured_events',[])))
+          else:
+              print(' kind=', ini.get('kind'), 'keys=', list(ini.keys())[:5])
+          PY
+          done
+          # Try the place-events JSON API the in-page client probably calls
+          PLACE_API_ID=$(python3 -c "import re,json; src=open('/tmp/sf.html').read(); m=re.search(r'<script id=\"__NEXT_DATA__\"[^>]*>(.*?)</script>',src,re.S); d=json.loads(m.group(1)); print(d['props']['pageProps']['initialData']['data']['place']['api_id'])")
+          echo "place_api_id=$PLACE_API_ID"
+          for ep in 'place/get-items' 'discover/place/get-items' 'place/get-events' 'discover/get-events'; do
+            U="https://api.lu.ma/${ep}?place_api_id=${PLACE_API_ID}&category=ai&period=future&pagination_limit=20"
+            echo "--- $U ---"
+            curl -sS -A "$UA" -H 'Origin: https://lu.ma' -H 'Referer: https://lu.ma/sf' \
+              -o /tmp/x.json -w "HTTP=%{http_code} size=%{size_download}\n" "$U"
+            head -c 200 /tmp/x.json; echo
+          done
           for url in 'https://lu.ma/sf' 'https://lu.ma/san-jose' 'https://lu.ma/discover/city/san-francisco?category=ai' 'https://lu.ma/sf?category=ai'; do
             echo "===== $url ====="
             curl -sS -L -A "$UA" -o /tmp/page.html "$url"
