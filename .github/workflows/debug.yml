@@ -6,121 +6,35 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Probe city pagination + alternate slugs
+      - name: Pagination probe
         run: |
           set +e
           UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'
-          # First, find SF page structure for pagination + place api_id
-          curl -sS -L -A "$UA" -o /tmp/sf.html 'https://lu.ma/sf?category=ai'
-          python3 - <<'PY'
-          import re, json
-          src = open('/tmp/sf.html').read()
-          m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', src, re.S)
-          d = json.loads(m.group(1))
-          data = d['props']['pageProps']['initialData']['data']
-          place = data.get('place', {})
-          print('place api_id:', place.get('api_id'), 'slug:', place.get('slug'), 'name:', place.get('name'))
-          print('events:', len(data.get('events', [])))
-          print('featured_events:', len(data.get('featured_events', [])))
-          page = data.get('page')
-          print('page meta:', page if isinstance(page, dict) else type(page).__name__)
-          print('--- sample event titles ---')
-          for e in data.get('events', [])[:5]:
-              print(' ', e.get('event',{}).get('name'), '|', (e.get('calendar') or {}).get('name'))
-          PY
-          for url in 'https://lu.ma/sf?category=ai&page=2' 'https://lu.ma/sj' 'https://lu.ma/sjc' 'https://lu.ma/silicon-valley' 'https://lu.ma/south-bay' 'https://lu.ma/oakland' 'https://lu.ma/bayarea' 'https://lu.ma/peninsula'; do
-            echo "===== $url ====="
-            curl -sS -L -A "$UA" -o /tmp/p.html "$url"
+          for i in 1 2 3 4 5 6 7 8 9 10; do
+            curl -sS -L -A "$UA" -o /tmp/p.html "https://lu.ma/sf?category=ai&page=$i"
             python3 - <<PY
           import re, json
           src = open('/tmp/p.html').read()
           m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', src, re.S)
-          if not m:
-              print(' no __NEXT_DATA__'); raise SystemExit
           d = json.loads(m.group(1))
-          ini = d['props']['pageProps'].get('initialData', {})
-          if ini.get('kind') == 'place':
-              data = ini['data']
-              print(' kind=place name=', data['place'].get('name'), 'events=', len(data.get('events',[])), 'featured=', len(data.get('featured_events',[])))
-          else:
-              print(' kind=', ini.get('kind'), 'keys=', list(ini.keys())[:5])
+          data = d['props']['pageProps']['initialData'].get('data') or {}
+          ev = data.get('events') or []
+          fe = data.get('featured_events') or []
+          last = ev[-1].get('event',{}).get('start_at') if ev else None
+          print(f"sf?category=ai page=$i events={len(ev)} featured={len(fe)} last={last}")
           PY
           done
-          # Try the place-events JSON API the in-page client probably calls
-          PLACE_API_ID=$(python3 -c "import re,json; src=open('/tmp/sf.html').read(); m=re.search(r'<script id=\"__NEXT_DATA__\"[^>]*>(.*?)</script>',src,re.S); d=json.loads(m.group(1)); print(d['props']['pageProps']['initialData']['data']['place']['api_id'])")
-          echo "place_api_id=$PLACE_API_ID"
-          for ep in 'place/get-items' 'discover/place/get-items' 'place/get-events' 'discover/get-events'; do
-            U="https://api.lu.ma/${ep}?place_api_id=${PLACE_API_ID}&category=ai&period=future&pagination_limit=20"
-            echo "--- $U ---"
-            curl -sS -A "$UA" -H 'Origin: https://lu.ma' -H 'Referer: https://lu.ma/sf' \
-              -o /tmp/x.json -w "HTTP=%{http_code} size=%{size_download}\n" "$U"
-            head -c 200 /tmp/x.json; echo
-          done
-          for url in 'https://lu.ma/sf' 'https://lu.ma/san-jose' 'https://lu.ma/discover/city/san-francisco?category=ai' 'https://lu.ma/sf?category=ai'; do
-            echo "===== $url ====="
-            curl -sS -L -A "$UA" -o /tmp/page.html "$url"
-            echo "page bytes: $(wc -c </tmp/page.html)"
+          for i in 1 2 3 4 5; do
+            curl -sS -L -A "$UA" -o /tmp/p.html "https://lu.ma/discover/category/ai?page=$i"
             python3 - <<PY
           import re, json
-          src = open('/tmp/page.html').read()
+          src = open('/tmp/p.html').read()
           m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', src, re.S)
-          if not m:
-              print("no __NEXT_DATA__"); raise SystemExit
-          data = json.loads(m.group(1))
-          pp = data.get('props', {}).get('pageProps', {})
-          ini = pp.get('initialData', pp)
-          if not isinstance(ini, dict): ini = {}
-          print("initialData keys:", list(ini.keys())[:10])
-          fp = ini.get('featured_place') or ini.get('place') or {}
-          if isinstance(fp, dict):
-              place = fp.get('place') or {}
-              print(" featured_place.place.name:", place.get('name'))
-              print(" featured_place.place.slug:", place.get('slug'))
-          # find events with calendar.name and event.name
-          found = []
-          def walk(o, p=''):
-              if isinstance(o, dict):
-                  if 'event' in o and isinstance(o['event'], dict) and 'name' in o['event']:
-                      cal = o.get('calendar') or {}
-                      found.append((o['event'].get('name'), cal.get('name') if isinstance(cal,dict) else None))
-                  for k,v in o.items(): walk(v, p+'.'+k)
-              elif isinstance(o, list):
-                  for x in o: walk(x, p)
-          walk(pp)
-          print(" total event objects:", len(found))
-          for n,c in found[:5]: print(" ", repr(n), "|", c)
+          d = json.loads(m.group(1))
+          ini = d['props']['pageProps']['initialData']
+          fp = ini.get('featured_place') or {}
+          ev = fp.get('events') or []
+          last = ev[-1].get('event',{}).get('start_at') if ev else None
+          print(f"discover/category/ai page=$i featured_place.events={len(ev)} last={last}")
           PY
           done
-          echo "page bytes: $(wc -c </tmp/page.html)"
-          python3 <<'PY'
-          import re, json
-          src = open('/tmp/page.html').read()
-          m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', src, re.S)
-          data = json.loads(m.group(1))
-          pp = data['props']['pageProps']['initialData']
-          print("initialData keys:", list(pp.keys()))
-          for k,v in pp.items():
-              if isinstance(v, dict):
-                  print(f"  {k} (dict) keys:", list(v.keys())[:10])
-                  if 'events' in v and isinstance(v['events'], list):
-                      print(f"    {k}.events: {len(v['events'])} items")
-              elif isinstance(v, list):
-                  print(f"  {k} (list): {len(v)} items")
-                  if v and isinstance(v[0], dict):
-                      print(f"    sample[0] keys:", list(v[0].keys())[:10])
-                      if 'events' in v[0]:
-                          print(f"    sample[0].events:", len(v[0]['events']))
-          # Aggregate all events arrays
-          total = 0
-          def collect(o):
-              global total
-              if isinstance(o, dict):
-                  for k,v in o.items():
-                      if k=='events' and isinstance(v, list) and v and isinstance(v[0], dict) and 'event' in v[0]:
-                          total += len(v)
-                      collect(v)
-              elif isinstance(o, list):
-                  for x in o: collect(x)
-          collect(pp)
-          print("total embedded events with .event field:", total)
-          PY
