@@ -1,16 +1,16 @@
-name: kairos-daily
+name: kyros-refresh
 
 on:
   schedule:
-    # 14:00 UTC = 07:00 PT (PDT). Adjust if you're outside PDT.
-    - cron: "0 14 * * *"
+    # Every 6 hours: 00, 06, 12, 18 UTC.
+    - cron: "0 */6 * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
 concurrency:
-  group: kairos-daily
+  group: kyros-refresh
   cancel-in-progress: false
 
 jobs:
@@ -32,12 +32,13 @@ jobs:
 
       - name: Commit if changed
         run: |
-          git config user.name  "kairos-bot"
-          git config user.email "kairos-bot@users.noreply.github.com"
+          git config user.name  "kyros-bot"
+          git config user.email "kyros-bot@users.noreply.github.com"
+          git pull --rebase --quiet origin main
           if git diff --quiet -- events.ics; then
             echo "no change"
             exit 0
           fi
           git add events.ics
-          git commit -m "kairos: refresh events.ics ($(date -u +'%Y-%m-%dT%H:%MZ'))"
+          git commit -m "kyros: refresh events.ics ($(date -u +'%Y-%m-%dT%H:%MZ'))"
           git push

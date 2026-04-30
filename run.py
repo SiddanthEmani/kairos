@@ -707,7 +707,7 @@ def _build_description(event: Event) -> str:
 
 
 def write_ics(events: list[Event], path: Path, log: logging.Logger,
-              calname: str = "Kairos AI Events") -> int:
+              calname: str = "Kyros AI Events") -> int:
     """Render events as an iCalendar 2.0 feed. Apple Calendar / Google
     Calendar subscribe to the resulting file URL and refresh on their own
     schedule. Stateless: each run fully replaces the feed."""
@@ -718,10 +718,10 @@ def write_ics(events: list[Event], path: Path, log: logging.Logger,
         return 0
 
     cal = Calendar()
-    cal.add("prodid", "-//kairos//ai-events//EN")
+    cal.add("prodid", "-//kyros//ai-events//EN")
     cal.add("version", "2.0")
     cal.add("x-wr-calname", calname)
-    cal.add("x-wr-caldesc", "AI events in SF/SJ + virtual, curated by Kairos.")
+    cal.add("x-wr-caldesc", "AI events in SF/SJ + virtual, curated by Kyros.")
     cal.add("x-published-ttl", "PT6H")  # hint clients to refresh every 6h
 
     for ev in events:
@@ -825,7 +825,7 @@ def run(dry_run: bool = False, mode: str = "local",
     log = setup_logging()
     prune_old_logs()
     config = load_config()
-    log.info("=== Kairos run start (mode=%s dry_run=%s) ===", mode, dry_run)
+    log.info("=== Kyros run start (mode=%s dry_run=%s) ===", mode, dry_run)
     log.info(
         "Config: lookahead=%dd cities=%s virtual=%s cap=%d cal=%r",
         config["lookahead_days"], config["cities"],
@@ -890,7 +890,7 @@ def run(dry_run: bool = False, mode: str = "local",
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Kairos AI events daily job")
+    parser = argparse.ArgumentParser(description="Kyros AI events sync job")
     parser.add_argument("--dry-run", action="store_true",
                         help="Fetch+filter but do not write to Calendar")
     parser.add_argument("--mode", choices=("local", "ics"), default="local",

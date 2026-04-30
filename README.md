@@ -1,31 +1,31 @@
-# kairos
+# kyros
 
-> **A daily-refreshed iCalendar feed of the highest-signal AI events in the
-> SF Bay Area.** Ranked by host reputation, filtered for technical depth,
-> skips events that clash with your work day. One URL — subscribe from any
-> calendar app.
+> **An iCalendar feed of the highest-signal AI events in the SF Bay Area,
+> refreshed every 6 hours.** Ranked by host reputation, filtered for
+> technical depth, skips events that clash with your work day. One URL —
+> subscribe from any calendar app.
 
-[![daily build](https://github.com/SiddanthEmani/kairos/actions/workflows/daily.yml/badge.svg)](https://github.com/SiddanthEmani/kairos/actions/workflows/daily.yml)
-[![calendar feed](https://img.shields.io/badge/feed-events.ics-blue?logo=apple)](https://raw.githubusercontent.com/SiddanthEmani/kairos/main/events.ics)
+[![refresh](https://github.com/SiddanthEmani/kyros/actions/workflows/refresh.yml/badge.svg)](https://github.com/SiddanthEmani/kyros/actions/workflows/refresh.yml)
+[![calendar feed](https://img.shields.io/badge/feed-events.ics-blue?logo=apple)](https://raw.githubusercontent.com/SiddanthEmani/kyros/main/events.ics)
 [![python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![license](https://img.shields.io/github/license/SiddanthEmani/kairos)](LICENSE)
+[![license](https://img.shields.io/github/license/SiddanthEmani/kyros)](LICENSE)
 
 ## Subscribe
 
 ```
-https://raw.githubusercontent.com/SiddanthEmani/kairos/main/events.ics
+https://raw.githubusercontent.com/SiddanthEmani/kyros/main/events.ics
 ```
 
 - **Apple Calendar** &nbsp;`File → New Calendar Subscription` → paste URL
 - **Google Calendar** &nbsp;`Other calendars → + → From URL` → paste URL
 - **Outlook / Fantastical / anything else** &nbsp;Add subscription by URL
 
-The feed refreshes itself every morning. You'll see the next ~30 days of
+The feed refreshes four times a day. You'll see the next ~30 days of
 hand-rankable AI talks, demos, hackathons, and salons — without the noise
 of "AI for Founders Networking Drinks" or "Asian American Voices in Tech"
 that Luma's `category=ai` lumps in.
 
-`kairos` (καιρός): the opportune moment.
+`kyros` (κῦρος): authority, weight, signal over noise.
 
 ---
 
@@ -51,9 +51,9 @@ Luma discover  ─►  filter  ─►  rank  ─►  cap  ─►  events.ics  �
 
 ### Cloud (GitHub Actions → `events.ics`)
 
-Fork the repo, enable Actions, done. The `kairos-daily` workflow runs at
-14:00 UTC every day, regenerates `events.ics`, and commits it back. Anyone
-subscribed to your raw URL gets the refresh automatically.
+Fork the repo, enable Actions, done. The `kyros-refresh` workflow runs
+every 6 hours (00, 06, 12, 18 UTC), regenerates `events.ics`, and commits
+it back. Anyone subscribed to your raw URL gets the refresh automatically.
 
 No secrets, no API keys, no servers — just a `.ics` file in a public repo.
 
@@ -89,7 +89,7 @@ cli.py                       # local TUI
 config.json                  # user-editable
 requirements.txt             # icalendar (cloud mode)
 install.sh / uninstall.sh    # local launchd setup
-.github/workflows/daily.yml  # cloud schedule
+.github/workflows/refresh.yml # cloud schedule
 events.ics                   # cloud output (committed by CI)
 ```
 
@@ -102,9 +102,9 @@ its `category=ai` tag lumps in. The signal-to-noise on the raw discover
 feed is brutal, and the events I actually want are spread across 50+
 calendars.
 
-`kairos` is the small daily cron that does that filtering for me, and the
-public `.ics` URL means I can subscribe from any device and never think
-about it again.
+`kyros` is the small cron that does that filtering for me, and the public
+`.ics` URL means I can subscribe from any device and never think about it
+again.
 
 ## License
 

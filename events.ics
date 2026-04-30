@@ -1,8 +1,8 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//kairos//ai-events//EN
-X-WR-CALDESC:AI events in SF/SJ + virtual\, curated by Kairos.
-X-WR-CALNAME:Kairos AI Events
+PRODID:-//kyros//ai-events//EN
+X-WR-CALDESC:AI events in SF/SJ + virtual\, curated by Kyros.
+X-WR-CALNAME:Kyros AI Events
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 SUMMARY:The Agent and Code Improvement Loops (San Francisco)
