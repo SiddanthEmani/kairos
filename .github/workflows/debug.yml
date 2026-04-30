@@ -6,22 +6,22 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Probe per-calendar iCal endpoint
+      - name: Probe HTML discover page for event slugs
         run: |
           set +e
           UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'
-          # Resolve a known AI calendar's cal-id by hitting an event detail page
-          echo '--- resolve LangChain Events calendar id via event lookup ---'
-          curl -sS -A "$UA" -H 'Origin: https://lu.ma' -H 'Referer: https://lu.ma/' \
-            -o /tmp/ev.json -w "HTTP=%{http_code} size=%{size_download}\n" \
-            'https://api.lu.ma/url?url=4nu6vpsh'
-          python3 -c "import json; d=json.load(open('/tmp/ev.json'))['data']; print('calendar_api_id:', d['event']['calendar_api_id']); print('calendar.name:', d['calendar']['name']); print('calendar.slug:', d['calendar']['slug'])"
-          echo '--- per-calendar iCal feed for that calendar ---'
-          curl -sS -A "$UA" -L -o /tmp/cal.ics -w "HTTP=%{http_code} size=%{size_download}\n" \
-            'https://api.lu.ma/ics/get?entity=cal-LF65X3Su6P3PAeq'
-          head -c 300 /tmp/cal.ics; echo
-          grep -c '^BEGIN:VEVENT' /tmp/cal.ics
-          echo '--- public calendar slug iCal (lu.ma/aitinkerers) ---'
-          curl -sS -L -A "$UA" -o /tmp/at.html -w "HTTP=%{http_code} size=%{size_download}\n" \
-            'https://lu.ma/aitinkerers'
-          grep -oE 'cal-[a-zA-Z0-9]+' /tmp/at.html | head -2
+          for path in 'discover/category/ai' 'sf' 'sf?category=ai' 'discover?category=ai&city_slug=san-francisco'; do
+            echo "--- /${path} ---"
+            curl -sS -L -A "$UA" -o /tmp/page.html -w "HTTP=%{http_code} size=%{size_download}\n" \
+              "https://lu.ma/${path}"
+            slugs=$(grep -oE '/[a-z0-9]{6,12}\b' /tmp/page.html | sort -u | head -5)
+            evt_count=$(grep -oE 'evt-[a-zA-Z0-9]+' /tmp/page.html | sort -u | wc -l)
+            cal_count=$(grep -oE 'cal-[a-zA-Z0-9]+' /tmp/page.html | sort -u | wc -l)
+            echo "evt_count=$evt_count cal_count=$cal_count"
+            grep -oE '"name":"[^"]{5,80}","cover_url"' /tmp/page.html | head -3
+          done
+          echo '--- search by city via api.lu.ma/calendar/get-items? ---'
+          curl -sS -A "$UA" -H 'Origin: https://lu.ma' -H 'Referer: https://lu.ma/sf' \
+            -o /tmp/sf.json -w "HTTP=%{http_code} size=%{size_download}\n" \
+            'https://api.lu.ma/calendar/get-items?slug=sf&period=future&pagination_limit=5'
+          head -c 400 /tmp/sf.json; echo
