@@ -208,11 +208,18 @@ def write_state(status: str, added: int, dup: int, filtered: int,
 # ---------------------------------------------------------------------------
 
 
+_BROWSER_UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+)
+
+
 def http_get(url: str, log: logging.Logger) -> bytes | None:
-    # Luma's discover endpoint silently returns {"entries":[]} unless the
-    # request looks like it's coming from the lu.ma frontend. Send Origin
-    # and Referer for any api.lu.ma URL.
-    headers = {"User-Agent": USER_AGENT, "Accept": "application/json, */*"}
+    # Luma silently degrades responses for non-browser clients. Use a real
+    # browser UA and add Origin/Referer for api.lu.ma calls so the server
+    # returns full payloads.
+    headers = {"User-Agent": _BROWSER_UA,
+               "Accept": "application/json, text/html, */*"}
     if "api.lu.ma" in url:
         headers["Origin"] = "https://lu.ma"
         headers["Referer"] = "https://lu.ma/discover"
@@ -277,6 +284,23 @@ def _safe_str(v) -> str:
 DISCOVER_URL = "https://api.lu.ma/discover/get-paginated-events"
 DISCOVER_PAGE_LIMIT = 50
 DISCOVER_MAX_PAGES = 20  # safety cap: 1000 events per source
+
+# Map our city slugs -> Luma's HTML place slugs (for /discover/<slug>?category=ai).
+# Many JSON `city_slug` values don't match a place page (e.g. "san-jose" has
+# no Luma place page in 2026). Slugs not in the map fall through to the
+# global discover/category/ai page.
+CITY_HTML_SLUG = {
+    "san-francisco": "sf",
+    "new-york": "nyc",
+    "los-angeles": "la",
+    "seattle": "sea",
+    "london": "london",
+    "berlin": "berlin",
+}
+HTML_DISCOVER_GLOBAL = "https://lu.ma/discover/category/ai"
+NEXT_DATA_RE = re.compile(
+    r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.S
+)
 
 
 def fetch_discover(city: str | None, lookahead_days: int,
@@ -378,6 +402,58 @@ def _extract_discover_events(payload, source: str,
         except Exception as e:  # noqa: BLE001
             log.debug("Skip malformed discover event in %s: %s", source, e)
     return out
+
+
+def fetch_discover_html(city_slug: str | None,
+                        log: logging.Logger) -> list[Event]:
+    """Scrape lu.ma's server-rendered discover HTML for embedded events.
+    Used because the JSON discover endpoint silently empty-responds (and
+    serves geo-personalized junk) when called from cloud IPs. The HTML
+    page works from anywhere because it's fetched as a regular browser
+    page request.
+
+    Returns up to ~30 events per city — Luma doesn't paginate the embed.
+    Daily runs sweep the rolling window."""
+    if city_slug:
+        slug = CITY_HTML_SLUG.get(city_slug, city_slug)
+        url = f"https://lu.ma/{slug}?category=ai"
+    else:
+        url = HTML_DISCOVER_GLOBAL
+    raw = http_get(url, log)
+    if not raw:
+        return []
+    src = raw.decode("utf-8", "replace")
+    m = NEXT_DATA_RE.search(src)
+    if not m:
+        log.warning("No __NEXT_DATA__ in %s", _redact(url))
+        return []
+    try:
+        data = json.loads(m.group(1))
+    except json.JSONDecodeError:
+        log.warning("Malformed __NEXT_DATA__ in %s", _redact(url))
+        return []
+    pp = data.get("props", {}).get("pageProps", {})
+    ini = pp.get("initialData", {}) or {}
+    candidates: list = []
+    if isinstance(ini, dict):
+        # /sf?category=ai shape: initialData.data.{events,featured_events}
+        d = ini.get("data") or {}
+        if isinstance(d, dict):
+            for k in ("featured_events", "events"):
+                v = d.get(k)
+                if isinstance(v, list):
+                    candidates.extend(v)
+        # /discover/category/ai shape: initialData.featured_place.events
+        fp = ini.get("featured_place") or {}
+        if isinstance(fp, dict):
+            v = fp.get("events")
+            if isinstance(v, list):
+                candidates.extend(v)
+    return _extract_discover_events(
+        {"entries": candidates},
+        source=f"html/{city_slug or 'discover'}",
+        log=log,
+    )
 
 
 def _parse_iso(s: str) -> datetime:
@@ -629,16 +705,21 @@ def fetch_all(config: dict, log: logging.Logger) -> tuple[list[Event], list[str]
     lookahead = config["lookahead_days"]
 
     for city in config.get("cities", []):
-        log.info("Fetching discover (city=%s)", city)
-        ev = fetch_discover(city, lookahead, log)
-        log.info("  discover/%s: %d events", city, len(ev))
-        events.extend(ev)
+        log.info("Fetching %s", city)
+        # HTML route works from any IP (used as primary on CI). The JSON
+        # discover route gets richer pagination but silently empty-responds
+        # from datacenter IPs, so we treat it as a bonus when available.
+        h = fetch_discover_html(city, log)
+        j = fetch_discover(city, lookahead, log)
+        log.info("  %s: html=%d json=%d", city, len(h), len(j))
+        events.extend(h); events.extend(j)
 
     if config.get("include_virtual_global"):
-        log.info("Fetching discover (virtual/global)")
-        ev = fetch_discover(None, lookahead, log)
-        log.info("  discover/virtual: %d events", len(ev))
-        events.extend(ev)
+        log.info("Fetching virtual/global")
+        h = fetch_discover_html(None, log)
+        j = fetch_discover(None, lookahead, log)
+        log.info("  virtual: html=%d json=%d", len(h), len(j))
+        events.extend(h); events.extend(j)
 
     return events, errors
 
@@ -676,7 +757,7 @@ def _filter_pipeline(events: list[Event], config: dict,
             dup_skipped += 1; continue
         intra.add(key)
         kept.append(ev)
-    log.info("Drop breakdown: %s", drops)
+    log.debug("Drop breakdown: %s", drops)
 
     cap = int(config.get("max_events_per_run", 0) or 0)
     if cap > 0 and len(kept) > cap:
