@@ -333,7 +333,7 @@ def fetch_discover(city: str | None, lookahead_days: int,
     def _run(via_proxy: int | None) -> list[Event]:
         out: list[Event] = []
         cursor: str | None = None
-        for _ in range(DISCOVER_MAX_PAGES):
+        for page in range(DISCOVER_MAX_PAGES):
             params = {
                 "category": "ai", "period": "future",
                 "pagination_limit": str(DISCOVER_PAGE_LIMIT),
@@ -346,22 +346,28 @@ def fetch_discover(city: str | None, lookahead_days: int,
             url = _proxy_wrap(target, via_proxy) if via_proxy is not None else target
             raw = http_get(url, log)
             if raw is None:
+                log.info("  page=%d proxy=%s: HTTP failed", page, via_proxy)
                 break
             try:
                 payload = json.loads(raw)
             except json.JSONDecodeError:
-                log.warning("Discover non-JSON (city=%s, proxy=%s)",
-                            city, via_proxy)
+                log.warning("  page=%d proxy=%s: non-JSON (%d bytes)",
+                            page, via_proxy, len(raw))
                 break
             page_events = _extract_discover_events(
                 payload, source=source, log=log)
+            has_more = bool(payload.get("has_more"))
+            next_cursor = (payload.get("next_cursor")
+                           if isinstance(payload, dict) else None)
+            log.info("  page=%d proxy=%s: %d events has_more=%s cursor=%s",
+                     page, via_proxy, len(page_events), has_more,
+                     bool(next_cursor))
             out.extend(page_events)
             if page_events and page_events[-1].start > horizon:
                 break
-            if not payload.get("has_more"):
+            if not has_more:
                 break
-            cursor = (payload.get("next_cursor")
-                      if isinstance(payload, dict) else None)
+            cursor = next_cursor
             if not cursor:
                 break
         return out
