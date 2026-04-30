@@ -1,0 +1,24 @@
+name: kairos-debug
+on: workflow_dispatch
+permissions: { contents: read }
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Probe Luma discover
+        run: |
+          set +e
+          echo '--- with default UA ---'
+          curl -sS -o /tmp/r1.json -w "HTTP=%{http_code} size=%{size_download}\n" \
+            'https://api.lu.ma/discover/get-paginated-events?category=ai&period=future&pagination_limit=5&city_slug=san-francisco'
+          head -c 400 /tmp/r1.json; echo
+          echo '--- with our ai-events UA ---'
+          curl -sS -A 'ai-events/1.0 (+local automation)' -o /tmp/r2.json -w "HTTP=%{http_code} size=%{size_download}\n" \
+            'https://api.lu.ma/discover/get-paginated-events?category=ai&period=future&pagination_limit=5&city_slug=san-francisco'
+          head -c 400 /tmp/r2.json; echo
+          echo '--- with browser-like UA ---'
+          curl -sS -A 'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36' \
+            -o /tmp/r3.json -w "HTTP=%{http_code} size=%{size_download}\n" \
+            'https://api.lu.ma/discover/get-paginated-events?category=ai&period=future&pagination_limit=5&city_slug=san-francisco'
+          head -c 400 /tmp/r3.json; echo
