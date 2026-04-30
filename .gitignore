@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.DS_Store
+logs/
+state.json
+seen-events.json
+*.tmp
+*.log
+Image.jpeg
