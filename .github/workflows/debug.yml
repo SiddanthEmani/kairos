@@ -6,22 +6,41 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Probe HTML discover page for event slugs
+      - name: Extract embedded data from /discover/category/ai
         run: |
           set +e
           UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'
-          for path in 'discover/category/ai' 'sf' 'sf?category=ai' 'discover?category=ai&city_slug=san-francisco'; do
-            echo "--- /${path} ---"
-            curl -sS -L -A "$UA" -o /tmp/page.html -w "HTTP=%{http_code} size=%{size_download}\n" \
-              "https://lu.ma/${path}"
-            slugs=$(grep -oE '/[a-z0-9]{6,12}\b' /tmp/page.html | sort -u | head -5)
-            evt_count=$(grep -oE 'evt-[a-zA-Z0-9]+' /tmp/page.html | sort -u | wc -l)
-            cal_count=$(grep -oE 'cal-[a-zA-Z0-9]+' /tmp/page.html | sort -u | wc -l)
-            echo "evt_count=$evt_count cal_count=$cal_count"
-            grep -oE '"name":"[^"]{5,80}","cover_url"' /tmp/page.html | head -3
-          done
-          echo '--- search by city via api.lu.ma/calendar/get-items? ---'
-          curl -sS -A "$UA" -H 'Origin: https://lu.ma' -H 'Referer: https://lu.ma/sf' \
-            -o /tmp/sf.json -w "HTTP=%{http_code} size=%{size_download}\n" \
-            'https://api.lu.ma/calendar/get-items?slug=sf&period=future&pagination_limit=5'
-          head -c 400 /tmp/sf.json; echo
+          curl -sS -L -A "$UA" -o /tmp/page.html \
+            'https://lu.ma/discover/category/ai'
+          echo "page bytes: $(wc -c </tmp/page.html)"
+          python3 <<'PY'
+          import re, json, html
+          src = open('/tmp/page.html').read()
+          # Try Next.js __NEXT_DATA__ script
+          m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', src, re.S)
+          if m:
+              data = json.loads(m.group(1))
+              print("found __NEXT_DATA__; top keys:", list(data.keys()))
+              # walk to find pageProps
+              pp = data.get('props', {}).get('pageProps', {})
+              print("pageProps keys:", list(pp.keys())[:20])
+              # dump events arrays
+              def walk(o, path=''):
+                  if isinstance(o, dict):
+                      for k,v in o.items():
+                          if k in ('entries','events','results') and isinstance(v, list) and v and isinstance(v[0], dict):
+                              print(f"  {path}.{k}: {len(v)} items, sample keys={list(v[0].keys())[:8]}")
+                          walk(v, path+'.'+k)
+                  elif isinstance(o, list) and o and isinstance(o[0], dict):
+                      walk(o[0], path+'[0]')
+              walk(pp, 'pageProps')
+          else:
+              print("no __NEXT_DATA__")
+              # try inline JSON blob
+              m = re.search(r'self\.__next_f\.push\(\[1,"(.+?)"\]\)', src, re.S)
+              print("next_f present:", bool(m))
+          PY
+          echo '--- AI categories: distinct calendar slugs visible in HTML ---'
+          grep -oE 'lu\.ma/[a-z0-9-]{4,40}' /tmp/page.html | sort -u | head -20
+          echo '--- distinct event hashes (6-12 chars after lu.ma/) ---'
+          grep -oE '"url":"[a-z0-9]{6,12}"' /tmp/page.html | sort -u | head -10
