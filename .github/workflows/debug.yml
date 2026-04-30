@@ -6,12 +6,45 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Extract embedded data from /discover/category/ai
+      - name: Extract embedded data from city pages
         run: |
           set +e
           UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'
-          curl -sS -L -A "$UA" -o /tmp/page.html \
-            'https://lu.ma/discover/category/ai'
+          for url in 'https://lu.ma/sf' 'https://lu.ma/san-jose' 'https://lu.ma/discover/city/san-francisco?category=ai' 'https://lu.ma/sf?category=ai'; do
+            echo "===== $url ====="
+            curl -sS -L -A "$UA" -o /tmp/page.html "$url"
+            echo "page bytes: $(wc -c </tmp/page.html)"
+            python3 - <<PY
+          import re, json
+          src = open('/tmp/page.html').read()
+          m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', src, re.S)
+          if not m:
+              print("no __NEXT_DATA__"); raise SystemExit
+          data = json.loads(m.group(1))
+          pp = data.get('props', {}).get('pageProps', {})
+          ini = pp.get('initialData', pp)
+          if not isinstance(ini, dict): ini = {}
+          print("initialData keys:", list(ini.keys())[:10])
+          fp = ini.get('featured_place') or ini.get('place') or {}
+          if isinstance(fp, dict):
+              place = fp.get('place') or {}
+              print(" featured_place.place.name:", place.get('name'))
+              print(" featured_place.place.slug:", place.get('slug'))
+          # find events with calendar.name and event.name
+          found = []
+          def walk(o, p=''):
+              if isinstance(o, dict):
+                  if 'event' in o and isinstance(o['event'], dict) and 'name' in o['event']:
+                      cal = o.get('calendar') or {}
+                      found.append((o['event'].get('name'), cal.get('name') if isinstance(cal,dict) else None))
+                  for k,v in o.items(): walk(v, p+'.'+k)
+              elif isinstance(o, list):
+                  for x in o: walk(x, p)
+          walk(pp)
+          print(" total event objects:", len(found))
+          for n,c in found[:5]: print(" ", repr(n), "|", c)
+          PY
+          done
           echo "page bytes: $(wc -c </tmp/page.html)"
           python3 <<'PY'
           import re, json
