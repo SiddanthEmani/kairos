@@ -807,7 +807,7 @@ def _filter_pipeline(events: list[Event], config: dict,
             dup_skipped += 1; continue
         intra.add(key)
         kept.append(ev)
-    log.debug("Drop breakdown: %s", drops)
+    log.info("Drop breakdown: %s", drops)
 
     cap = int(config.get("max_events_per_run", 0) or 0)
     if cap > 0 and len(kept) > cap:
