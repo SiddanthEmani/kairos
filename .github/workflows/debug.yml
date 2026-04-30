@@ -6,41 +6,40 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Find SF page's XHR endpoints + try sf slug variants
+      - name: Probe proxies and JS bundles
         run: |
           set +e
           UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'
+          ENC='https%3A%2F%2Fapi.lu.ma%2Fdiscover%2Fget-paginated-events%3Fcategory%3Dai%26period%3Dfuture%26pagination_limit%3D50%26city_slug%3Dsan-francisco'
 
-          echo '===== 1. all api.lu.ma URLs referenced in lu.ma/sf?category=ai ====='
+          echo '===== A. Free CORS proxies ====='
+          for p in \
+            "https://corsproxy.io/?${ENC}" \
+            "https://api.allorigins.win/raw?url=${ENC}" \
+            "https://api.codetabs.com/v1/proxy/?quest=${ENC}" \
+            "https://thingproxy.freeboard.io/fetch/${ENC}" \
+            "https://cors-anywhere.herokuapp.com/${ENC}" \
+            ; do
+            echo "--- ${p:0:60} ---"
+            curl -sS -A "$UA" -H 'Origin: https://lu.ma' -H 'Referer: https://lu.ma/discover' \
+              -o /tmp/r.json -w "HTTP=%{http_code} size=%{size_download} time=%{time_total}s\n" -m 15 "$p"
+            python3 -c "import json; d=json.load(open('/tmp/r.json')); print(' entries:',len(d.get('entries',[])),' has_more:',d.get('has_more'))" 2>/dev/null || echo " (not JSON)"
+          done
+
+          echo
+          echo '===== B. Find load-more endpoint in JS bundle ====='
           curl -sS -L -A "$UA" -o /tmp/sf.html 'https://lu.ma/sf?category=ai'
-          # grep distinct api.lu.ma paths from HTML + linked JS bundles
-          grep -oE 'api\.lu\.ma/[A-Za-z0-9/_-]{3,80}' /tmp/sf.html | sort -u
-          echo '--- js bundle urls in head ---'
-          grep -oE '/_next/static/chunks/[A-Za-z0-9_-]+\.js' /tmp/sf.html | sort -u | head -10 > /tmp/chunks.txt
-          wc -l /tmp/chunks.txt
-          echo '--- grep api.lu.ma inside first 5 chunks ---'
-          for c in $(head -5 /tmp/chunks.txt); do
-            curl -sS -A "$UA" "https://lu.ma${c}" -o /tmp/chunk.js
-            grep -oE 'api\.lu\.ma/[a-z][A-Za-z0-9/_-]{3,60}' /tmp/chunk.js | sort -u | head -10
-          done
-
+          # extract distinct chunk URLs
+          grep -oE '/_next/static/chunks/[A-Za-z0-9._/-]+\.js' /tmp/sf.html | sort -u > /tmp/chunks.txt
+          echo "chunks: $(wc -l </tmp/chunks.txt)"
+          # download all chunks, grep for discover/place/get* endpoints
+          mkdir -p /tmp/js
+          while read c; do
+            f=$(echo "$c" | tr '/' '_')
+            curl -sS -A "$UA" "https://lu.ma${c}" -o "/tmp/js/$f"
+          done < /tmp/chunks.txt
+          echo '--- distinct api.lu.ma paths in chunks ---'
+          grep -hoE '"/[a-z][a-z0-9-]*(/[a-z0-9-]+){1,4}"' /tmp/js/* 2>/dev/null | sort -u | grep -E '(discover|place|event|get|paginated)' | head -30
           echo
-          echo '===== 2. discover JSON with various city slug values ====='
-          for cs in 'sf' 'san-francisco' 'SF' 'SanFrancisco'; do
-            U="https://api.lu.ma/discover/get-paginated-events?category=ai&period=future&pagination_limit=50&city_slug=${cs}"
-            curl -sS -A "$UA" -H 'Origin: https://lu.ma' -H 'Referer: https://lu.ma/sf' \
-              -o /tmp/r.json -w "HTTP=%{http_code} size=%{size_download} | city_slug=$cs\n" "$U"
-            python3 -c "import json; d=json.load(open('/tmp/r.json')); ev=d.get('entries',[]); print(' entries:',len(ev),' has_more:',d.get('has_more'),' first_cal:',(ev[0].get('calendar') or {}).get('name') if ev else None)"
-          done
-
-          echo
-          echo '===== 3. discover with place_api_id ====='
-          U='https://api.lu.ma/discover/get-paginated-events?category=ai&period=future&pagination_limit=50&place_api_id=discplace-BDj7GNbGlsF7Cka'
-          curl -sS -A "$UA" -H 'Origin: https://lu.ma' -H 'Referer: https://lu.ma/sf' \
-            -o /tmp/r.json -w "HTTP=%{http_code} size=%{size_download}\n" "$U"
-          python3 -c "import json; d=json.load(open('/tmp/r.json')); ev=d.get('entries',[]); print(' entries:',len(ev),' has_more:',d.get('has_more'),' first_cal:',(ev[0].get('calendar') or {}).get('name') if ev else None)"
-
-          echo
-          echo '===== 4. ip + geo Luma sees ====='
-          curl -sS https://api.ipify.org; echo
-          python3 -c "import json,re; src=open('/tmp/sf.html').read(); m=re.search(r'<script id=\"__NEXT_DATA__\"[^>]*>(.*?)</script>',src,re.S); d=json.loads(m.group(1)); print('debug_info on /sf?category=ai:'); ini=d['props']['pageProps']['initialData']; print(' kind:', ini.get('kind')); dbg=(d['props']['pageProps'].get('debug_info') or {}); print(' debug_info:', dbg)"
+          echo '--- explicit api.lu.ma matches ---'
+          grep -hoE 'api\.lu\.ma[A-Za-z0-9/_?=&-]*' /tmp/js/* 2>/dev/null | sort -u | head -20
