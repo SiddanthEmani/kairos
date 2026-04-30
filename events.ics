@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:AI Infra Meetup with dstack\, Crusoe\, and SGLang
 DTSTART:20260501T000000Z
 DTEND:20260501T030000Z
-DTSTAMP:20260430T035821Z
+DTSTAMP:20260430T040027Z
 UID:evt-Rfg0TlnNrnCNgBi
 DESCRIPTION:https://lu.ma/ykt5b294\nLocation: San Francisco\, CA\nHost: ds
  tack San Francisco\nSource: html/san-francisco
@@ -19,7 +19,7 @@ BEGIN:VEVENT
 SUMMARY:Agents & APIs SF Developer Meetup
 DTSTART:20260501T003000Z
 DTEND:20260501T023000Z
-DTSTAMP:20260430T035821Z
+DTSTAMP:20260430T040027Z
 UID:evt-fRMi5umbZeo5Xq0
 DESCRIPTION:https://lu.ma/agents-AI-apis-april\nLocation: Postman\, Inc.\,
   Steuart Tower\, 1 Market St Suite 0800\, San Francisco\, CA 94105\, USA\n
@@ -32,7 +32,7 @@ BEGIN:VEVENT
 SUMMARY:Weighted Moves: AI & Chess Mixer
 DTSTART:20260501T020000Z
 DTEND:20260501T050000Z
-DTSTAMP:20260430T035821Z
+DTSTAMP:20260430T040027Z
 UID:evt-cUdGIwHGJCIFIQ5
 DESCRIPTION:https://lu.ma/weightedmoves\nLocation: 103 Montgomery St suite
   200\, San Francisco\, CA 94129\, USA\nHost: Akash Community Events\nSourc
@@ -44,7 +44,7 @@ BEGIN:VEVENT
 SUMMARY:Social Night with the Gemma Team
 DTSTART:20260502T010000Z
 DTEND:20260502T040000Z
-DTSTAMP:20260430T035821Z
+DTSTAMP:20260430T040027Z
 UID:evt-PUNpsuzV28x2A13
 DESCRIPTION:https://lu.ma/76kumiui\nLocation: San Francisco\, California\n
  Host: Google DeepMind\nSource: html/san-francisco
