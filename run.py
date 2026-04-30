@@ -652,6 +652,7 @@ def _filter_pipeline(events: list[Event], config: dict,
     Returns (kept_events_chrono_sorted, filtered_out, dup_skipped)."""
     filtered_out = 0
     dup_skipped = 0
+    drops = {"lookahead": 0, "ai": 0, "geo": 0, "schedule": 0, "nokey": 0}
     kept: list[Event] = []
     intra: set[str] = set()
     min_wh = int(config.get("min_weekday_hour_local", 17))
@@ -660,21 +661,22 @@ def _filter_pipeline(events: list[Event], config: dict,
 
     for ev in events:
         if not in_lookahead(ev, config["lookahead_days"]):
-            filtered_out += 1; continue
+            filtered_out += 1; drops["lookahead"] += 1; continue
         if not is_ai_event(ev):
-            filtered_out += 1; continue
+            filtered_out += 1; drops["ai"] += 1; continue
         if not in_geo_scope(ev, config["cities"],
                             config["include_virtual_global"]):
-            filtered_out += 1; continue
+            filtered_out += 1; drops["geo"] += 1; continue
         if not fits_schedule(ev, min_wh, tz_name):
-            filtered_out += 1; continue
+            filtered_out += 1; drops["schedule"] += 1; continue
         key = ev.dedup_key()
         if not key:
-            filtered_out += 1; continue
+            filtered_out += 1; drops["nokey"] += 1; continue
         if key in seen_keys or key in intra:
             dup_skipped += 1; continue
         intra.add(key)
         kept.append(ev)
+    log.info("Drop breakdown: %s", drops)
 
     cap = int(config.get("max_events_per_run", 0) or 0)
     if cap > 0 and len(kept) > cap:
