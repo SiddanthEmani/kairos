@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:AI Champions Dinner
 DTSTART:20260430T010000Z
 DTEND:20260430T040000Z
-DTSTAMP:20260430T004018Z
+DTSTAMP:20260430T004209Z
 UID:evt-0oVvkOcqd3NoHEu
 DESCRIPTION:https://lu.ma/cjlchnib\nLocation: San Francisco\, California\n
  Host: Unicorner\nSource: html/san-francisco
@@ -20,7 +20,7 @@ SUMMARY:Full Context: An exclusive reception for AI leaders\, hosted by Mo
  dular & AMD
 DTSTART:20260430T010000Z
 DTEND:20260430T031500Z
-DTSTAMP:20260430T004018Z
+DTSTAMP:20260430T004209Z
 UID:evt-kEC9CGYnZJoQ1H3
 DESCRIPTION:https://lu.ma/full-context\nLocation: San Francisco\, CA\nHost
  : Modular\nSource: html/san-francisco
@@ -31,7 +31,7 @@ BEGIN:VEVENT
 SUMMARY:AI Infra Meetup with dstack\, Crusoe\, and SGLang
 DTSTART:20260501T000000Z
 DTEND:20260501T030000Z
-DTSTAMP:20260430T004018Z
+DTSTAMP:20260430T004209Z
 UID:evt-Rfg0TlnNrnCNgBi
 DESCRIPTION:https://lu.ma/ykt5b294\nLocation: San Francisco\, CA\nHost: ds
  tack San Francisco\nSource: html/san-francisco
@@ -42,7 +42,7 @@ BEGIN:VEVENT
 SUMMARY:Agents & APIs SF Developer Meetup
 DTSTART:20260501T003000Z
 DTEND:20260501T023000Z
-DTSTAMP:20260430T004018Z
+DTSTAMP:20260430T004209Z
 UID:evt-fRMi5umbZeo5Xq0
 DESCRIPTION:https://lu.ma/agents-AI-apis-april\nLocation: Postman\, Inc.\,
   Steuart Tower\, 1 Market St Suite 0800\, San Francisco\, CA 94105\, USA\n
@@ -55,7 +55,7 @@ BEGIN:VEVENT
 SUMMARY:Social Night with the Gemma Team
 DTSTART:20260502T010000Z
 DTEND:20260502T040000Z
-DTSTAMP:20260430T004018Z
+DTSTAMP:20260430T004209Z
 UID:evt-PUNpsuzV28x2A13
 DESCRIPTION:https://lu.ma/76kumiui\nLocation: San Francisco\, California\n
  Host: Google DeepMind\nSource: html/san-francisco
