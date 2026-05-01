@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:Claude Design by Dapta - Open Registration
 DTSTART:20260502T000000Z
 DTEND:20260502T030000Z
-DTSTAMP:20260501T131423Z
+DTSTAMP:20260501T190734Z
 UID:evt-5iOnt7IrwrWvIRu
 DESCRIPTION:https://lu.ma/claude-design-by-dapta\nLocation: Frontier Tower
   @ Spaceship 995 Market Street\, San Francisco\nHost: Frontier Tower SF\nS
@@ -20,7 +20,7 @@ BEGIN:VEVENT
 SUMMARY:Social Night with the Gemma Team
 DTSTART:20260502T010000Z
 DTEND:20260502T040000Z
-DTSTAMP:20260501T131423Z
+DTSTAMP:20260501T190734Z
 UID:evt-PUNpsuzV28x2A13
 DESCRIPTION:https://lu.ma/76kumiui\nLocation: San Francisco\, California\n
  Host: Google DeepMind\nSource: html/san-francisco
@@ -32,7 +32,7 @@ SUMMARY:Transformers vs. Post-Transformers: The Deciding Round\, with Luka
  sz Kaiser
 DTSTART:20260506T000000Z
 DTEND:20260506T030000Z
-DTSTAMP:20260501T131423Z
+DTSTAMP:20260501T190734Z
 UID:evt-SjbAlHyGshv5CvZ
 DESCRIPTION:https://lu.ma/post-transformer-sf\nLocation: San Francisco\, C
  A\nHost: Pathway\nSource: html/san-francisco
@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:Daytona AI Builders w/ WorkOS & Coder - SF\, May 2026
 DTSTART:20260506T003000Z
 DTEND:20260506T030000Z
-DTSTAMP:20260501T131423Z
+DTSTAMP:20260501T190734Z
 UID:evt-dncmU2YPPaAGxEW
 DESCRIPTION:https://lu.ma/e1d5eql5\nLocation: San Francisco\, CA\nHost: Pe
  rsonal\nSource: html/san-francisco
@@ -51,10 +51,23 @@ LOCATION:San Francisco\, CA
 URL:https://lu.ma/e1d5eql5
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Documentary Preview+ Conversation: Water Stewardship & Indigenous 
+ Knowledge
+DTSTART:20260506T010000Z
+DTEND:20260506T030000Z
+DTSTAMP:20260501T190734Z
+UID:evt-sAdnjw1zqx3BlmL
+DESCRIPTION:https://lu.ma/at7amlno\nLocation: Pier 17 The Embarcadero\, Sa
+ n Francisco\, CA 94111\, USA\nHost: Hidden Currencies - Water Justice in t
+ he Age of AI\nSource: html/san-francisco
+LOCATION:Pier 17 The Embarcadero\, San Francisco\, CA 94111\, USA
+URL:https://lu.ma/at7amlno
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:AI Séance <> Art/Tech Performance with artist Avital Meshi
 DTSTART:20260506T020000Z
 DTEND:20260506T030000Z
-DTSTAMP:20260501T131423Z
+DTSTAMP:20260501T190734Z
 UID:evt-4otTToRNUcGNRdT
 DESCRIPTION:https://lu.ma/AIseance\nLocation: tiat\, 151 Powell St\, San F
  rancisco\, CA 94102\, USA\nHost: tiat (the intersection of art & technolog
