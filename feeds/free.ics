@@ -5,47 +5,10 @@ X-WR-CALDESC:Kyros Free — free events\, San Jose first.
 X-WR-CALNAME:Kyros Free
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-SUMMARY:Clinton Fearon & Boogie Brown Band w/ Kava Jah & The Remedy *SOLD 
- OUT - THANK YOU!*
-DTSTART:20260906T040000Z
-DTEND:20260906T060000Z
-DTSTAMP:20260906T024357Z
-UID:rZ7HnEZ1AfjMjS
-CATEGORIES:concert,free
-DESCRIPTION:https://www.ticketweb.com/event/clinton-fearon-boogie-brown-mo
- es-alley-tickets/14737733\nVenue: Moe's Alley\nLocation: 1535 Commercial W
- ay\, Santa Cruz\, CA\nPrice: Free\nGenres: Music\, Reggae\, Roots Reggae\n
- Categories: concert\, free\nSource: ticketmaster/music\n\nMoe's Alley pres
- ents reggae legend Clinton Fearon & Boogie Brown Band with special guest K
- ava Jah & The Remedy! Saturday\, September 5\, 2026 Doors: 8pm / Show: 9pm
-  $30 in advance / $35 day of the show 21+ * All sales are final * Avoid sc
- ammers! Only purchase tickets from moesalley.com or ticketweb.com * Ticket
- s requested by email will be delivered 3 days prior to the event * Will Ca
- ll tickets will be available at the door on the day of the event ==== CLIN
- TON FEARON Born in Jamaica\, Clinton became the bassist\, vocalist and lyr
- icist of the mythic Gladiators at the age of 19. He spent 18 years with th
- e band and signed several songs for The Gladiators\, hits and classics lik
- e Chatty Chatty Mouth\, Richman Poorman\, On The Other Side\, Can You Imag
- ine How I Feel\, Let Jah Be Praised\, One Love\, Untrue Girl\, and more. C
- linton Fearon was also a session musician for different studios in Jamaica
- \, including with producers Coxsone Dodd at Studio One and Lee 'Scratch' P
- erry's at Black Ark\, but also at Channel One\, Aquarius\, Harry J\, Randy
- 's\, etc. In these studios\, Clinton Fearon composed some everlasting bass
-  lines for well-known artists like Yabby You\, Jimmy Riley\, Max Romeo\, J
- unior Byles and many others. After leaving Jamaica in 1987\, Clinton Fearo
- n started a new career in Seattle. Him and some of the musicians of The Gl
- adiators took advantage of the extra time remaining on their visa\, at the
-  end of the US tour\, to start a band in the Northwest: The Defenders. The
-  band built a nice following 
-LOCATION:1535 Commercial Way\, Santa Cruz\, CA
-URL:https://www.ticketweb.com/event/clinton-fearon-boogie-brown-moes-alley
- -tickets/14737733
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:2026 Chinatown Car Show & Car Parade (SF)
 DTSTART;TZID=America/Los_Angeles:20260906T100000
 DTEND;TZID=America/Los_Angeles:20260906T153000
-DTSTAMP:20260906T024357Z
+DTSTAMP:20260906T101318Z
 UID:funcheap-20260906-2026chinatowncarshowcarp
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/2026-chinatown-car-show-car-parade-sf/
@@ -76,7 +39,7 @@ BEGIN:VEVENT
 SUMMARY:San José “Lowrider Day” Festival + Classic Car Cruise (2026)
 DTSTART;TZID=America/Los_Angeles:20260906T120000
 DTEND;TZID=America/Los_Angeles:20260906T180000
-DTSTAMP:20260906T024357Z
+DTSTAMP:20260906T101318Z
 UID:funcheap-20260906-sanjoslowriderdayfestiva
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/san-jos-lowrider-day-festival-classic-
@@ -108,7 +71,7 @@ SUMMARY:Free Drive-In Movie Night + $2 Nachos at West Wind (East Bay + San
   Jose)
 DTSTART;TZID=America/Los_Angeles:20260910T180000
 DTEND;TZID=America/Los_Angeles:20260910T200000
-DTSTAMP:20260906T024357Z
+DTSTAMP:20260906T101318Z
 UID:funcheap-20260910-freedriveinmovienight2na
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-drivein-movie-night-2-nachos-san-
@@ -142,7 +105,7 @@ BEGIN:VEVENT
 SUMMARY:SF’s Chinatown Night Market (Sept. 2026)
 DTSTART;TZID=America/Los_Angeles:20260911T170000
 DTEND;TZID=America/Los_Angeles:20260911T210000
-DTSTAMP:20260906T024357Z
+DTSTAMP:20260906T101318Z
 UID:funcheap-20260911-sfschinatownnightmarkets
 CATEGORIES:concert,free
 DESCRIPTION:https://sf.funcheap.com/sfs-chinatown-night-market-sept-2026/\
@@ -174,7 +137,7 @@ SUMMARY:Google’s Free “Endless Summer Festival” w/ DJs\, Magic & Giv
  eaways (Mountain View)
 DTSTART;TZID=America/Los_Angeles:20260912T110000
 DTEND;TZID=America/Los_Angeles:20260912T160000
-DTSTAMP:20260906T024357Z
+DTSTAMP:20260906T101318Z
 UID:funcheap-20260912-googlesfreeendlesssummer
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/googles-free-endless-summer-festival-d
@@ -208,7 +171,7 @@ SUMMARY:Free Summer Outdoor Movie Night: “Zootopia 2” w/ DJ + Popcorn
  (Oakland)
 DTSTART;TZID=America/Los_Angeles:20260912T190000
 DTEND;TZID=America/Los_Angeles:20260913T190000
-DTSTAMP:20260906T024357Z
+DTSTAMP:20260906T101318Z
 UID:funcheap-20260912-freesummeroutdoormovieni
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootop
@@ -241,7 +204,7 @@ BEGIN:VEVENT
 SUMMARY:Latino Conservation Week Guided Hike + Free Food (Redwood City)
 DTSTART;TZID=America/Los_Angeles:20260913T100000
 DTEND;TZID=America/Los_Angeles:20260913T140000
-DTSTAMP:20260906T024357Z
+DTSTAMP:20260906T101318Z
 UID:funcheap-20260913-latinoconservationweekgu
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/latino-conservation-week-guided-hike-f
@@ -273,7 +236,7 @@ BEGIN:VEVENT
 SUMMARY:Pacific Pearl Mid-Autumn Moon Festival (Pleasanton)
 DTSTART;TZID=America/Los_Angeles:20260919T150000
 DTEND;TZID=America/Los_Angeles:20260919T170000
-DTSTAMP:20260906T024357Z
+DTSTAMP:20260906T101318Z
 UID:funcheap-20260919-pacificpearlmidautumnmoo
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/pacific-pearl-midautumn-moon-festival-
@@ -306,7 +269,7 @@ SUMMARY:“Let’s Glow” BART Anime Festival (Warm Springs / South Fremo
  nt)
 DTSTART;TZID=America/Los_Angeles:20260919T160000
 DTEND;TZID=America/Los_Angeles:20260919T210000
-DTSTAMP:20260906T024357Z
+DTSTAMP:20260906T101318Z
 UID:funcheap-20260919-letsglowbartanimefestiva
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/lets-glow-bart-anime-festival-warm-spr
@@ -340,7 +303,7 @@ SUMMARY:Free TideFest 2026: Outdoor Music + Art Festival by Ocean Beach (S
  F)
 DTSTART;TZID=America/Los_Angeles:20260919T190000
 DTEND;TZID=America/Los_Angeles:20260919T210000
-DTSTAMP:20260906T024357Z
+DTSTAMP:20260906T101318Z
 UID:funcheap-20260919-freetidefest2026outdoorm
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-tidefest-2026-outdoor-music-art-f
@@ -372,7 +335,7 @@ SUMMARY:Free Outdoor Movie Night in Duboce Park “How to Train Your Drago
  n” (Fall 2026)
 DTSTART;TZID=America/Los_Angeles:20260926T190000
 DTEND;TZID=America/Los_Angeles:20260926T210000
-DTSTAMP:20260906T024357Z
+DTSTAMP:20260906T101318Z
 UID:funcheap-20260926-freeoutdoormovienightind
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-outdoor-movie-night-duboce-park-t
@@ -389,5 +352,38 @@ DESCRIPTION:https://sf.funcheap.com/free-outdoor-movie-night-duboce-park-t
 LOCATION:san francisco
 URL:https://sf.funcheap.com/free-outdoor-movie-night-duboce-park-train-dra
  gon-fall-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bodhi Mid-Autumn Festival Community Fair (SF County Fair Building)
+DTSTART;TZID=America/Los_Angeles:20260927T100000
+DTEND;TZID=America/Los_Angeles:20260927T170000
+DTSTAMP:20260906T101318Z
+UID:funcheap-20260927-bodhimidautumnfestivalco
+CATEGORIES:community,free
+DESCRIPTION:https://sf.funcheap.com/bodhi-midautumn-festival-community-fai
+ r-sf-county-fair-building/\nVenue: . Complete challenges\, collect stamps\
+ , and redeem special gifts along the way! ❤\nPrice: Free\nCategories: co
+ mmunity\, free\nSource: funcheap/san-francisco\n\nCelebrate Mid-Autumn Fes
+ tival with lanterns\, Hanfu\, performances\, meditation\, blessings\, craf
+ ts\, games & family fun. Free admission! Celebrate Mid-Autumn Festival in 
+ Golden Gate Park! Step into a vibrant Mid-Autumn celebration filled with l
+ anterns\, traditional Chinese culture\, multicultural performances\, games
+ \, photo opportunities\, and family fun! Join Bodhi Meditation San Francis
+ co for our FREE Mid-Autumn Festival Community Fair at the San Francisco Co
+ unty Fair Building in Golden Gate Park. Whether you want to experience Chi
+ nese culture\, dress up in Hanfu\, enjoy live performances from different 
+ cultures\, take home a free printed photo\, play games\, or simply spend a
+  fun Sunday with family and friends\, there’s something for everyone! Ha
+ nfu is welcome! Come dressed in Hanfu and receive a special gift while sup
+ plies last. ✨ Event Highlights Lantern Festival Experience Step into a f
+ estive atmosphere inspired by the colors\, lanterns\, and traditions of Mi
+ d-Autumn Festival. Hanfu Experience (Traditional Chinese Clothing) & Photo
+  Spots Try on beautiful Hanfu and capture memorable photos with family and
+  friends. FREE Photo Booth — Take Your Photo Home! Strike a pose and rec
+ eive a printed ph
+LOCATION:. Complete challenges\, collect stamps\, and redeem special gifts
+  along the way! ❤
+URL:https://sf.funcheap.com/bodhi-midautumn-festival-community-fair-sf-cou
+ nty-fair-building/
 END:VEVENT
 END:VCALENDAR
