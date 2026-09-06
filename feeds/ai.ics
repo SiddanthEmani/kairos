@@ -9,20 +9,19 @@ SUMMARY:Blinkko Launch Party: A first look at the social wearable that bri
  ngs AI into real-world connection.
 DTSTART:20260909T010000Z
 DTEND:20260909T040000Z
-DTSTAMP:20260905T195403Z
+DTSTAMP:20260906T024357Z
 UID:evt-w6V6FgMM4f1ZBEY
 CATEGORIES:ai
-DESCRIPTION:https://lu.ma/bpipdia5\nLocation: 221 11th St\, San Francisco\
- , CA 94103\, USA\nHost: Blinkko\nCategories: ai\nSource: luma-html/san-fra
- ncisco
-LOCATION:221 11th St\, San Francisco\, CA 94103\, USA
+DESCRIPTION:https://lu.ma/bpipdia5\nLocation: San Francisco\, CA\nHost: Bl
+ inkko\nCategories: ai\nSource: luma-html/san-francisco
+LOCATION:San Francisco\, CA
 URL:https://lu.ma/bpipdia5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Corgi Cup 🏁🏆
 DTSTART:20260910T000000Z
 DTEND:20260910T020000Z
-DTSTAMP:20260905T195403Z
+DTSTAMP:20260906T024357Z
 UID:evt-wu4SpeSIQFoMoJW
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/the-corgi-cup\nLocation: 9 Claude Ln\, San Franc
@@ -36,7 +35,7 @@ SUMMARY:Bay Area Frontier Research Club #22 | Robotics & Embodied AI (dinn
  er + paper discussion @ Mission Robotics)
 DTSTART:20260910T003000Z
 DTEND:20260910T033000Z
-DTSTAMP:20260905T195403Z
+DTSTAMP:20260906T024357Z
 UID:evt-guGDoAdrP4myI9C
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/7wv4khq9\nLocation: San Francisco\, CA\nHost: Th
@@ -48,7 +47,7 @@ BEGIN:VEVENT
 SUMMARY:Agentic PM Kickoff w/ PostHog\, Linear\, Supabase & Dreambase
 DTSTART:20260910T010000Z
 DTEND:20260910T040000Z
-DTSTAMP:20260905T195403Z
+DTSTAMP:20260906T024357Z
 UID:evt-mgs8akIoPXqIV1l
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/posthog-tpmz\nLocation: 2360 3rd St\, San Franci
@@ -62,7 +61,7 @@ SUMMARY:Agents in Sales: Fireside Chat with Bobby Morrison (ex-Shopify CRO
  )
 DTSTART:20260910T013000Z
 DTEND:20260910T033000Z
-DTSTAMP:20260905T195403Z
+DTSTAMP:20260906T024357Z
 UID:evt-CjrBnlXY53B8AOu
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/agents-in-sales\nLocation: San Francisco\, CA\nH
@@ -75,7 +74,7 @@ SUMMARY:The True Cost of Every Prompt: The Sustainability of AI and Data C
  enters
 DTSTART:20260910T020000Z
 DTEND:20260910T040000Z
-DTSTAMP:20260905T195403Z
+DTSTAMP:20260906T024357Z
 UID:evt-8xp6C7FwWpWaILC
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/nqcd5thf\nLocation: 473A Haight St\, San Francis
