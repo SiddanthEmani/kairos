@@ -5,73 +5,11 @@ X-WR-CALDESC:Kyros Free — free events\, San Jose first.
 X-WR-CALNAME:Kyros Free
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-SUMMARY:2026 Chinatown Car Show & Car Parade (SF)
-DTSTART;TZID=America/Los_Angeles:20260906T100000
-DTEND;TZID=America/Los_Angeles:20260906T153000
-DTSTAMP:20260906T145222Z
-UID:funcheap-20260906-2026chinatowncarshowcarp
-CATEGORIES:community,free
-DESCRIPTION:https://sf.funcheap.com/2026-chinatown-car-show-car-parade-sf/
- \nVenue: SF Chinatown\, San Francisco\, CA Let’s make history and put on
-  an unforgettable s\nPrice: Free\nCategories: community\, free\nSource: fu
- ncheap/san-francisco\n\nExperience the 5th Annual SF Chinatown Car Show & 
- Parade on Grant Ave (Broadway to California). Enjoy a stunning lineup of v
- intage\, classic\, and luxury cars alongside traditional lion dances\, liv
- e music\, and martial arts demonstrations. The event runs from 10:00 am to
-  3:30 pm\, with the highly anticipated car parade beginning at 3:00 pm. Ad
- mission is free and open to everyone—come celebrate the best of our comm
- unity! CALLING ALL INCREDIBLE CREATORS & INFLUENCERS! Are you ready to bri
- ng high-energy content to your community? The 5th Annual SF Chinatown Car 
- Show & Parade \, presented by the Chinese American Association of Commerce
- \, invites content creators\, vloggers\, and social media influencers to p
- artner with us! We want you to capture the excitement live and share the e
- lectric atmosphere of classic cars\, live music\, lion dances\, and commun
- ity culture with your followers. Livestream & Promotion Opportunity Go liv
- e on YouTube\, Instagram\, Facebook\, or your favorite platform during the
-  event\, showcase the incredible vehicle displays\, and give your audience
-  an exclusive front-row seat to this landmark San Francisco celebration. C
- ompete to Win: Creator Prizes! To show our appreciation for
-LOCATION:SF Chinatown\, San Francisco\, CA Let’s make history and put on
-  an unforgettable s
-URL:https://sf.funcheap.com/2026-chinatown-car-show-car-parade-sf/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:San José “Lowrider Day” Festival + Classic Car Cruise (2026)
-DTSTART;TZID=America/Los_Angeles:20260906T120000
-DTEND;TZID=America/Los_Angeles:20260906T180000
-DTSTAMP:20260906T145222Z
-UID:funcheap-20260906-sanjoslowriderdayfestiva
-CATEGORIES:community,free
-DESCRIPTION:https://sf.funcheap.com/san-jos-lowrider-day-festival-classic-
- car-cruise-2026/\nLocation: san jose\nPrice: Free\nCategories: community\,
-  free\nSource: funcheap/san-jose\n\nSan José Lowrider Day returns to down
- town with a showcase of lowrider cars\, live music\, food vendors\, commun
- ity resources\, and local goods. Hosted at San José City Hall\, this free
-  event celebrates lowrider culture and community heritage with activities 
- for all ages. Original Event Description: _San José Lowrider Day returns 
- on Sunday\, September 6\, 2026. Join us from 12:00 PM – 6:00 PM as we ce
- lebrate lowrider culture in the heart of Downtown San José. Come enjoy: 
- • Beautiful lowriders • Live music • Food vendors • Community reso
- urces • Local vendors • A day dedicated to our cultura Bring your fami
- ly\, invite your friends\, and help us celebrate the community that contin
- ues to keep the lowrider tradition alive. Hosted by Council District 5 and
-  the United Lowrider Council of San José (ULCSJ). Save the date and stay 
- tuned for more event details in the coming weeks. 📍 San José City Hall
-  Santa Clara Street between 3rd & 7th Street 🗓 Sunday\, September 6\, 2
- 026 🕛 12:00 PM – 6:00 PM #sanjoselowriderday #ulcsj #lowrider #lowrid
- erculture_ Text extracted from provided image: SAN JOSE LOWRIDER DAY SUNDA
- Y SEPTEMBER 6TH\, 2026 HOSTED BY COUNCIL DISTRICT 5 AND ULCSJ COUNCILMEMBE
- R PETER ORTIZ ULCSJ UN
-LOCATION:san jose
-URL:https://sf.funcheap.com/san-jos-lowrider-day-festival-classic-car-crui
- se-2026/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Free Drive-In Movie Night + $2 Nachos at West Wind (East Bay + San
   Jose)
 DTSTART;TZID=America/Los_Angeles:20260910T180000
 DTEND;TZID=America/Los_Angeles:20260910T200000
-DTSTAMP:20260906T145222Z
+DTSTAMP:20260906T195751Z
 UID:funcheap-20260910-freedriveinmovienight2na
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-drivein-movie-night-2-nachos-san-
@@ -102,10 +40,41 @@ URL:https://sf.funcheap.com/free-drivein-movie-night-2-nachos-san-jose-wes
  t-wind-drivein-fall-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Free Punk Rock 50th Anniversary Exhibition Opening w/ Q&A (SF)
+DTSTART;TZID=America/Los_Angeles:20260910T190000
+DTEND;TZID=America/Los_Angeles:20260910T210000
+DTSTAMP:20260906T195751Z
+UID:funcheap-20260910-freepunkrock50thannivers
+CATEGORIES:concert,free
+DESCRIPTION:https://sf.funcheap.com/free-punk-rock-50th-anniversary-exhibi
+ tion-opening-qa-sf/\nLocation: san francisco\nPrice: Free\nCategories: con
+ cert\, free\nSource: funcheap/san-francisco\n\nKiel meets the Bay Area: NO
+  PUNK. NO FUTURE. opens September 10 with a conversation between NO MORE a
+ nd punk historian Jack Boulware. Fifty years after punk declared itself ag
+ ainst everything and everyone\, the Goethe-Institut San Francisco presents
+  NO PUNK. NO FUTURE. \, an exhibition exploring the connections between th
+ e punk scenes of Kiel\, Germany\, and the San Francisco Bay Area. Though s
+ eparated by an ocean\, both communities were driven by self-expression\, n
+ onconformity\, DIY culture\, and a refusal to follow the rules. Through ph
+ otography\, archival materials\, music\, and personal stories\, the exhibi
+ tion traces the people\, images\, and networks that connected punk communi
+ ties across the Atlantic while highlighting what made each scene unique. O
+ pening Conversation Join us for a special conversation featuring: Andy A. 
+ Schwarz and Tina Sanudakura of the seminal Kiel post-punk band NO MORE Jac
+ k Boulware \, San Francisco writer and punk historian\, and author of Gimm
+ e Something Better: The Profound\, Progressive\, and Occasionally Pointles
+ s History of Bay Area Punk from Dead Kennedys to Green Day About the Exhib
+ ition NO PUNK. NO FUTURE. takes its starting point from Kein Kiel \, a pro
+ ject dev
+LOCATION:san francisco
+URL:https://sf.funcheap.com/free-punk-rock-50th-anniversary-exhibition-ope
+ ning-qa-sf/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SF’s Chinatown Night Market (Sept. 2026)
 DTSTART;TZID=America/Los_Angeles:20260911T170000
 DTEND;TZID=America/Los_Angeles:20260911T210000
-DTSTAMP:20260906T145222Z
+DTSTAMP:20260906T195751Z
 UID:funcheap-20260911-sfschinatownnightmarkets
 CATEGORIES:concert,free
 DESCRIPTION:https://sf.funcheap.com/sfs-chinatown-night-market-sept-2026/\
@@ -137,7 +106,7 @@ SUMMARY:Google’s Free “Endless Summer Festival” w/ DJs\, Magic & Giv
  eaways (Mountain View)
 DTSTART;TZID=America/Los_Angeles:20260912T110000
 DTEND;TZID=America/Los_Angeles:20260912T160000
-DTSTAMP:20260906T145222Z
+DTSTAMP:20260906T195751Z
 UID:funcheap-20260912-googlesfreeendlesssummer
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/googles-free-endless-summer-festival-d
@@ -171,7 +140,7 @@ SUMMARY:Free Summer Outdoor Movie Night: “Zootopia 2” w/ DJ + Popcorn
  (Oakland)
 DTSTART;TZID=America/Los_Angeles:20260912T190000
 DTEND;TZID=America/Los_Angeles:20260913T190000
-DTSTAMP:20260906T145222Z
+DTSTAMP:20260906T195751Z
 UID:funcheap-20260912-freesummeroutdoormovieni
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootop
@@ -204,7 +173,7 @@ BEGIN:VEVENT
 SUMMARY:Latino Conservation Week Guided Hike + Free Food (Redwood City)
 DTSTART;TZID=America/Los_Angeles:20260913T100000
 DTEND;TZID=America/Los_Angeles:20260913T140000
-DTSTAMP:20260906T145222Z
+DTSTAMP:20260906T195751Z
 UID:funcheap-20260913-latinoconservationweekgu
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/latino-conservation-week-guided-hike-f
@@ -233,10 +202,43 @@ URL:https://sf.funcheap.com/latino-conservation-week-guided-hike-free-food
  -redwood-city/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:“Culture on Ocean” Free Ocean Ave. Culture Block Party (SF)
+DTSTART;TZID=America/Los_Angeles:20260919T140000
+DTEND;TZID=America/Los_Angeles:20260919T160000
+DTSTAMP:20260906T195751Z
+UID:funcheap-20260919-cultureonoceanfreeoceana
+CATEGORIES:free
+DESCRIPTION:https://sf.funcheap.com/culture-ocean-free-ocean-ave-culture-b
+ lock-party-sf/\nVenue: in San Francisco\, featuring live cultural performa
+ nces\, hands-on arts activities\nPrice: Free\nCategories: free\nSource: fu
+ ncheap/san-francisco\n\nCulture on Ocean is a free block party on Ocean Av
+ enue in San Francisco\, featuring live cultural performances\, hands-on ar
+ ts activities\, community organizations\, music\, and food. The afternoon 
+ event encourages families and neighbors to celebrate the local community
+ ’s diversity and creativity. All ages are welcome. Original Event Descri
+ ption: _🎨🌎 Culture on Ocean is coming! 🌎🎶 Join us for a free a
+ fternoon celebrating the arts\, culture\, and community that make Ocean Av
+ enue special! 💙 📅 Saturday\, September 19 📍 Granada Avenue & Ocea
+ n Avenue ⏰ 12–2 PM Come enjoy live cultural performances\, hands-on ar
+ ts activities\, community organizations\, music\, and more! Bring your fam
+ ily\, friends\, and neighbors and celebrate the incredible diversity and c
+ reativity of our community. 🎭🎨🪇 ✨ Support Local. Shop Local. Lo
+ ve Ocean Ave. ✨ #ArtsAndCulture #CommunityEvent #SupportLocal #SanFranci
+ scoEvents #OceanAvenueAssociation🎨🌎_ Text extracted from provided im
+ age: CULTURE ON OCEAN AN ARTS & CULTURE BLOCK PARTY SATURDAY SEPTEMBER 19 
+ 12PM–2PM GRANADA AVE BETWEEN OCEAN & HOLLOWAY MUSIC FOOD ART COMMUNITY S
+ upport Local * Shop Local * Love Ocean Ave CIVIC JOY FUND OCEAN AVENUE ASS
+ OCIATION
+LOCATION:in San Francisco\, featuring live cultural performances\, hands-o
+ n arts activities
+URL:https://sf.funcheap.com/culture-ocean-free-ocean-ave-culture-block-par
+ ty-sf/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Pacific Pearl Mid-Autumn Moon Festival (Pleasanton)
 DTSTART;TZID=America/Los_Angeles:20260919T150000
 DTEND;TZID=America/Los_Angeles:20260919T170000
-DTSTAMP:20260906T145222Z
+DTSTAMP:20260906T195751Z
 UID:funcheap-20260919-pacificpearlmidautumnmoo
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/pacific-pearl-midautumn-moon-festival-
@@ -269,7 +271,7 @@ SUMMARY:“Let’s Glow” BART Anime Festival (Warm Springs / South Fremo
  nt)
 DTSTART;TZID=America/Los_Angeles:20260919T160000
 DTEND;TZID=America/Los_Angeles:20260919T210000
-DTSTAMP:20260906T145222Z
+DTSTAMP:20260906T195751Z
 UID:funcheap-20260919-letsglowbartanimefestiva
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/lets-glow-bart-anime-festival-warm-spr
@@ -303,7 +305,7 @@ SUMMARY:Free TideFest 2026: Outdoor Music + Art Festival by Ocean Beach (S
  F)
 DTSTART;TZID=America/Los_Angeles:20260919T190000
 DTEND;TZID=America/Los_Angeles:20260919T210000
-DTSTAMP:20260906T145222Z
+DTSTAMP:20260906T195751Z
 UID:funcheap-20260919-freetidefest2026outdoorm
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-tidefest-2026-outdoor-music-art-f
@@ -335,7 +337,7 @@ SUMMARY:Free Outdoor Movie Night in Duboce Park “How to Train Your Drago
  n” (Fall 2026)
 DTSTART;TZID=America/Los_Angeles:20260926T190000
 DTEND;TZID=America/Los_Angeles:20260926T210000
-DTSTAMP:20260906T145222Z
+DTSTAMP:20260906T195751Z
 UID:funcheap-20260926-freeoutdoormovienightind
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-outdoor-movie-night-duboce-park-t
@@ -357,7 +359,7 @@ BEGIN:VEVENT
 SUMMARY:Bodhi Mid-Autumn Festival Community Fair (SF County Fair Building)
 DTSTART;TZID=America/Los_Angeles:20260927T100000
 DTEND;TZID=America/Los_Angeles:20260927T170000
-DTSTAMP:20260906T145222Z
+DTSTAMP:20260906T195751Z
 UID:funcheap-20260927-bodhimidautumnfestivalco
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/bodhi-midautumn-festival-community-fai
