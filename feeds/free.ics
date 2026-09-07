@@ -9,7 +9,7 @@ SUMMARY:Free Drive-In Movie Night + $2 Nachos at West Wind (East Bay + San
   Jose)
 DTSTART;TZID=America/Los_Angeles:20260910T180000
 DTEND;TZID=America/Los_Angeles:20260910T200000
-DTSTAMP:20260907T024237Z
+DTSTAMP:20260907T112849Z
 UID:funcheap-20260910-freedriveinmovienight2na
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-drivein-movie-night-2-nachos-san-
@@ -40,41 +40,10 @@ URL:https://sf.funcheap.com/free-drivein-movie-night-2-nachos-san-jose-wes
  t-wind-drivein-fall-2026/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Free Punk Rock 50th Anniversary Exhibition Opening w/ Q&A (SF)
-DTSTART;TZID=America/Los_Angeles:20260910T190000
-DTEND;TZID=America/Los_Angeles:20260910T210000
-DTSTAMP:20260907T024237Z
-UID:funcheap-20260910-freepunkrock50thannivers
-CATEGORIES:concert,free
-DESCRIPTION:https://sf.funcheap.com/free-punk-rock-50th-anniversary-exhibi
- tion-opening-qa-sf/\nLocation: san francisco\nPrice: Free\nCategories: con
- cert\, free\nSource: funcheap/san-francisco\n\nKiel meets the Bay Area: NO
-  PUNK. NO FUTURE. opens September 10 with a conversation between NO MORE a
- nd punk historian Jack Boulware. Fifty years after punk declared itself ag
- ainst everything and everyone\, the Goethe-Institut San Francisco presents
-  NO PUNK. NO FUTURE. \, an exhibition exploring the connections between th
- e punk scenes of Kiel\, Germany\, and the San Francisco Bay Area. Though s
- eparated by an ocean\, both communities were driven by self-expression\, n
- onconformity\, DIY culture\, and a refusal to follow the rules. Through ph
- otography\, archival materials\, music\, and personal stories\, the exhibi
- tion traces the people\, images\, and networks that connected punk communi
- ties across the Atlantic while highlighting what made each scene unique. O
- pening Conversation Join us for a special conversation featuring: Andy A. 
- Schwarz and Tina Sanudakura of the seminal Kiel post-punk band NO MORE Jac
- k Boulware \, San Francisco writer and punk historian\, and author of Gimm
- e Something Better: The Profound\, Progressive\, and Occasionally Pointles
- s History of Bay Area Punk from Dead Kennedys to Green Day About the Exhib
- ition NO PUNK. NO FUTURE. takes its starting point from Kein Kiel \, a pro
- ject dev
-LOCATION:san francisco
-URL:https://sf.funcheap.com/free-punk-rock-50th-anniversary-exhibition-ope
- ning-qa-sf/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SF’s Chinatown Night Market (Sept. 2026)
 DTSTART;TZID=America/Los_Angeles:20260911T170000
 DTEND;TZID=America/Los_Angeles:20260911T210000
-DTSTAMP:20260907T024237Z
+DTSTAMP:20260907T112849Z
 UID:funcheap-20260911-sfschinatownnightmarkets
 CATEGORIES:concert,free
 DESCRIPTION:https://sf.funcheap.com/sfs-chinatown-night-market-sept-2026/\
@@ -106,7 +75,7 @@ SUMMARY:Google’s Free “Endless Summer Festival” w/ DJs\, Magic & Giv
  eaways (Mountain View)
 DTSTART;TZID=America/Los_Angeles:20260912T110000
 DTEND;TZID=America/Los_Angeles:20260912T160000
-DTSTAMP:20260907T024237Z
+DTSTAMP:20260907T112849Z
 UID:funcheap-20260912-googlesfreeendlesssummer
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/googles-free-endless-summer-festival-d
@@ -140,7 +109,7 @@ SUMMARY:Free Summer Outdoor Movie Night: “Zootopia 2” w/ DJ + Popcorn
  (Oakland)
 DTSTART;TZID=America/Los_Angeles:20260912T190000
 DTEND;TZID=America/Los_Angeles:20260913T190000
-DTSTAMP:20260907T024237Z
+DTSTAMP:20260907T112849Z
 UID:funcheap-20260912-freesummeroutdoormovieni
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootop
@@ -170,10 +139,30 @@ URL:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootopia-2-dj-
  popcorn-oakland/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:BL3SS - 360 Set - North American Tour 2026
+DTSTART:20260913T040000Z
+DTEND:20260913T060000Z
+DTSTAMP:20260907T112849Z
+UID:rZ7HnEZ1AfPwQK
+CATEGORIES:edm,free
+DESCRIPTION:https://www.ticketweb.com/event/bl3ss-360-set-the-independent-
+ tickets/14972693\nVenue: The Independent\nLocation: 628 Divisadero St\, Sa
+ n Francisco\, CA\nPrice: Free\nGenres: Music\, Dance/Electronic\nCategorie
+ s: edm\, free\nSource: ticketmaster/music\n\nPlease note - there is a deli
+ very delay set for 2 weeks prior to show. This event is 18 and over. Any t
+ icket holder unable to present valid identification indicating that they a
+ re at least 18 years of age will not be admitted to this event\, and will 
+ not be eligible for a refund. Support acts subject to change without refun
+ d.
+LOCATION:628 Divisadero St\, San Francisco\, CA
+URL:https://www.ticketweb.com/event/bl3ss-360-set-the-independent-tickets/
+ 14972693
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Latino Conservation Week Guided Hike + Free Food (Redwood City)
 DTSTART;TZID=America/Los_Angeles:20260913T100000
 DTEND;TZID=America/Los_Angeles:20260913T140000
-DTSTAMP:20260907T024237Z
+DTSTAMP:20260907T112849Z
 UID:funcheap-20260913-latinoconservationweekgu
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/latino-conservation-week-guided-hike-f
@@ -205,7 +194,7 @@ BEGIN:VEVENT
 SUMMARY:“Culture on Ocean” Free Ocean Ave. Culture Block Party (SF)
 DTSTART;TZID=America/Los_Angeles:20260919T140000
 DTEND;TZID=America/Los_Angeles:20260919T160000
-DTSTAMP:20260907T024237Z
+DTSTAMP:20260907T112849Z
 UID:funcheap-20260919-cultureonoceanfreeoceana
 CATEGORIES:free
 DESCRIPTION:https://sf.funcheap.com/culture-ocean-free-ocean-ave-culture-b
@@ -238,7 +227,7 @@ BEGIN:VEVENT
 SUMMARY:Pacific Pearl Mid-Autumn Moon Festival (Pleasanton)
 DTSTART;TZID=America/Los_Angeles:20260919T150000
 DTEND;TZID=America/Los_Angeles:20260919T170000
-DTSTAMP:20260907T024237Z
+DTSTAMP:20260907T112849Z
 UID:funcheap-20260919-pacificpearlmidautumnmoo
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/pacific-pearl-midautumn-moon-festival-
@@ -271,7 +260,7 @@ SUMMARY:“Let’s Glow” BART Anime Festival (Warm Springs / South Fremo
  nt)
 DTSTART;TZID=America/Los_Angeles:20260919T160000
 DTEND;TZID=America/Los_Angeles:20260919T210000
-DTSTAMP:20260907T024237Z
+DTSTAMP:20260907T112849Z
 UID:funcheap-20260919-letsglowbartanimefestiva
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/lets-glow-bart-anime-festival-warm-spr
@@ -305,7 +294,7 @@ SUMMARY:Free TideFest 2026: Outdoor Music + Art Festival by Ocean Beach (S
  F)
 DTSTART;TZID=America/Los_Angeles:20260919T190000
 DTEND;TZID=America/Los_Angeles:20260919T210000
-DTSTAMP:20260907T024237Z
+DTSTAMP:20260907T112849Z
 UID:funcheap-20260919-freetidefest2026outdoorm
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-tidefest-2026-outdoor-music-art-f
@@ -337,7 +326,7 @@ SUMMARY:Free Outdoor Movie Night in Duboce Park “How to Train Your Drago
  n” (Fall 2026)
 DTSTART;TZID=America/Los_Angeles:20260926T190000
 DTEND;TZID=America/Los_Angeles:20260926T210000
-DTSTAMP:20260907T024237Z
+DTSTAMP:20260907T112849Z
 UID:funcheap-20260926-freeoutdoormovienightind
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-outdoor-movie-night-duboce-park-t
@@ -359,7 +348,7 @@ BEGIN:VEVENT
 SUMMARY:Bodhi Mid-Autumn Festival Community Fair (SF County Fair Building)
 DTSTART;TZID=America/Los_Angeles:20260927T100000
 DTEND;TZID=America/Los_Angeles:20260927T170000
-DTSTAMP:20260907T024237Z
+DTSTAMP:20260907T112849Z
 UID:funcheap-20260927-bodhimidautumnfestivalco
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/bodhi-midautumn-festival-community-fai
