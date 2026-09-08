@@ -9,7 +9,7 @@ SUMMARY:Free Drive-In Movie Night + $2 Nachos at West Wind (East Bay + San
   Jose)
 DTSTART;TZID=America/Los_Angeles:20260910T180000
 DTEND;TZID=America/Los_Angeles:20260910T200000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260910-freedriveinmovienight2na
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-drivein-movie-night-2-nachos-san-
@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:SF’s Chinatown Night Market (Sept. 2026)
 DTSTART;TZID=America/Los_Angeles:20260911T170000
 DTEND;TZID=America/Los_Angeles:20260911T210000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260911-sfschinatownnightmarkets
 CATEGORIES:concert,free
 DESCRIPTION:https://sf.funcheap.com/sfs-chinatown-night-market-sept-2026/\
@@ -75,7 +75,7 @@ SUMMARY:Google’s Free “Endless Summer Festival” w/ DJs\, Magic & Giv
  eaways (Mountain View)
 DTSTART;TZID=America/Los_Angeles:20260912T110000
 DTEND;TZID=America/Los_Angeles:20260912T160000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260912-googlesfreeendlesssummer
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/googles-free-endless-summer-festival-d
@@ -108,7 +108,7 @@ BEGIN:VEVENT
 SUMMARY:Second Saturdays: ‘Round the World at Union Square (SF)
 DTSTART;TZID=America/Los_Angeles:20260912T110000
 DTEND;TZID=America/Los_Angeles:20260912T130000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260912-secondsaturdaysroundthew
 CATEGORIES:free
 DESCRIPTION:https://sf.funcheap.com/saturdays-world-union-square-sf/\nLoca
@@ -138,7 +138,7 @@ SUMMARY:Free Summer Outdoor Movie Night: “Zootopia 2” w/ DJ + Popcorn
  (Oakland)
 DTSTART;TZID=America/Los_Angeles:20260912T190000
 DTEND;TZID=America/Los_Angeles:20260913T190000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260912-freesummeroutdoormovieni
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootop
@@ -168,10 +168,33 @@ URL:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootopia-2-dj-
  popcorn-oakland/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Free East Bay Drive-in Movie Night: Documentary + Free Pizza & Pop
+ corn (Rodeo)
+DTSTART;TZID=America/Los_Angeles:20260912T190000
+DTEND;TZID=America/Los_Angeles:20260912T210000
+DTSTAMP:20260908T203940Z
+UID:funcheap-20260912-freeeastbaydriveinmovien
+CATEGORIES:community,free
+DESCRIPTION:https://sf.funcheap.com/free-east-bay-drivein-movie-night-docu
+ mentary-free-pizza-popcorn-rodeo/\nLocation: east bay\nPrice: Free\nCatego
+ ries: community\, free\nSource: funcheap/east-bay\n\nPlease join us Saturd
+ ay September 12\, at Laurel Court Community Garden\, for our Drive-In Movi
+ e Night. RCA is showing an environmental documentary called “Common Grou
+ nd\,” that could change the World. Produced by Woody Harrelson\, it is a
+  story of what’s gone wrong with American farming practices\, and how we
+  can set it right. Beautiful photography\, and compelling stories. Free ad
+ mission\, free popcorn\, and free pizza. Gate opens at 7:00pm. 861 Laurel 
+ Court\, Rodeo. Event link https://facebook.com/events/s/drive-in-movie-nig
+ ht/1606131491049289/?mibextid=Gg3lNB
+LOCATION:east bay
+URL:https://sf.funcheap.com/free-east-bay-drivein-movie-night-documentary-
+ free-pizza-popcorn-rodeo/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Latino Conservation Week Guided Hike + Free Food (Redwood City)
 DTSTART;TZID=America/Los_Angeles:20260913T100000
 DTEND;TZID=America/Los_Angeles:20260913T140000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260913-latinoconservationweekgu
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/latino-conservation-week-guided-hike-f
@@ -200,43 +223,39 @@ URL:https://sf.funcheap.com/latino-conservation-week-guided-hike-free-food
  -redwood-city/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:“Culture on Ocean” Free Ocean Ave. Culture Block Party (SF)
-DTSTART;TZID=America/Los_Angeles:20260919T140000
-DTEND;TZID=America/Los_Angeles:20260919T160000
-DTSTAMP:20260908T155540Z
-UID:funcheap-20260919-cultureonoceanfreeoceana
+SUMMARY:Sunday Fun Days at Union Square (SF)
+DTSTART;TZID=America/Los_Angeles:20260913T190000
+DTEND;TZID=America/Los_Angeles:20260913T210000
+DTSTAMP:20260908T203940Z
+UID:funcheap-20260913-sundayfundaysatunionsqua
 CATEGORIES:free
-DESCRIPTION:https://sf.funcheap.com/culture-ocean-free-ocean-ave-culture-b
- lock-party-sf/\nVenue: in San Francisco\, featuring live cultural performa
- nces\, hands-on arts activities\nPrice: Free\nCategories: free\nSource: fu
- ncheap/san-francisco\n\nCulture on Ocean is a free block party on Ocean Av
- enue in San Francisco\, featuring live cultural performances\, hands-on ar
- ts activities\, community organizations\, music\, and food. The afternoon 
- event encourages families and neighbors to celebrate the local community
- ’s diversity and creativity. All ages are welcome. Original Event Descri
- ption: _🎨🌎 Culture on Ocean is coming! 🌎🎶 Join us for a free a
- fternoon celebrating the arts\, culture\, and community that make Ocean Av
- enue special! 💙 📅 Saturday\, September 19 📍 Granada Avenue & Ocea
- n Avenue ⏰ 12–2 PM Come enjoy live cultural performances\, hands-on ar
- ts activities\, community organizations\, music\, and more! Bring your fam
- ily\, friends\, and neighbors and celebrate the incredible diversity and c
- reativity of our community. 🎭🎨🪇 ✨ Support Local. Shop Local. Lo
- ve Ocean Ave. ✨ #ArtsAndCulture #CommunityEvent #SupportLocal #SanFranci
- scoEvents #OceanAvenueAssociation🎨🌎_ Text extracted from provided im
- age: CULTURE ON OCEAN AN ARTS & CULTURE BLOCK PARTY SATURDAY SEPTEMBER 19 
- 12PM–2PM GRANADA AVE BETWEEN OCEAN & HOLLOWAY MUSIC FOOD ART COMMUNITY S
- upport Local * Shop Local * Love Ocean Ave CIVIC JOY FUND OCEAN AVENUE ASS
- OCIATION
-LOCATION:in San Francisco\, featuring live cultural performances\, hands-o
- n arts activities
-URL:https://sf.funcheap.com/culture-ocean-free-ocean-ave-culture-block-par
- ty-sf/
+DESCRIPTION:https://sf.funcheap.com/sunday-fun-days-union-square/\nLocatio
+ n: san francisco\nPrice: Free\nCategories: free\nSource: funcheap/san-fran
+ cisco\n\nCalling all kids and their families! Join us for fun and free dro
+ p-in S.T.E.A.M. activities led by Randall Museum\, California Academy of S
+ ciences\, and Walt Disney Family Museum\, on a rotating basis. Activities 
+ geared towards kids aged 5-12. Caretaker supervision is required at all ti
+ mes. Sunday Fun Days Sunday\, September 13\, 2026 | 11a-2p Union Square Pa
+ rk\, Geary and Powell\, SF FREE Plus\, enjoy free daily programming at Uni
+ on Square Park\, with activities for all ages throughout the week . All pr
+ ograms are free and open to the public. For more information\, check out o
+ ur website: https://visitunionsquaresf.com/park-programs . Program schedul
+ e is subject to change. Follow @unionsquaresf on social media for the late
+ st info. Free Programming is made possible with support from Bank of Ameri
+ ca and a grant from the Office of Mayor Daniel Lurie and the San Francisco
+  Office of Economic and Workforce Development to Biederman Redevelopment V
+ entures\, in cooperation with San Francisco Recreation and Parks and the U
+ nion Square Alliance. Note: Union Square Alliance is not directly managing
+  these events. For questions and comments\, please contact unionsquare@brv
+ corp.com . View this post on Instagra
+LOCATION:san francisco
+URL:https://sf.funcheap.com/sunday-fun-days-union-square/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pacific Pearl Mid-Autumn Moon Festival (Pleasanton)
 DTSTART;TZID=America/Los_Angeles:20260919T150000
 DTEND;TZID=America/Los_Angeles:20260919T170000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260919-pacificpearlmidautumnmoo
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/pacific-pearl-midautumn-moon-festival-
@@ -269,7 +288,7 @@ SUMMARY:“Let’s Glow” BART Anime Festival (Warm Springs / South Fremo
  nt)
 DTSTART;TZID=America/Los_Angeles:20260919T160000
 DTEND;TZID=America/Los_Angeles:20260919T210000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260919-letsglowbartanimefestiva
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/lets-glow-bart-anime-festival-warm-spr
@@ -303,7 +322,7 @@ SUMMARY:Free TideFest 2026: Outdoor Music + Art Festival by Ocean Beach (S
  F)
 DTSTART;TZID=America/Los_Angeles:20260919T190000
 DTEND;TZID=America/Los_Angeles:20260919T210000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260919-freetidefest2026outdoorm
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-tidefest-2026-outdoor-music-art-f
@@ -331,33 +350,10 @@ URL:https://sf.funcheap.com/free-tidefest-2026-outdoor-music-art-festival-
  ocean-beach-sf/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Free Outdoor Movie Night in Duboce Park “How to Train Your Drago
- n” (Fall 2026)
-DTSTART;TZID=America/Los_Angeles:20260926T190000
-DTEND;TZID=America/Los_Angeles:20260926T210000
-DTSTAMP:20260908T155540Z
-UID:funcheap-20260926-freeoutdoormovienightind
-CATEGORIES:community,free
-DESCRIPTION:https://sf.funcheap.com/free-outdoor-movie-night-duboce-park-t
- rain-dragon-fall-2026/\nLocation: san francisco\nPrice: Free\nCategories: 
- community\, free\nSource: funcheap/san-francisco\n\nOutdoor Movie Night re
- turns to Duboce Park on Saturday\, September 26. Join Friends of Duboce Pa
- rk for a magical evening as we screen How to Train Your Dragon (2025) on t
- he big outdoor screen! The movie starts at dusk\, approximately 7 p.m.\, o
- n Saturday\, September 26 on the Upper Lawn. Pack a picnic and bring your 
- blankets\, low chairs\, and cozy layers. Arrive early to grab a good spot!
-  This is a free\, family-friendly event. The event is sponsored by Friends
-  of Duboce Park and San Francisco Recreation & Parks. For more information
- \, please visit https://friendsofdubocepark.org/movienight .
-LOCATION:san francisco
-URL:https://sf.funcheap.com/free-outdoor-movie-night-duboce-park-train-dra
- gon-fall-2026/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Bodhi Mid-Autumn Festival Community Fair (SF County Fair Building)
 DTSTART;TZID=America/Los_Angeles:20260927T100000
 DTEND;TZID=America/Los_Angeles:20260927T170000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260927-bodhimidautumnfestivalco
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/bodhi-midautumn-festival-community-fai

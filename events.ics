@@ -9,7 +9,7 @@ SUMMARY:[AI] Blinkko Launch Party: A first look at the social wearable tha
  t brings AI into real-world connection.
 DTSTART:20260909T010000Z
 DTEND:20260909T040000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:evt-w6V6FgMM4f1ZBEY
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/bpipdia5\nLocation: San Francisco\, CA\nHost: Bl
@@ -21,7 +21,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] wave to earth - the pieces tour
 DTSTART:20260909T031500Z
 DTEND:20260909T051500Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_1DMvkmg
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/wave-to-earth-the-pieces-tour-san
@@ -44,7 +44,7 @@ BEGIN:VEVENT
 SUMMARY:[AI] The Corgi Cup 🏁🏆
 DTSTART:20260910T000000Z
 DTEND:20260910T020000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:evt-wu4SpeSIQFoMoJW
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/the-corgi-cup\nLocation: 9 Claude Ln\, San Franc
@@ -58,7 +58,7 @@ SUMMARY:[AI] Bay Area Frontier Research Club #22 | Robotics & Embodied AI
  (dinner + paper discussion @ Mission Robotics)
 DTSTART:20260910T003000Z
 DTEND:20260910T033000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:evt-guGDoAdrP4myI9C
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/7wv4khq9\nLocation: San Francisco\, CA\nHost: Th
@@ -70,7 +70,7 @@ BEGIN:VEVENT
 SUMMARY:[AI] Agentic PM Kickoff w/ PostHog\, Linear\, Supabase & Dreambase
 DTSTART:20260910T010000Z
 DTEND:20260910T040000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:evt-mgs8akIoPXqIV1l
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/posthog-tpmz\nLocation: 2360 3rd St\, San Franci
@@ -84,7 +84,7 @@ SUMMARY:[AI] Agents in Sales: Fireside Chat with Bobby Morrison (ex-Shopif
  y CRO)
 DTSTART:20260910T013000Z
 DTEND:20260910T033000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:evt-CjrBnlXY53B8AOu
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/agents-in-sales\nLocation: San Francisco\, CA\nH
@@ -97,7 +97,7 @@ SUMMARY:[AI] The True Cost of Every Prompt: The Sustainability of AI and D
  ata Centers
 DTSTART:20260910T020000Z
 DTEND:20260910T040000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:evt-8xp6C7FwWpWaILC
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/nqcd5thf\nLocation: 473A Haight St\, San Francis
@@ -107,11 +107,43 @@ LOCATION:473A Haight St\, San Francisco\, CA 94117\, USA
 URL:https://lu.ma/nqcd5thf
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Bay] SF’s Superfest Disability Film Festival’s 40th Year (Sep
+ t. 9-13)
+DTSTART;TZID=America/Los_Angeles:20260909T190000
+DTEND;TZID=America/Los_Angeles:20260909T210000
+DTSTAMP:20260908T203940Z
+UID:funcheap-20260909-sfssuperfestdisabilityfi
+CATEGORIES:community
+DESCRIPTION:https://sf.funcheap.com/sfs-superfest-disability-film-festival
+ s-40th-year-sept-913/\nLocation: san francisco\nCategories: community\nSou
+ rce: funcheap/san-francisco\n\nSuperfest Disability Film Festival 2026 is 
+ happening from September 9th to the 20th! Join the San Francisco Disabilit
+ y Cultural Center for live events until the 13th\, and streaming access th
+ e whole time. There are opportunities to join in person and at virtual scr
+ eenings – with community conversations and panels on film\, disability\,
+  storytelling\, art as activism\, intersectionality\, and everything in be
+ tween. Can’t make the events? All good! You can stream the films on Vime
+ o anytime from the evening of September 9th to September 20th at 11:59 pm 
+ PT. All festival passes are FREE this year – you’re more than welcome 
+ to donate\, if you can! More info and film synopses at superfestfilm.org .
+  ️ Superfest Disability Film Festival ☀️ Live Events: September 9 
+ – 13 Streaming: September 9 – 20 165 Grove Street in San Francisco + Z
+ oom + Vimeo ASL | captions | audio description Masks at select screenings 
+ ✅ superfestfilm.org Festival at a Glance Streaming Festival | Wed.\, Sep
+ tember 9 – Sun.\, September 20 | dcc.page/stream-superfest Wednesday | S
+ eptember 9 | 5:00 – 7:00 PT | Comedy Night! (virtual) | dcc.page/comedy 
+ Thursday | September 10 | 3:00 – 5:00 PT | An Unquiet Mind (virtual) | d
+ cc.page/un
+LOCATION:san francisco
+URL:https://sf.funcheap.com/sfs-superfest-disability-film-festivals-40th-y
+ ear-sept-913/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Bay/Free] Free Drive-In Movie Night + $2 Nachos at West Wind (Eas
  t Bay + San Jose)
 DTSTART;TZID=America/Los_Angeles:20260910T180000
 DTEND;TZID=America/Los_Angeles:20260910T200000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260910-freedriveinmovienight2na
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-drivein-movie-night-2-nachos-san-
@@ -145,7 +177,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] Soda Stereo - ECOS Tour
 DTSTART:20260911T030000Z
 DTEND:20260911T050000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_awwb7Mr
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/soda-stereo-ecos-tour-san-jose-ca
@@ -169,7 +201,7 @@ BEGIN:VEVENT
 SUMMARY:[Live/Free] SF’s Chinatown Night Market (Sept. 2026)
 DTSTART;TZID=America/Los_Angeles:20260911T170000
 DTEND;TZID=America/Los_Angeles:20260911T210000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260911-sfschinatownnightmarkets
 CATEGORIES:concert,free
 DESCRIPTION:https://sf.funcheap.com/sfs-chinatown-night-market-sept-2026/\
@@ -200,7 +232,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] CODICIADO - Así Es La Vida Tour
 DTSTART:20260912T030000Z
 DTEND:20260912T050000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZbz3nxnRH
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/codiciado-asi-es-la-vida-tour-san
@@ -218,7 +250,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Flux Pavilion - Ages 21+
 DTSTART:20260912T040000Z
 DTEND:20260912T060000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:Z7r9jZ1A7PyOK
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7PyOK\nVenue: The M
@@ -232,7 +264,7 @@ SUMMARY:[EDM/Free] Google’s Free “Endless Summer Festival” w/ DJs\,
  Magic & Giveaways (Mountain View)
 DTSTART;TZID=America/Los_Angeles:20260912T110000
 DTEND;TZID=America/Los_Angeles:20260912T160000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260912-googlesfreeendlesssummer
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/googles-free-endless-summer-festival-d
@@ -265,7 +297,7 @@ BEGIN:VEVENT
 SUMMARY:[Free] Second Saturdays: ‘Round the World at Union Square (SF)
 DTSTART;TZID=America/Los_Angeles:20260912T110000
 DTEND;TZID=America/Los_Angeles:20260912T130000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260912-secondsaturdaysroundthew
 CATEGORIES:free
 DESCRIPTION:https://sf.funcheap.com/saturdays-world-union-square-sf/\nLoca
@@ -295,7 +327,7 @@ SUMMARY:[EDM/Free] Free Summer Outdoor Movie Night: “Zootopia 2” w/ DJ
   + Popcorn (Oakland)
 DTSTART;TZID=America/Los_Angeles:20260912T190000
 DTEND;TZID=America/Los_Angeles:20260913T190000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260912-freesummeroutdoormovieni
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootop
@@ -325,10 +357,33 @@ URL:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootopia-2-dj-
  popcorn-oakland/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Bay/Free] Free East Bay Drive-in Movie Night: Documentary + Free 
+ Pizza & Popcorn (Rodeo)
+DTSTART;TZID=America/Los_Angeles:20260912T190000
+DTEND;TZID=America/Los_Angeles:20260912T210000
+DTSTAMP:20260908T203940Z
+UID:funcheap-20260912-freeeastbaydriveinmovien
+CATEGORIES:community,free
+DESCRIPTION:https://sf.funcheap.com/free-east-bay-drivein-movie-night-docu
+ mentary-free-pizza-popcorn-rodeo/\nLocation: east bay\nPrice: Free\nCatego
+ ries: community\, free\nSource: funcheap/east-bay\n\nPlease join us Saturd
+ ay September 12\, at Laurel Court Community Garden\, for our Drive-In Movi
+ e Night. RCA is showing an environmental documentary called “Common Grou
+ nd\,” that could change the World. Produced by Woody Harrelson\, it is a
+  story of what’s gone wrong with American farming practices\, and how we
+  can set it right. Beautiful photography\, and compelling stories. Free ad
+ mission\, free popcorn\, and free pizza. Gate opens at 7:00pm. 861 Laurel 
+ Court\, Rodeo. Event link https://facebook.com/events/s/drive-in-movie-nig
+ ht/1606131491049289/?mibextid=Gg3lNB
+LOCATION:east bay
+URL:https://sf.funcheap.com/free-east-bay-drivein-movie-night-documentary-
+ free-pizza-popcorn-rodeo/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[EDM] SABAI presents: IKIGAI Bay Area
 DTSTART:20260913T030000Z
 DTEND:20260913T050000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_6TJqbSx
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/sabai-presents-ikigai-bay-area-sa
@@ -344,7 +399,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] Palomazo Norteño - Clase Maestra Tour
 DTSTART:20260913T030000Z
 DTEND:20260913T050000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_FNtvEnU
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/palomazo-norteno-clase-maestra-to
@@ -376,7 +431,7 @@ SUMMARY:[Bay/Free] Latino Conservation Week Guided Hike + Free Food (Redwo
  od City)
 DTSTART;TZID=America/Los_Angeles:20260913T100000
 DTEND;TZID=America/Los_Angeles:20260913T140000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260913-latinoconservationweekgu
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/latino-conservation-week-guided-hike-f
@@ -405,10 +460,39 @@ URL:https://sf.funcheap.com/latino-conservation-week-guided-hike-free-food
  -redwood-city/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Free] Sunday Fun Days at Union Square (SF)
+DTSTART;TZID=America/Los_Angeles:20260913T190000
+DTEND;TZID=America/Los_Angeles:20260913T210000
+DTSTAMP:20260908T203940Z
+UID:funcheap-20260913-sundayfundaysatunionsqua
+CATEGORIES:free
+DESCRIPTION:https://sf.funcheap.com/sunday-fun-days-union-square/\nLocatio
+ n: san francisco\nPrice: Free\nCategories: free\nSource: funcheap/san-fran
+ cisco\n\nCalling all kids and their families! Join us for fun and free dro
+ p-in S.T.E.A.M. activities led by Randall Museum\, California Academy of S
+ ciences\, and Walt Disney Family Museum\, on a rotating basis. Activities 
+ geared towards kids aged 5-12. Caretaker supervision is required at all ti
+ mes. Sunday Fun Days Sunday\, September 13\, 2026 | 11a-2p Union Square Pa
+ rk\, Geary and Powell\, SF FREE Plus\, enjoy free daily programming at Uni
+ on Square Park\, with activities for all ages throughout the week . All pr
+ ograms are free and open to the public. For more information\, check out o
+ ur website: https://visitunionsquaresf.com/park-programs . Program schedul
+ e is subject to change. Follow @unionsquaresf on social media for the late
+ st info. Free Programming is made possible with support from Bank of Ameri
+ ca and a grant from the Office of Mayor Daniel Lurie and the San Francisco
+  Office of Economic and Workforce Development to Biederman Redevelopment V
+ entures\, in cooperation with San Francisco Recreation and Parks and the U
+ nion Square Alliance. Note: Union Square Alliance is not directly managing
+  these events. For questions and comments\, please contact unionsquare@brv
+ corp.com . View this post on Instagra
+LOCATION:san francisco
+URL:https://sf.funcheap.com/sunday-fun-days-union-square/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Live] ANDREA BOCELLI "Romanza - 30th Anniversary World Tour"
 DTSTART:20260914T030000Z
 DTEND:20260914T050000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_ddjjMmd
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniv
@@ -432,7 +516,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] Five Finger Death Punch
 DTSTART:20260917T014500Z
 DTEND:20260917T034500Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_eplUIuH
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/five-finger-death-punch-mountain-
@@ -449,7 +533,7 @@ SUMMARY:[EDM] The Schizophonics "Burning Floor Tour" w/ Fever Dog\, The Tr
  emolos + DJ Archive 65
 DTSTART:20260918T030000Z
 DTEND:20260918T050000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:rZ7HnEZ1Afko_7
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/the-schizophonics-burning-floo
@@ -482,24 +566,10 @@ URL:https://www.ticketweb.com/event/the-schizophonics-burning-floor-tour-m
  oes-alley-tickets/14191644
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Bay] 2026 San Francisco Greek Festival (Sept. 18-20)
-DTSTART;TZID=America/Los_Angeles:20260918T190000
-DTEND;TZID=America/Los_Angeles:20260918T210000
-DTSTAMP:20260908T155540Z
-UID:funcheap-20260918-2026sanfranciscogreekfes
-CATEGORIES:community
-DESCRIPTION:https://sf.funcheap.com/2026-san-francisco-greek-festival-sept
- -18-20-3/\nLocation: san francisco\nCategories: community\nSource: funchea
- p/san-francisco
-LOCATION:san francisco
-URL:https://sf.funcheap.com/2026-san-francisco-greek-festival-sept-18-20-3
- /
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[Live] Carin Leon - De Sonora Para El Mundo Tour 2026
 DTSTART:20260919T030000Z
 DTEND:20260919T050000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_eBfZy7s
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/carin-leon-de-sonora-para-el-san-
@@ -523,7 +593,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] Kany Garcia: Puerta Abierta Tour
 DTSTART:20260919T030000Z
 DTEND:20260919T050000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_FQ8mbrW
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/kany-garcia-puerta-abierta-tour-s
@@ -538,7 +608,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Daft Disko
 DTSTART:20260919T040000Z
 DTEND:20260919T060000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:rZ7HnEZ1AfaaqV
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/daft-disko-the-ritz-tickets/14
@@ -555,7 +625,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Mild Minds - DJ Set (21+)
 DTSTART:20260919T050000Z
 DTEND:20260919T070000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:Z7r9jZ1A7Pw7F
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7Pw7F\nVenue: 1015 
@@ -565,44 +635,10 @@ LOCATION:1015 Folsom Street\, San Francisco\, CA
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Pw7F
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Free] “Culture on Ocean” Free Ocean Ave. Culture Block Party 
- (SF)
-DTSTART;TZID=America/Los_Angeles:20260919T140000
-DTEND;TZID=America/Los_Angeles:20260919T160000
-DTSTAMP:20260908T155540Z
-UID:funcheap-20260919-cultureonoceanfreeoceana
-CATEGORIES:free
-DESCRIPTION:https://sf.funcheap.com/culture-ocean-free-ocean-ave-culture-b
- lock-party-sf/\nVenue: in San Francisco\, featuring live cultural performa
- nces\, hands-on arts activities\nPrice: Free\nCategories: free\nSource: fu
- ncheap/san-francisco\n\nCulture on Ocean is a free block party on Ocean Av
- enue in San Francisco\, featuring live cultural performances\, hands-on ar
- ts activities\, community organizations\, music\, and food. The afternoon 
- event encourages families and neighbors to celebrate the local community
- ’s diversity and creativity. All ages are welcome. Original Event Descri
- ption: _🎨🌎 Culture on Ocean is coming! 🌎🎶 Join us for a free a
- fternoon celebrating the arts\, culture\, and community that make Ocean Av
- enue special! 💙 📅 Saturday\, September 19 📍 Granada Avenue & Ocea
- n Avenue ⏰ 12–2 PM Come enjoy live cultural performances\, hands-on ar
- ts activities\, community organizations\, music\, and more! Bring your fam
- ily\, friends\, and neighbors and celebrate the incredible diversity and c
- reativity of our community. 🎭🎨🪇 ✨ Support Local. Shop Local. Lo
- ve Ocean Ave. ✨ #ArtsAndCulture #CommunityEvent #SupportLocal #SanFranci
- scoEvents #OceanAvenueAssociation🎨🌎_ Text extracted from provided im
- age: CULTURE ON OCEAN AN ARTS & CULTURE BLOCK PARTY SATURDAY SEPTEMBER 19 
- 12PM–2PM GRANADA AVE BETWEEN OCEAN & HOLLOWAY MUSIC FOOD ART COMMUNITY S
- upport Local * Shop Local * Love Ocean Ave CIVIC JOY FUND OCEAN AVENUE ASS
- OCIATION
-LOCATION:in San Francisco\, featuring live cultural performances\, hands-o
- n arts activities
-URL:https://sf.funcheap.com/culture-ocean-free-ocean-ave-culture-block-par
- ty-sf/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[Bay/Free] Pacific Pearl Mid-Autumn Moon Festival (Pleasanton)
 DTSTART;TZID=America/Los_Angeles:20260919T150000
 DTEND;TZID=America/Los_Angeles:20260919T170000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260919-pacificpearlmidautumnmoo
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/pacific-pearl-midautumn-moon-festival-
@@ -635,7 +671,7 @@ SUMMARY:[Bay/Free] “Let’s Glow” BART Anime Festival (Warm Springs /
  South Fremont)
 DTSTART;TZID=America/Los_Angeles:20260919T160000
 DTEND;TZID=America/Los_Angeles:20260919T210000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260919-letsglowbartanimefestiva
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/lets-glow-bart-anime-festival-warm-spr
@@ -668,7 +704,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Steve Aoki (18+) - DIM MAK 30 TOUR
 DTSTART:20260920T020000Z
 DTEND:20260920T040000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZbyk0x_-f
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/steve-aoki-18-dim-mak-30-san-fran
@@ -696,7 +732,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] GODSMACK - The Rise of Rock World Tour 2026
 DTSTART:20260920T020000Z
 DTEND:20260920T040000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_dKlXXzG
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/godsmack-the-rise-of-rock-world-m
@@ -713,7 +749,7 @@ SUMMARY:[Bay/Free] Free TideFest 2026: Outdoor Music + Art Festival by Oce
  an Beach (SF)
 DTSTART;TZID=America/Los_Angeles:20260919T190000
 DTEND;TZID=America/Los_Angeles:20260919T210000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260919-freetidefest2026outdoorm
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-tidefest-2026-outdoor-music-art-f
@@ -744,7 +780,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Anish Kumar (21+)
 DTSTART:20260920T050000Z
 DTEND:20260920T070000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_ud0A07i
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/anish-kumar-21-san-francisco-cali
@@ -760,7 +796,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Temples
 DTSTART:20260923T030000Z
 DTEND:20260923T050000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:Z7r9jZ1A7x3vp
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7x3vp\nVenue: The C
@@ -773,7 +809,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN SAN JOSE
 DTSTART:20260924T023000Z
 DTEND:20260924T043000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_1mWZNyw
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pure
@@ -809,7 +845,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Temples
 DTSTART:20260924T030000Z
 DTEND:20260924T050000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:Z7r9jZ1A7x3v9
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7x3v9\nVenue: The C
@@ -822,7 +858,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] The Return Of The Carnival Of Sins: Mötley Crüe
 DTSTART:20260925T013000Z
 DTEND:20260925T033000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZbUD3X2kj
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/the-return-of-the-carnival-of-mou
@@ -839,7 +875,7 @@ SUMMARY:[EDM] Moe's Alley Presents: Tania Cassette w/ HOLY WATER + DJ Arch
  ive 65
 DTSTART:20260926T040000Z
 DTEND:20260926T060000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:rZ7HnEZ1AfJ8qK
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/moes-alley-presents-tania-cass
@@ -875,7 +911,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] Riley Green: Cowboy As It Gets Tour 2026
 DTSTART:20260927T020000Z
 DTEND:20260927T040000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_5RNR4jN
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/riley-green-cowboy-as-it-gets-mou
@@ -888,34 +924,11 @@ URL:https://www.ticketmaster.com/riley-green-cowboy-as-it-gets-mountain-vi
  ew-california-09-26-2026/event/1C0064BBE3BD5723
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Bay/Free] Free Outdoor Movie Night in Duboce Park “How to Train
-  Your Dragon” (Fall 2026)
-DTSTART;TZID=America/Los_Angeles:20260926T190000
-DTEND;TZID=America/Los_Angeles:20260926T210000
-DTSTAMP:20260908T155540Z
-UID:funcheap-20260926-freeoutdoormovienightind
-CATEGORIES:community,free
-DESCRIPTION:https://sf.funcheap.com/free-outdoor-movie-night-duboce-park-t
- rain-dragon-fall-2026/\nLocation: san francisco\nPrice: Free\nCategories: 
- community\, free\nSource: funcheap/san-francisco\n\nOutdoor Movie Night re
- turns to Duboce Park on Saturday\, September 26. Join Friends of Duboce Pa
- rk for a magical evening as we screen How to Train Your Dragon (2025) on t
- he big outdoor screen! The movie starts at dusk\, approximately 7 p.m.\, o
- n Saturday\, September 26 on the Upper Lawn. Pack a picnic and bring your 
- blankets\, low chairs\, and cozy layers. Arrive early to grab a good spot!
-  This is a free\, family-friendly event. The event is sponsored by Friends
-  of Duboce Park and San Francisco Recreation & Parks. For more information
- \, please visit https://friendsofdubocepark.org/movienight .
-LOCATION:san francisco
-URL:https://sf.funcheap.com/free-outdoor-movie-night-duboce-park-train-dra
- gon-fall-2026/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[EDM] Lionel Richie and Earth\, Wind & Fire - Sing a Song All Nigh
  t Long
 DTSTART:20260927T023000Z
 DTEND:20260927T043000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_d2ADlKy
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/lionel-richie-and-earth-wind-fire
@@ -932,7 +945,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] Marco Antonio Solis - Tour Gratitud 2026
 DTSTART:20260927T030000Z
 DTEND:20260927T050000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_1MnIoTf
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/marco-antonio-solis-tour-gratitud
@@ -957,7 +970,7 @@ SUMMARY:[Bay/Free] Bodhi Mid-Autumn Festival Community Fair (SF County Fai
  r Building)
 DTSTART;TZID=America/Los_Angeles:20260927T100000
 DTEND;TZID=America/Los_Angeles:20260927T170000
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:funcheap-20260927-bodhimidautumnfestivalco
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/bodhi-midautumn-festival-community-fai
@@ -990,7 +1003,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] Yandel - SINFÓNICO
 DTSTART:20260928T030000Z
 DTEND:20260928T050000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_aDynCGo
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/yandel-sinfonico-san-jose-califor
@@ -1015,7 +1028,7 @@ SUMMARY:[Live] $uicideboy$ present Grey Day Tour 2026 w. Shoreline Mafia &
   more
 DTSTART:20261002T013000Z
 DTEND:20261002T033000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_6RUiHsh
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2
@@ -1042,7 +1055,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] "The Hayley Williams Show"
 DTSTART:20261003T020000Z
 DTEND:20261003T040000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_1KoLUrp
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/the-hayley-williams-show-mountain
@@ -1067,7 +1080,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Madeon presents Victory Live (18+)
 DTSTART:20261003T030000Z
 DTEND:20261003T050000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_1K6Y0Pb
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/madeon-presents-victory-live-18-s
@@ -1095,7 +1108,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Sploinky Rave
 DTSTART:20261003T040000Z
 DTEND:20261003T060000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:rZ7HnEZ1AfJ4FS
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/sploinky-rave-the-ritz-tickets
@@ -1119,7 +1132,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] SOMBR - You Are The Reason Tour
 DTSTART:20261008T020000Z
 DTEND:20261008T040000Z
-DTSTAMP:20260908T155540Z
+DTSTAMP:20260908T203940Z
 UID:G5vYZ_FLJZy-y
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/sombr-you-are-the-reason-tour-san
