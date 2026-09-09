@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:Soda Stereo - ECOS Tour
 DTSTART:20260911T030000Z
 DTEND:20260911T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_awwb7Mr
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/soda-stereo-ecos-tour-san-jose-ca
@@ -32,7 +32,7 @@ BEGIN:VEVENT
 SUMMARY:SF’s Chinatown Night Market (Sept. 2026)
 DTSTART;TZID=America/Los_Angeles:20260911T170000
 DTEND;TZID=America/Los_Angeles:20260911T210000
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:funcheap-20260911-sfschinatownnightmarkets
 CATEGORIES:concert,free
 DESCRIPTION:https://sf.funcheap.com/sfs-chinatown-night-market-sept-2026/\
@@ -63,7 +63,7 @@ BEGIN:VEVENT
 SUMMARY:CODICIADO - Así Es La Vida Tour
 DTSTART:20260912T030000Z
 DTEND:20260912T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZbz3nxnRH
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/codiciado-asi-es-la-vida-tour-san
@@ -81,7 +81,7 @@ BEGIN:VEVENT
 SUMMARY:Flux Pavilion - Ages 21+
 DTSTART:20260912T040000Z
 DTEND:20260912T060000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:Z7r9jZ1A7PyOK
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7PyOK\nVenue: The M
@@ -95,7 +95,7 @@ SUMMARY:Google’s Free “Endless Summer Festival” w/ DJs\, Magic & Giv
  eaways (Mountain View)
 DTSTART;TZID=America/Los_Angeles:20260912T110000
 DTEND;TZID=America/Los_Angeles:20260912T160000
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:funcheap-20260912-googlesfreeendlesssummer
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/googles-free-endless-summer-festival-d
@@ -129,7 +129,7 @@ SUMMARY:Free Summer Outdoor Movie Night: “Zootopia 2” w/ DJ + Popcorn
  (Oakland)
 DTSTART;TZID=America/Los_Angeles:20260912T190000
 DTEND;TZID=America/Los_Angeles:20260913T190000
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:funcheap-20260912-freesummeroutdoormovieni
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootop
@@ -162,7 +162,7 @@ BEGIN:VEVENT
 SUMMARY:SABAI presents: IKIGAI Bay Area
 DTSTART:20260913T030000Z
 DTEND:20260913T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_6TJqbSx
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/sabai-presents-ikigai-bay-area-sa
@@ -178,7 +178,7 @@ BEGIN:VEVENT
 SUMMARY:Palomazo Norteño - Clase Maestra Tour
 DTSTART:20260913T030000Z
 DTEND:20260913T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_FNtvEnU
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/palomazo-norteno-clase-maestra-to
@@ -206,10 +206,46 @@ URL:https://www.ticketmaster.com/palomazo-norteno-clase-maestra-tour-san-j
  ose-california-09-12-2026/event/1C006488E9067AB6
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Black Uhuru w/ The Jethro Jeremiah Band **SOLD OUT - THANK YOU!*
+DTSTART:20260913T040000Z
+DTEND:20260913T060000Z
+DTSTAMP:20260909T155126Z
+UID:rZ7HnEZ1AfOFON
+CATEGORIES:concert,free
+DESCRIPTION:https://www.ticketweb.com/event/black-uhuru-w-the-jethro-moes-
+ alley-tickets/14808823\nVenue: Moe's Alley\nLocation: 1535 Commercial Way\
+ , Santa Cruz\, CA\nPrice: Free\nGenres: Music\, World\, Reggae\, Rock Stea
+ dy\nCategories: concert\, free\nSource: ticketmaster/music\n\nThe reggae l
+ egends\, Black Uhuru\, are coming back to Moe's! Special guests The Jethro
+  Jeremiah Band opens the show! Saturday\, September 12\, 2026 Doors: 8pm /
+  Show: 9pm $40 in advance / $45 day of the show 21+ * All sales are final 
+ * Avoid scammers! Only purchase tickets from moesalley.com or ticketweb.co
+ m * Tickets requested by email will be delivered 3 days prior to the event
+  * Will Call tickets will be available at the door on the day of the event
+  ==== BLACK UHURU Derrick \, "rdquo" -> Duckie" Simpson the \, "rdquo" -> 
+ Gong Gong Gullie" is the founder and leader for reggae's BLACK UHURU. Alth
+ ough going through numerous lead singers and musicians they have remained 
+ to be one of the most recognized and prolific reggae band for over 50 year
+ s. The roots of BLACK UHURU were formed in Kingston Jamaica's Waterhouse d
+ istrict also known as \, "rdquo" -> Firehouse" in the early 60′s. Though
+  considered to be one of Jamaica's toughest neighborhoods it's home to sev
+ eral other reggae singers and musicians. It was where Duckie Simpson grew 
+ up and learned to sing from boyhood friends Winston \, "rdquo" -> Pipe" Ma
+ tthews and Lloyd \, "rdquo" -> Bread" McDonald of Wailing Souls and Bob Ma
+ rley. He recorded four tracks with Wailing Souls before forming his own gr
+ oup. The original Uhuru's (Swahili for freedom) were Derrick \, "rdquo" ->
+  Duckie" Simpson\, Euvin \, "rdquo" -> Don Carlos" Spencer and Rudolph \, 
+ "rdquo" -> Garth" Dennis. They only recorded a few singles \, "rdquo" -> F
+ olk Songs" \, "rdquo" -> 
+LOCATION:1535 Commercial Way\, Santa Cruz\, CA
+URL:https://www.ticketweb.com/event/black-uhuru-w-the-jethro-moes-alley-ti
+ ckets/14808823
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ANDREA BOCELLI "Romanza - 30th Anniversary World Tour"
 DTSTART:20260914T030000Z
 DTEND:20260914T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_ddjjMmd
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniv
@@ -233,7 +269,7 @@ BEGIN:VEVENT
 SUMMARY:Five Finger Death Punch
 DTSTART:20260917T014500Z
 DTEND:20260917T034500Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_eplUIuH
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/five-finger-death-punch-mountain-
@@ -250,7 +286,7 @@ SUMMARY:The Schizophonics "Burning Floor Tour" w/ Fever Dog\, The Tremolos
   + DJ Archive 65
 DTSTART:20260918T030000Z
 DTEND:20260918T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:rZ7HnEZ1Afko_7
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/the-schizophonics-burning-floo
@@ -286,7 +322,7 @@ BEGIN:VEVENT
 SUMMARY:Mustard Service
 DTSTART:20260918T030000Z
 DTEND:20260918T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:rZ7HnEZ1Af0Y0K
 CATEGORIES:concert,free
 DESCRIPTION:https://www.ticketweb.com/event/mustard-service-the-independen
@@ -303,7 +339,7 @@ BEGIN:VEVENT
 SUMMARY:Carin Leon - De Sonora Para El Mundo Tour 2026
 DTSTART:20260919T030000Z
 DTEND:20260919T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_eBfZy7s
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/carin-leon-de-sonora-para-el-san-
@@ -327,7 +363,7 @@ BEGIN:VEVENT
 SUMMARY:Kany Garcia: Puerta Abierta Tour
 DTSTART:20260919T030000Z
 DTEND:20260919T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_FQ8mbrW
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/kany-garcia-puerta-abierta-tour-s
@@ -339,32 +375,10 @@ URL:https://www.ticketmaster.com/kany-garcia-puerta-abierta-tour-san-jose-
  california-09-18-2026/event/1C00648690B987BD
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lido Pimienta
-DTSTART:20260919T030000Z
-DTEND:20260919T050000Z
-DTSTAMP:20260909T104222Z
-UID:rZ7HnEZ1Af0IvN
-CATEGORIES:concert,free
-DESCRIPTION:https://www.ticketweb.com/event/lido-pimienta-bimbos-365-club-
- tickets/14928063\nVenue: Bimbo's 365 Club\nLocation: 1025 Columbus Avenue\
- , San Francisco\, CA\nPrice: Free\nGenres: Music\, Dance/Electronic\, Lati
- n Electronica\nCategories: concert\, free\nSource: ticketmaster/music\n\n2
- 1+ ONLY. Please note - there is a delivery delay set for 2 weeks prior to 
- show. This event is 21 and over. Any ticket holder unable to present valid
-  identification indicating that they are at least 21 years of age will not
-  be admitted to this event\, and will not be eligible for a refund. Anothe
- r Planet Entertainment is committed to producing safe events. Please revie
- w our most up-to-date COVID-19 policy requirements for entry at https://ap
- econcerts.com/health-safety * Policy is subject to change
-LOCATION:1025 Columbus Avenue\, San Francisco\, CA
-URL:https://www.ticketweb.com/event/lido-pimienta-bimbos-365-club-tickets/
- 14928063
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Daft Disko
 DTSTART:20260919T040000Z
 DTEND:20260919T060000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:rZ7HnEZ1AfaaqV
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/daft-disko-the-ritz-tickets/14
@@ -381,7 +395,7 @@ BEGIN:VEVENT
 SUMMARY:Mild Minds - DJ Set (21+)
 DTSTART:20260919T050000Z
 DTEND:20260919T070000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:Z7r9jZ1A7Pw7F
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7Pw7F\nVenue: 1015 
@@ -394,7 +408,7 @@ BEGIN:VEVENT
 SUMMARY:Steve Aoki (18+) - DIM MAK 30 TOUR
 DTSTART:20260920T020000Z
 DTEND:20260920T040000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZbyk0x_-f
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/steve-aoki-18-dim-mak-30-san-fran
@@ -422,7 +436,7 @@ BEGIN:VEVENT
 SUMMARY:GODSMACK - The Rise of Rock World Tour 2026
 DTSTART:20260920T020000Z
 DTEND:20260920T040000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_dKlXXzG
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/godsmack-the-rise-of-rock-world-m
@@ -438,7 +452,7 @@ BEGIN:VEVENT
 SUMMARY:Anish Kumar (21+)
 DTSTART:20260920T050000Z
 DTEND:20260920T070000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_ud0A07i
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/anish-kumar-21-san-francisco-cali
@@ -454,7 +468,7 @@ BEGIN:VEVENT
 SUMMARY:Temples
 DTSTART:20260923T030000Z
 DTEND:20260923T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:Z7r9jZ1A7x3vp
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7x3vp\nVenue: The C
@@ -467,7 +481,7 @@ BEGIN:VEVENT
 SUMMARY:LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN SAN JOSE
 DTSTART:20260924T023000Z
 DTEND:20260924T043000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_1mWZNyw
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pure
@@ -503,7 +517,7 @@ BEGIN:VEVENT
 SUMMARY:Temples
 DTSTART:20260924T030000Z
 DTEND:20260924T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:Z7r9jZ1A7x3v9
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7x3v9\nVenue: The C
@@ -516,7 +530,7 @@ BEGIN:VEVENT
 SUMMARY:The Return Of The Carnival Of Sins: Mötley Crüe
 DTSTART:20260925T013000Z
 DTEND:20260925T033000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZbUD3X2kj
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/the-return-of-the-carnival-of-mou
@@ -532,7 +546,7 @@ BEGIN:VEVENT
 SUMMARY:Lionel Richie and Earth\, Wind & Fire - Sing a Song All Night Long
 DTSTART:20260927T023000Z
 DTEND:20260927T043000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_d2ADlKy
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/lionel-richie-and-earth-wind-fire
@@ -549,7 +563,7 @@ BEGIN:VEVENT
 SUMMARY:Marco Antonio Solis - Tour Gratitud 2026
 DTSTART:20260927T030000Z
 DTEND:20260927T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_1MnIoTf
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/marco-antonio-solis-tour-gratitud
@@ -573,7 +587,7 @@ BEGIN:VEVENT
 SUMMARY:Yandel - SINFÓNICO
 DTSTART:20260928T030000Z
 DTEND:20260928T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_aDynCGo
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/yandel-sinfonico-san-jose-califor
@@ -597,7 +611,7 @@ BEGIN:VEVENT
 SUMMARY:$uicideboy$ present Grey Day Tour 2026 w. Shoreline Mafia & more
 DTSTART:20261002T013000Z
 DTEND:20261002T033000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_6RUiHsh
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2
@@ -624,7 +638,7 @@ BEGIN:VEVENT
 SUMMARY:"The Hayley Williams Show"
 DTSTART:20261003T020000Z
 DTEND:20261003T040000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_1KoLUrp
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/the-hayley-williams-show-mountain
@@ -649,7 +663,7 @@ BEGIN:VEVENT
 SUMMARY:Madeon presents Victory Live (18+)
 DTSTART:20261003T030000Z
 DTEND:20261003T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_1K6Y0Pb
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/madeon-presents-victory-live-18-s
@@ -677,7 +691,7 @@ BEGIN:VEVENT
 SUMMARY:Sploinky Rave
 DTSTART:20261003T040000Z
 DTEND:20261003T060000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:rZ7HnEZ1AfJ4FS
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/sploinky-rave-the-ritz-tickets
@@ -701,7 +715,7 @@ BEGIN:VEVENT
 SUMMARY:Jon Batiste - Jon Batiste Live
 DTSTART:20261004T030000Z
 DTEND:20261004T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_F9s4AGq
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/jon-batiste-jon-batiste-live-berk
@@ -717,7 +731,7 @@ BEGIN:VEVENT
 SUMMARY:SOMBR - You Are The Reason Tour
 DTSTART:20261008T020000Z
 DTEND:20261008T040000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_FLJZy-y
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/sombr-you-are-the-reason-tour-san
@@ -741,7 +755,7 @@ BEGIN:VEVENT
 SUMMARY:Mumford & Sons - Prizefighter Tour
 DTSTART:20261009T023000Z
 DTEND:20261009T043000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:G5vYZ_AxtLqKN
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/mumford-sons-prizefighter-tour-mo
@@ -762,7 +776,7 @@ BEGIN:VEVENT
 SUMMARY:The Living Tombstone
 DTSTART:20261009T030000Z
 DTEND:20261009T050000Z
-DTSTAMP:20260909T104222Z
+DTSTAMP:20260909T155126Z
 UID:Z7r9jZ1A7-OGU
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7-OGU\nVenue: San J
