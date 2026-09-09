@@ -9,7 +9,7 @@ SUMMARY:Free Drive-In Movie Night + $2 Nachos at West Wind (East Bay + San
   Jose)
 DTSTART;TZID=America/Los_Angeles:20260910T180000
 DTEND;TZID=America/Los_Angeles:20260910T200000
-DTSTAMP:20260908T203940Z
+DTSTAMP:20260909T025349Z
 UID:funcheap-20260910-freedriveinmovienight2na
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-drivein-movie-night-2-nachos-san-
@@ -40,10 +40,36 @@ URL:https://sf.funcheap.com/free-drivein-movie-night-2-nachos-san-jose-wes
  t-wind-drivein-fall-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Bay Area Theatre Week 2026 (Sept. 10-20)
+DTSTART;TZID=America/Los_Angeles:20260910T190000
+DTEND;TZID=America/Los_Angeles:20260910T210000
+DTSTAMP:20260909T025349Z
+UID:funcheap-20260910-bayareatheatreweek2026se
+CATEGORIES:community,free
+DESCRIPTION:https://sf.funcheap.com/bay-area-theatre-week-2026-sept-1020/\
+ nLocation: san jose\nPrice: Free\nCategories: community\, free\nSource: fu
+ ncheap/san-jose+funcheap/san-francisco\n\nBay Area Theatre Week is a multi
+ -faceted celebration of the San Francisco Bay Area theatre community. This
+  special event brings affordable access to plays and musicals\, as well as
+  unique offers and one-of-a-kind experiences to seasoned theatregoers and 
+ those who are theatre-curious\, with free and discounted theatre tickets\,
+  open rehearsals\, discounted classes\, special events\, and more. Dates: 
+ September 10–20\, 2026. Note: Promotions run Sept 10–20\, but addition
+ al discounted/free theatre appears throughout September via the official B
+ ay Area Theatre Week calendar. This Event Runs From Sep 10\, 2026\, 9:00am
+  to Sep 20\, 2026\, 11:00pm Timezone: Pacific Time (US & Canada) @theatreb
+ ayareasf is kicking off Bay Area Theatre Week\, September 10-20\, w/Free M
+ ixers across the Bay! 9/5 1-5pm San Pedro Market San Jose 9/6 5:30pm-8:30p
+ m The Alley Oakland 9/10 5-10:00pm Elixir San Francisco rsvp theatrebayare
+ a.org/batw26/
+LOCATION:san jose
+URL:https://sf.funcheap.com/bay-area-theatre-week-2026-sept-1020/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SF’s Chinatown Night Market (Sept. 2026)
 DTSTART;TZID=America/Los_Angeles:20260911T170000
 DTEND;TZID=America/Los_Angeles:20260911T210000
-DTSTAMP:20260908T203940Z
+DTSTAMP:20260909T025349Z
 UID:funcheap-20260911-sfschinatownnightmarkets
 CATEGORIES:concert,free
 DESCRIPTION:https://sf.funcheap.com/sfs-chinatown-night-market-sept-2026/\
@@ -71,11 +97,29 @@ LOCATION:on Friday\, September 11\, 2026\, featuring lion dancing\, live m
 URL:https://sf.funcheap.com/sfs-chinatown-night-market-sept-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Free Online Encore: 22nd Queer Women of Color Film Fest (2026)
+DTSTART;TZID=America/Los_Angeles:20260911T190000
+DTEND;TZID=America/Los_Angeles:20260911T210000
+DTSTAMP:20260909T025349Z
+UID:funcheap-20260911-freeonlineencore22ndquee
+CATEGORIES:community,free
+DESCRIPTION:https://sf.funcheap.com/free-online-encore-22nd-queer-women-co
+ lor-film-fest-2026/\nVenue: .\nPrice: Free\nCategories: community\, free\n
+ Source: funcheap/san-francisco\n\nMissed the International Queer Women of 
+ Color Film Festival (QWOCFF) in San Francisco? The films are coming to you
+ \, FREE\, from September 11 to 21\, 2026. QWOCFF 2026 extends beyond June\
+ , with 47 films screening from LBTQIA+ BIPOC filmmakers. We Resist\, and W
+ e Roll. Everywhere.
+LOCATION:.
+URL:https://sf.funcheap.com/free-online-encore-22nd-queer-women-color-film
+ -fest-2026/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Google’s Free “Endless Summer Festival” w/ DJs\, Magic & Giv
  eaways (Mountain View)
 DTSTART;TZID=America/Los_Angeles:20260912T110000
 DTEND;TZID=America/Los_Angeles:20260912T160000
-DTSTAMP:20260908T203940Z
+DTSTAMP:20260909T025349Z
 UID:funcheap-20260912-googlesfreeendlesssummer
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/googles-free-endless-summer-festival-d
@@ -105,40 +149,11 @@ URL:https://sf.funcheap.com/googles-free-endless-summer-festival-djs-magic
  -giveaways-mountain-view/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Second Saturdays: ‘Round the World at Union Square (SF)
-DTSTART;TZID=America/Los_Angeles:20260912T110000
-DTEND;TZID=America/Los_Angeles:20260912T130000
-DTSTAMP:20260908T203940Z
-UID:funcheap-20260912-secondsaturdaysroundthew
-CATEGORIES:free
-DESCRIPTION:https://sf.funcheap.com/saturdays-world-union-square-sf/\nLoca
- tion: san francisco\nPrice: Free\nCategories: free\nSource: funcheap/san-f
- rancisco\n\nHey hey Bay Area K-POP fans\, party and craft with your fellow
-  K-POP friends and family at ‘A KPOP NARA SF Summer’ in Union Square. 
- Second Saturdays: ‘Round the World Saturday\, September 12\, 2026 | 11a 
- – 2p Union Square Park\, 300 Powell St. SF FREE Come by to learn k-pop d
- ance with @raestudiossf at 11am Decorate your top loader with stickers Bri
- ng your trade binders for an all agencies trade event Dance to random play
-  dance and music with @djjonofficial Pick up your toploader deco kit at th
- e KPOP NARA booth (while supplies last) Plus\, enjoy free daily programmin
- g at Union Square Park\, with activities for all ages throughout the week.
-  All programs are free and open to the public. For more information\, chec
- k out our website: unionsquaresf Can’t wait to have a fun-filled day of 
- K-pop music and goodies! Program schedule is subject to change. Follow @un
- ionsquaresf on social media for the latest info. Free Programming is made 
- possible with support from Bank of America and a grant from the Office of 
- Mayor Daniel Lurie and the San Francisco Office of Economic and Workforce 
- Development to Biederman Redevelopment Ventures\, in cooperation with San 
- Francisco Recreation and Parks and the Union S
-LOCATION:san francisco
-URL:https://sf.funcheap.com/saturdays-world-union-square-sf/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Free Summer Outdoor Movie Night: “Zootopia 2” w/ DJ + Popcorn 
  (Oakland)
 DTSTART;TZID=America/Los_Angeles:20260912T190000
 DTEND;TZID=America/Los_Angeles:20260913T190000
-DTSTAMP:20260908T203940Z
+DTSTAMP:20260909T025349Z
 UID:funcheap-20260912-freesummeroutdoormovieni
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootop
@@ -172,7 +187,7 @@ SUMMARY:Free East Bay Drive-in Movie Night: Documentary + Free Pizza & Pop
  corn (Rodeo)
 DTSTART;TZID=America/Los_Angeles:20260912T190000
 DTEND;TZID=America/Los_Angeles:20260912T210000
-DTSTAMP:20260908T203940Z
+DTSTAMP:20260909T025349Z
 UID:funcheap-20260912-freeeastbaydriveinmovien
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-east-bay-drivein-movie-night-docu
@@ -194,7 +209,7 @@ BEGIN:VEVENT
 SUMMARY:Latino Conservation Week Guided Hike + Free Food (Redwood City)
 DTSTART;TZID=America/Los_Angeles:20260913T100000
 DTEND;TZID=America/Los_Angeles:20260913T140000
-DTSTAMP:20260908T203940Z
+DTSTAMP:20260909T025349Z
 UID:funcheap-20260913-latinoconservationweekgu
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/latino-conservation-week-guided-hike-f
@@ -223,39 +238,49 @@ URL:https://sf.funcheap.com/latino-conservation-week-guided-hike-free-food
  -redwood-city/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sunday Fun Days at Union Square (SF)
-DTSTART;TZID=America/Los_Angeles:20260913T190000
-DTEND;TZID=America/Los_Angeles:20260913T210000
-DTSTAMP:20260908T203940Z
-UID:funcheap-20260913-sundayfundaysatunionsqua
-CATEGORIES:free
-DESCRIPTION:https://sf.funcheap.com/sunday-fun-days-union-square/\nLocatio
- n: san francisco\nPrice: Free\nCategories: free\nSource: funcheap/san-fran
- cisco\n\nCalling all kids and their families! Join us for fun and free dro
- p-in S.T.E.A.M. activities led by Randall Museum\, California Academy of S
- ciences\, and Walt Disney Family Museum\, on a rotating basis. Activities 
- geared towards kids aged 5-12. Caretaker supervision is required at all ti
- mes. Sunday Fun Days Sunday\, September 13\, 2026 | 11a-2p Union Square Pa
- rk\, Geary and Powell\, SF FREE Plus\, enjoy free daily programming at Uni
- on Square Park\, with activities for all ages throughout the week . All pr
- ograms are free and open to the public. For more information\, check out o
- ur website: https://visitunionsquaresf.com/park-programs . Program schedul
- e is subject to change. Follow @unionsquaresf on social media for the late
- st info. Free Programming is made possible with support from Bank of Ameri
- ca and a grant from the Office of Mayor Daniel Lurie and the San Francisco
-  Office of Economic and Workforce Development to Biederman Redevelopment V
- entures\, in cooperation with San Francisco Recreation and Parks and the U
- nion Square Alliance. Note: Union Square Alliance is not directly managing
-  these events. For questions and comments\, please contact unionsquare@brv
- corp.com . View this post on Instagra
-LOCATION:san francisco
-URL:https://sf.funcheap.com/sunday-fun-days-union-square/
+SUMMARY:Mustard Service
+DTSTART:20260918T030000Z
+DTEND:20260918T050000Z
+DTSTAMP:20260909T025349Z
+UID:rZ7HnEZ1Af0Y0K
+CATEGORIES:concert,free
+DESCRIPTION:https://www.ticketweb.com/event/mustard-service-the-independen
+ t-tickets/14930913\nVenue: The Independent\nLocation: 628 Divisadero St\, 
+ San Francisco\, CA\nPrice: Free\nGenres: Music\, Alternative\, Hip-Hop/Rap
+ \, Alternative Rap\nCategories: concert\, free\nSource: ticketmaster/music
+ \n\nPlease note - there is a delivery delay set for 2 weeks prior to show.
+  Support acts subject to change without refund.
+LOCATION:628 Divisadero St\, San Francisco\, CA
+URL:https://www.ticketweb.com/event/mustard-service-the-independent-ticket
+ s/14930913
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lido Pimienta
+DTSTART:20260919T030000Z
+DTEND:20260919T050000Z
+DTSTAMP:20260909T025349Z
+UID:rZ7HnEZ1Af0IvN
+CATEGORIES:concert,free
+DESCRIPTION:https://www.ticketweb.com/event/lido-pimienta-bimbos-365-club-
+ tickets/14928063\nVenue: Bimbo's 365 Club\nLocation: 1025 Columbus Avenue\
+ , San Francisco\, CA\nPrice: Free\nGenres: Music\, Dance/Electronic\, Lati
+ n Electronica\nCategories: concert\, free\nSource: ticketmaster/music\n\n2
+ 1+ ONLY. Please note - there is a delivery delay set for 2 weeks prior to 
+ show. This event is 21 and over. Any ticket holder unable to present valid
+  identification indicating that they are at least 21 years of age will not
+  be admitted to this event\, and will not be eligible for a refund. Anothe
+ r Planet Entertainment is committed to producing safe events. Please revie
+ w our most up-to-date COVID-19 policy requirements for entry at https://ap
+ econcerts.com/health-safety * Policy is subject to change
+LOCATION:1025 Columbus Avenue\, San Francisco\, CA
+URL:https://www.ticketweb.com/event/lido-pimienta-bimbos-365-club-tickets/
+ 14928063
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pacific Pearl Mid-Autumn Moon Festival (Pleasanton)
 DTSTART;TZID=America/Los_Angeles:20260919T150000
 DTEND;TZID=America/Los_Angeles:20260919T170000
-DTSTAMP:20260908T203940Z
+DTSTAMP:20260909T025349Z
 UID:funcheap-20260919-pacificpearlmidautumnmoo
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/pacific-pearl-midautumn-moon-festival-
@@ -288,7 +313,7 @@ SUMMARY:“Let’s Glow” BART Anime Festival (Warm Springs / South Fremo
  nt)
 DTSTART;TZID=America/Los_Angeles:20260919T160000
 DTEND;TZID=America/Los_Angeles:20260919T210000
-DTSTAMP:20260908T203940Z
+DTSTAMP:20260909T025349Z
 UID:funcheap-20260919-letsglowbartanimefestiva
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/lets-glow-bart-anime-festival-warm-spr
@@ -316,70 +341,5 @@ LOCATION:Warm Springs/South Fremont Station RSVP on Eventbrite at letsglow
  festival.eventb
 URL:https://sf.funcheap.com/lets-glow-bart-anime-festival-warm-springs-sou
  th-fremont/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Free TideFest 2026: Outdoor Music + Art Festival by Ocean Beach (S
- F)
-DTSTART;TZID=America/Los_Angeles:20260919T190000
-DTEND;TZID=America/Los_Angeles:20260919T210000
-DTSTAMP:20260908T203940Z
-UID:funcheap-20260919-freetidefest2026outdoorm
-CATEGORIES:community,free
-DESCRIPTION:https://sf.funcheap.com/free-tidefest-2026-outdoor-music-art-f
- estival-ocean-beach-sf/\nLocation: san francisco\nPrice: Free\nCategories:
-  community\, free\nSource: funcheap/san-francisco\n\nTideFest is a free ne
- w music festival just steps from Ocean Beach\, bringing together live musi
- c\, art\, food\, and community for an unforgettable day on San Francisco
- ’s west side. Presented by The Riptide\, organized by ArtyHood\, and sup
- ported by Live Music Society’s Music in Action grant program\, TideFest 
- celebrates the creativity\, culture\, and community that make San Francisc
- o special. Spend the day enjoying live performances from an exciting lineu
- p of Bay Area bands and DJs\, discovering work from local artists and crea
- tive vendors\, and tasting food and drinks from local offerings. Featuring
-  performances by Bayonics\, Momotombo SF\, Don’t Tell John\, Long Tall D
- an and the Foogie Boogies\, This Train Don’t Stop\, Starry Eyed Cadet\, 
- DJ Brown Angel\, Stanley Frank Sensation\, Los Ahijados De La Changa\, and
-  DJ Veesh Maria. Whether you come to dance to live music\, discover new ar
- tists\, share a meal with friends\, or simply enjoy the ocean atmosphere\,
-  TideFest has something for everyone. Saturday\, September 19\, 2026 Tarav
- al Street @ Lower Great Highway\, San Francisco What to Expect -Live Bay A
- rea bands and DJs -Local artists\, makers\, and creative vendors -Food ven
- dors with a variety of cuisines an
-LOCATION:san francisco
-URL:https://sf.funcheap.com/free-tidefest-2026-outdoor-music-art-festival-
- ocean-beach-sf/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bodhi Mid-Autumn Festival Community Fair (SF County Fair Building)
-DTSTART;TZID=America/Los_Angeles:20260927T100000
-DTEND;TZID=America/Los_Angeles:20260927T170000
-DTSTAMP:20260908T203940Z
-UID:funcheap-20260927-bodhimidautumnfestivalco
-CATEGORIES:community,free
-DESCRIPTION:https://sf.funcheap.com/bodhi-midautumn-festival-community-fai
- r-sf-county-fair-building/\nVenue: . Complete challenges\, collect stamps\
- , and redeem special gifts along the way! ❤\nPrice: Free\nCategories: co
- mmunity\, free\nSource: funcheap/san-francisco\n\nCelebrate Mid-Autumn Fes
- tival with lanterns\, Hanfu\, performances\, meditation\, blessings\, craf
- ts\, games & family fun. Free admission! Celebrate Mid-Autumn Festival in 
- Golden Gate Park! Step into a vibrant Mid-Autumn celebration filled with l
- anterns\, traditional Chinese culture\, multicultural performances\, games
- \, photo opportunities\, and family fun! Join Bodhi Meditation San Francis
- co for our FREE Mid-Autumn Festival Community Fair at the San Francisco Co
- unty Fair Building in Golden Gate Park. Whether you want to experience Chi
- nese culture\, dress up in Hanfu\, enjoy live performances from different 
- cultures\, take home a free printed photo\, play games\, or simply spend a
-  fun Sunday with family and friends\, there’s something for everyone! Ha
- nfu is welcome! Come dressed in Hanfu and receive a special gift while sup
- plies last. ✨ Event Highlights Lantern Festival Experience Step into a f
- estive atmosphere inspired by the colors\, lanterns\, and traditions of Mi
- d-Autumn Festival. Hanfu Experience (Traditional Chinese Clothing) & Photo
-  Spots Try on beautiful Hanfu and capture memorable photos with family and
-  friends. FREE Photo Booth — Take Your Photo Home! Strike a pose and rec
- eive a printed ph
-LOCATION:. Complete challenges\, collect stamps\, and redeem special gifts
-  along the way! ❤
-URL:https://sf.funcheap.com/bodhi-midautumn-festival-community-fair-sf-cou
- nty-fair-building/
 END:VEVENT
 END:VCALENDAR
