@@ -5,33 +5,10 @@ X-WR-CALDESC:Kyros EDM — edm events\, San Jose first.
 X-WR-CALNAME:Kyros EDM
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-SUMMARY:wave to earth - the pieces tour
-DTSTART:20260909T031500Z
-DTEND:20260909T051500Z
-DTSTAMP:20260909T025349Z
-UID:G5vYZ_1DMvkmg
-CATEGORIES:edm
-DESCRIPTION:https://www.ticketmaster.com/wave-to-earth-the-pieces-tour-san
- -francisco-california-09-08-2026/event/1C0064AEF7046BB5\nVenue: The Theate
- r at Bill Graham Civic Auditorium\nLocation: 99 Grove Street\, San Francis
- co\, CA\nGenres: Music\, Pop\, Electro Pop\nHost: ANOTHER PLANET\nCategori
- es: edm\nSource: ticketmaster/music\n\nVIP M&G Package Includes: -One (1) 
- Seated Ticket To The Show -One (1) Group Picture with wave to earth (group
- s of 6) -Early Entry to the venue (?Skip the Line?) -VIP only merchandise 
- package\, specially curated by wave to earth -Access to Wave to Earth?s pr
- e-show soundcheck -Early Access to merchandise table VIP Early Entry & Sou
- ndcheck Package Includes: -One (1) Seated Ticket To The Show -Early Entry 
- to the venue ('Skip the Line') -VIP only merchandise item -Access to wave 
- to earth's pre-show soundcheck -Early Access to merchandise table
-LOCATION:99 Grove Street\, San Francisco\, CA
-URL:https://www.ticketmaster.com/wave-to-earth-the-pieces-tour-san-francis
- co-california-09-08-2026/event/1C0064AEF7046BB5
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Flux Pavilion - Ages 21+
 DTSTART:20260912T040000Z
 DTEND:20260912T060000Z
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:Z7r9jZ1A7PyOK
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7PyOK\nVenue: The M
@@ -45,7 +22,7 @@ SUMMARY:Google’s Free “Endless Summer Festival” w/ DJs\, Magic & Giv
  eaways (Mountain View)
 DTSTART;TZID=America/Los_Angeles:20260912T110000
 DTEND;TZID=America/Los_Angeles:20260912T160000
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:funcheap-20260912-googlesfreeendlesssummer
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/googles-free-endless-summer-festival-d
@@ -79,7 +56,7 @@ SUMMARY:Free Summer Outdoor Movie Night: “Zootopia 2” w/ DJ + Popcorn
  (Oakland)
 DTSTART;TZID=America/Los_Angeles:20260912T190000
 DTEND;TZID=America/Los_Angeles:20260913T190000
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:funcheap-20260912-freesummeroutdoormovieni
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootop
@@ -112,7 +89,7 @@ BEGIN:VEVENT
 SUMMARY:SABAI presents: IKIGAI Bay Area
 DTSTART:20260913T030000Z
 DTEND:20260913T050000Z
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:G5vYZ_6TJqbSx
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/sabai-presents-ikigai-bay-area-sa
@@ -129,7 +106,7 @@ SUMMARY:The Schizophonics "Burning Floor Tour" w/ Fever Dog\, The Tremolos
   + DJ Archive 65
 DTSTART:20260918T030000Z
 DTEND:20260918T050000Z
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:rZ7HnEZ1Afko_7
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/the-schizophonics-burning-floo
@@ -165,7 +142,7 @@ BEGIN:VEVENT
 SUMMARY:Daft Disko
 DTSTART:20260919T040000Z
 DTEND:20260919T060000Z
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:rZ7HnEZ1AfaaqV
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/daft-disko-the-ritz-tickets/14
@@ -182,7 +159,7 @@ BEGIN:VEVENT
 SUMMARY:Mild Minds - DJ Set (21+)
 DTSTART:20260919T050000Z
 DTEND:20260919T070000Z
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:Z7r9jZ1A7Pw7F
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7Pw7F\nVenue: 1015 
@@ -195,7 +172,7 @@ BEGIN:VEVENT
 SUMMARY:Steve Aoki (18+) - DIM MAK 30 TOUR
 DTSTART:20260920T020000Z
 DTEND:20260920T040000Z
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:G5vYZbyk0x_-f
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/steve-aoki-18-dim-mak-30-san-fran
@@ -223,7 +200,7 @@ BEGIN:VEVENT
 SUMMARY:Anish Kumar (21+)
 DTSTART:20260920T050000Z
 DTEND:20260920T070000Z
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:G5vYZ_ud0A07i
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/anish-kumar-21-san-francisco-cali
@@ -239,7 +216,7 @@ BEGIN:VEVENT
 SUMMARY:Temples
 DTSTART:20260923T030000Z
 DTEND:20260923T050000Z
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:Z7r9jZ1A7x3vp
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7x3vp\nVenue: The C
@@ -252,7 +229,7 @@ BEGIN:VEVENT
 SUMMARY:Temples
 DTSTART:20260924T030000Z
 DTEND:20260924T050000Z
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:Z7r9jZ1A7x3v9
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7x3v9\nVenue: The C
@@ -262,46 +239,10 @@ LOCATION:777 Valencia Street\, San Francisco\, CA
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7x3v9
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Moe's Alley Presents: Tania Cassette w/ HOLY WATER + DJ Archive 65
-DTSTART:20260926T040000Z
-DTEND:20260926T060000Z
-DTSTAMP:20260909T025349Z
-UID:rZ7HnEZ1AfJ8qK
-CATEGORIES:edm
-DESCRIPTION:https://www.ticketweb.com/event/moes-alley-presents-tania-cass
- ette-moes-alley-tickets/14990753\nVenue: Moe's Alley\nLocation: 1535 Comme
- rcial Way\, Santa Cruz\, CA\nPrice: $25\nGenres: Music\, Alternative\, Got
- h\, Post-Punk\nCategories: edm\nSource: ticketmaster/music\n\nMoes Alley p
- resents Tania Cassette\, the voice of Glass Spells supporting the release 
- of her forthcoming LP The Death of Me! Special guest HOLY WATER opens the 
- show plus DJ Archive 65. Friday\, September 25\, 2026Doors: 8pm / Show: 9p
- m$20 in advance / $25 day of the show21+* No Refunds | All sales are final
- * Avoid scammers! Only purchase tickets from moesalley.com or ticketweb.co
- m* Tickets requested by email will be delivered 3 days prior to the event*
-  Will Call tickets will be available at the door on the day of the event==
- ==TANIA CASSETTETania Cassette is a synthpop and dark pop artist with an 8
- 0s glow and a modern dance heartbeat\, built on hooks that land fast and l
- inger long into the night. Known as the voice of Glass Spells\, she emerge
- d into her solo era with singles The Flame and Por Tu Amor leading into he
- r debut album The Death of Me\, out September 4th. Shimmering\, dancefloor
-  ready\, and heavy with yearning\, the record moves through passion and re
- birth in a world of nostalgic tenderness and dark glamour.HOLY WATERJacob 
- came up in the Punk / Hardcore scene in Northern California. Jacobs band L
- ONELY KINGS released 4 Full length Records for FEARLESS RECORDS. Lonely Ki
- ngs Extensively toured USA / EUROPE / UK with bands like AT THE DRIVE IN\,
-  HOT WATER MUSIC\, THE MISFITS\, AFI etc. HOLY WATER was established in 20
- 18 after 12 years doing DJ gigs playing Indie Dance\, Tech House\, Industr
- ial\, and Post Punk. HOLY WATER is a combination of Jacobs love of electro
- nic dance music and the
-LOCATION:1535 Commercial Way\, Santa Cruz\, CA
-URL:https://www.ticketweb.com/event/moes-alley-presents-tania-cassette-moe
- s-alley-tickets/14990753
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Lionel Richie and Earth\, Wind & Fire - Sing a Song All Night Long
 DTSTART:20260927T023000Z
 DTEND:20260927T043000Z
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:G5vYZ_d2ADlKy
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/lionel-richie-and-earth-wind-fire
@@ -318,7 +259,7 @@ BEGIN:VEVENT
 SUMMARY:"The Hayley Williams Show"
 DTSTART:20261003T020000Z
 DTEND:20261003T040000Z
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:G5vYZ_1KoLUrp
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/the-hayley-williams-show-mountain
@@ -343,7 +284,7 @@ BEGIN:VEVENT
 SUMMARY:Madeon presents Victory Live (18+)
 DTSTART:20261003T030000Z
 DTEND:20261003T050000Z
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:G5vYZ_1K6Y0Pb
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/madeon-presents-victory-live-18-s
@@ -371,7 +312,7 @@ BEGIN:VEVENT
 SUMMARY:Sploinky Rave
 DTSTART:20261003T040000Z
 DTEND:20261003T060000Z
-DTSTAMP:20260909T025349Z
+DTSTAMP:20260909T104222Z
 UID:rZ7HnEZ1AfJ4FS
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/sploinky-rave-the-ritz-tickets
@@ -390,5 +331,34 @@ DESCRIPTION:https://www.ticketweb.com/event/sploinky-rave-the-ritz-tickets
 LOCATION:400 S 1st St\, San Jose\, CA
 URL:https://www.ticketweb.com/event/sploinky-rave-the-ritz-tickets/1499523
  3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jon Batiste - Jon Batiste Live
+DTSTART:20261004T030000Z
+DTEND:20261004T050000Z
+DTSTAMP:20260909T104222Z
+UID:G5vYZ_F9s4AGq
+CATEGORIES:edm
+DESCRIPTION:https://www.ticketmaster.com/jon-batiste-jon-batiste-live-berk
+ eley-california-10-03-2026/event/1C006485F154531D\nVenue: Greek Theatre-U.
+ C. Berkeley\nLocation: 2001 Gayley Road\, Berkeley\, CA\nGenres: Music\, P
+ op\, Electro Pop\nHost: ANOTHER PLANET\nCategories: edm\nSource: ticketmas
+ ter/music
+LOCATION:2001 Gayley Road\, Berkeley\, CA
+URL:https://www.ticketmaster.com/jon-batiste-jon-batiste-live-berkeley-cal
+ ifornia-10-03-2026/event/1C006485F154531D
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Living Tombstone
+DTSTART:20261009T030000Z
+DTEND:20261009T050000Z
+DTSTAMP:20260909T104222Z
+UID:Z7r9jZ1A7-OGU
+CATEGORIES:edm
+DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7-OGU\nVenue: San J
+ ose Civic\nLocation: 135 West San Carlos Street\, San Jose\, CA\nGenres: M
+ usic\, Dance/Electronic\nCategories: edm\nSource: ticketmaster/music
+LOCATION:135 West San Carlos Street\, San Jose\, CA
+URL:https://www.ticketmaster.com/event/Z7r9jZ1A7-OGU
 END:VEVENT
 END:VCALENDAR
