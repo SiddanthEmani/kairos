@@ -8,164 +8,62 @@ BEGIN:VEVENT
 SUMMARY:Llama Lounge 26: The AI Startup Event Series @ Microsoft
 DTSTART:20260911T000000Z
 DTEND:20260911T033000Z
-DTSTAMP:20260910T103135Z
+DTSTAMP:20260910T154620Z
 UID:evt-F09YBBMDvanF48y
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/llamalounge26\nLocation: Microsoft\, 1045 La Ave
  nida St\, Mountain View\, CA 94043\, USA\nHost: Llama Lounge: The AI Start
- up Series\nCategories: ai\nSource: luma-html/san-francisco+luma/san-franci
- sco+luma/san-jose+luma/virtual
+ up Series\nCategories: ai\nSource: luma-html/san-francisco
 LOCATION:Microsoft\, 1045 La Avenida St\, Mountain View\, CA 94043\, USA
 URL:https://lu.ma/llamalounge26
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[SV] AI meetup for GenAI\, LLMs\, and Agent
+SUMMARY:Mahjong Party for AI Builders
+DTSTART:20260911T000000Z
+DTEND:20260911T030000Z
+DTSTAMP:20260910T154620Z
+UID:evt-J34N2EWaaDQK31h
+CATEGORIES:ai
+DESCRIPTION:https://lu.ma/fm6e4puk\nLocation: San Francisco\, California\n
+ Host: Workato Community\nCategories: ai\nSource: luma-html/san-francisco
+LOCATION:San Francisco\, California
+URL:https://lu.ma/fm6e4puk
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Designing with AI: Panel hosted by Amplitude
 DTSTART:20260911T003000Z
 DTEND:20260911T033000Z
-DTSTAMP:20260910T103135Z
-UID:evt-ylrkm1JAuAeMonr
+DTSTAMP:20260910T154620Z
+UID:evt-Y9oJb5001ZiOQUf
 CATEGORIES:ai
-DESCRIPTION:https://lu.ma/oyjqtbrb\nLocation: ThoughtSpot\, 444 Castro St 
- #1000\, Mountain View\, CA 94041\, USA\nHost: AICamp\nCategories: ai\nSour
- ce: luma/san-francisco+luma/san-jose+luma/virtual
-LOCATION:ThoughtSpot\, 444 Castro St #1000\, Mountain View\, CA 94041\, US
- A
-URL:https://lu.ma/oyjqtbrb
+DESCRIPTION:https://lu.ma/hc9mndo1\nLocation: San Francisco\, CA\nHost: Pe
+ rsonal\nCategories: ai\nSource: luma-html/san-francisco
+LOCATION:San Francisco\, CA
+URL:https://lu.ma/hc9mndo1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AI Art Workshop: Create a Place You Wish Existed
-DTSTART:20260911T013000Z
+SUMMARY:Private Fireside with Leigh Marie Braswell - First Product Manager
+  at Scale AI to now leading investments at the frontier of AI
+DTSTART:20260911T010000Z
 DTEND:20260911T033000Z
-DTSTAMP:20260910T103135Z
-UID:evt-tzpQSCEstVavDsq
+DTSTAMP:20260910T154620Z
+UID:evt-vb4oWNiImYIsb8N
 CATEGORIES:ai
-DESCRIPTION:https://lu.ma/jvc34lbb\nLocation: Gallery House\, 826 Santa Cr
- uz Ave\, Menlo Park\, CA 94025\, USA\nHost: Personal\nCategories: ai\nSour
- ce: luma/san-francisco+luma/san-jose+luma/virtual
-LOCATION:Gallery House\, 826 Santa Cruz Ave\, Menlo Park\, CA 94025\, USA
-URL:https://lu.ma/jvc34lbb
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Agents\, Everywhere: Global Hackathon with OpenAI • CopilotKit 
- • openrouter [SF]
-DTSTART:20260912T170000Z
-DTEND:20260913T000000Z
-DTSTAMP:20260910T103135Z
-UID:evt-ujjShIqs8ZCzIMA
-CATEGORIES:ai
-DESCRIPTION:https://lu.ma/66qm5unt\nLocation: San Francisco\, CA\nHost: AI
-  Tinkerers San Francisco\nCategories: ai\nSource: luma/san-francisco+luma/
- san-jose+luma/virtual
+DESCRIPTION:https://lu.ma/bxal13do\nLocation: San Francisco\, CA\nHost: Po
+ etic\nCategories: ai\nSource: luma-html/san-francisco
 LOCATION:San Francisco\, CA
-URL:https://lu.ma/66qm5unt
+URL:https://lu.ma/bxal13do
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Evals & Metrics for RAG & Agents Workshop
-DTSTART:20260913T180000Z
-DTEND:20260914T000000Z
-DTSTAMP:20260910T103135Z
-UID:evt-9NsZCQTVHxx6EFo
+SUMMARY:137th SF Hardware Meetup @ Mission Robotics | Physical AI Robotics
+DTSTART:20260911T013000Z
+DTEND:20260911T043000Z
+DTSTAMP:20260910T154620Z
+UID:evt-9G7Y2xUxgN96O7V
 CATEGORIES:ai
-DESCRIPTION:https://lu.ma/7h5hqfm0\nLocation: SupportVectors\, 46540 Fremo
- nt Blvd Ste 506\, Fremont\, CA 94538\, USA\nHost: SupportVectors AI Events
- \nCategories: ai\nSource: luma/san-francisco+luma/san-jose+luma/virtual
-LOCATION:SupportVectors\, 46540 Fremont Blvd Ste 506\, Fremont\, CA 94538\
- , USA
-URL:https://lu.ma/7h5hqfm0
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:20 Chair Lounge 001 - Multimodal Model Evaluation - Llama Beta Fel
- lowship
-DTSTART:20260913T200000Z
-DTEND:20260914T000000Z
-DTSTAMP:20260910T103135Z
-UID:evt-PO2HVT1DJTbPukM
-CATEGORIES:ai
-DESCRIPTION:https://lu.ma/arqpdwe1\nLocation: 1070 Bryant St\, San Francis
- co\, CA 94103\, USA\nHost: Llama Beta Fellowship\nCategories: ai\nSource: 
- luma/san-francisco+luma/san-jose+luma/virtual
-LOCATION:1070 Bryant St\, San Francisco\, CA 94103\, USA
-URL:https://lu.ma/arqpdwe1
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Agentic Commerce: Designing the Next Business Infrastructure
-DTSTART:20260913T210000Z
-DTEND:20260914T013000Z
-DTSTAMP:20260910T103135Z
-UID:evt-aXOYCnIVSrIiDL1
-CATEGORIES:ai
-DESCRIPTION:https://lu.ma/ucan-2026\nLocation: Plug and Play Tech Center\,
-  440 N Wolfe Rd\, Sunnyvale\, CA 94085\, USA\nHost: UCAN by Alibaba Design
- \nCategories: ai\nSource: luma/san-francisco+luma/san-jose+luma/virtual
-LOCATION:Plug and Play Tech Center\, 440 N Wolfe Rd\, Sunnyvale\, CA 94085
- \, USA
-URL:https://lu.ma/ucan-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Wiki3: Own Your Own AI Workshop
-DTSTART:20260917T010000Z
-DTEND:20260917T033000Z
-DTSTAMP:20260910T103135Z
-UID:evt-7tp4CN0aAVeeMih
-CATEGORIES:ai
-DESCRIPTION:https://lu.ma/Wiki3\nLocation: Hacker Dojo\, 855 Maude Ave\, M
- ountain View\, CA 94043\, USA\nHost: Personal\nCategories: ai\nSource: lum
- a/san-francisco+luma/san-jose+luma/virtual
-LOCATION:Hacker Dojo\, 855 Maude Ave\, Mountain View\, CA 94043\, USA
-URL:https://lu.ma/Wiki3
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TrueFoundry Agent Harness Hackathon
-DTSTART:20260919T163000Z
-DTEND:20260920T030000Z
-DTSTAMP:20260910T103135Z
-UID:evt-x4XWFqVISgA8ctG
-CATEGORIES:ai
-DESCRIPTION:https://lu.ma/truefoundry-agent-harness-hackathon-sep19-2026\n
- Location: 3120 Scott Blvd\, Santa Clara\, CA 95054\, USA\nHost: [SF] Hacke
- rSquad\nCategories: ai\nSource: luma/san-francisco+luma/san-jose+luma/virt
- ual
-LOCATION:3120 Scott Blvd\, Santa Clara\, CA 95054\, USA
-URL:https://lu.ma/truefoundry-agent-harness-hackathon-sep19-2026
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Hack for Humanity: San Francisco (powered by Google Gemini)
-DTSTART:20260919T180000Z
-DTEND:20260920T000000Z
-DTSTAMP:20260910T103135Z
-UID:evt-VaPGnXZvfYT3bD4
-CATEGORIES:ai
-DESCRIPTION:https://lu.ma/h4h-san-francisco\nLocation: San Francisco\, CA\
- nHost: The AI Collective\nCategories: ai\nSource: luma/san-francisco+luma/
- san-jose+luma/virtual
+DESCRIPTION:https://lu.ma/84lattht\nLocation: San Francisco\, CA\nHost: SF
+  Hardware Meetup\nCategories: ai\nSource: luma-html/san-francisco
 LOCATION:San Francisco\, CA
-URL:https://lu.ma/h4h-san-francisco
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:AI Applied in Cybersecurity Lightning Talks
-DTSTART:20260925T000000Z
-DTEND:20260925T030000Z
-DTSTAMP:20260910T103135Z
-UID:evt-qZobjBODNG7E1om
-CATEGORIES:ai
-DESCRIPTION:https://lu.ma/de7znk3m\nLocation: Nutanix\, 1740 Technology Dr
- \, San Jose\, CA 95110\, USA\nHost: Women in Cybersecurity - Silicon Valle
- y\nCategories: ai\nSource: luma/san-francisco+luma/san-jose+luma/virtual
-LOCATION:Nutanix\, 1740 Technology Dr\, San Jose\, CA 95110\, USA
-URL:https://lu.ma/de7znk3m
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:AIC SF Chapter Team & Volunteer Get-Together (w/ The AI Collective
- )
-DTSTART:20261001T003000Z
-DTEND:20261001T023000Z
-DTSTAMP:20260910T103135Z
-UID:evt-huVuSpeCdR7qvmO
-CATEGORIES:ai
-DESCRIPTION:https://lu.ma/aic-sf-team-gettogether\nLocation: San Francisco
- \, CA\nHost: The AI Collective\nCategories: ai\nSource: luma/san-francisco
- +luma/san-jose+luma/virtual
-LOCATION:San Francisco\, CA
-URL:https://lu.ma/aic-sf-team-gettogether
+URL:https://lu.ma/84lattht
 END:VEVENT
 END:VCALENDAR
