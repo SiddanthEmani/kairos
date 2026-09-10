@@ -5,10 +5,25 @@ X-WR-CALDESC:Kyros EDM — edm events\, San Jose first.
 X-WR-CALNAME:Kyros EDM
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
+SUMMARY:RDC Fixated x Everbloom After Hours'26
+DTSTART:20260912T020000Z
+DTEND:20260912T090000Z
+DTSTAMP:20260910T103135Z
+UID:evt-DwkNPDz9O5IKP3M
+CATEGORIES:edm
+DESCRIPTION:https://lu.ma/opjceyhi\nLocation: Mosaic Restaurant and Ultra 
+ Lounge\, 211 S 1st St\, San Jose\, CA 95113\, USA\nHost: Personal\nCategor
+ ies: edm\nSource: luma-html/san-francisco+luma/san-francisco+luma-html/san
+ -jose+luma/san-jose+luma/virtual
+LOCATION:Mosaic Restaurant and Ultra Lounge\, 211 S 1st St\, San Jose\, CA
+  95113\, USA
+URL:https://lu.ma/opjceyhi
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Flux Pavilion - Ages 21+
 DTSTART:20260912T040000Z
 DTEND:20260912T060000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:Z7r9jZ1A7PyOK
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7PyOK\nVenue: The M
@@ -22,7 +37,7 @@ SUMMARY:Google’s Free “Endless Summer Festival” w/ DJs\, Magic & Giv
  eaways (Mountain View)
 DTSTART;TZID=America/Los_Angeles:20260912T110000
 DTEND;TZID=America/Los_Angeles:20260912T160000
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:funcheap-20260912-googlesfreeendlesssummer
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/googles-free-endless-summer-festival-d
@@ -56,7 +71,7 @@ SUMMARY:Free Summer Outdoor Movie Night: “Zootopia 2” w/ DJ + Popcorn
  (Oakland)
 DTSTART;TZID=America/Los_Angeles:20260912T190000
 DTEND;TZID=America/Los_Angeles:20260913T190000
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:funcheap-20260912-freesummeroutdoormovieni
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootop
@@ -89,7 +104,7 @@ BEGIN:VEVENT
 SUMMARY:SABAI presents: IKIGAI Bay Area
 DTSTART:20260913T030000Z
 DTEND:20260913T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_6TJqbSx
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/sabai-presents-ikigai-bay-area-sa
@@ -105,7 +120,7 @@ BEGIN:VEVENT
 SUMMARY:Daft Disko
 DTSTART:20260919T040000Z
 DTEND:20260919T060000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:rZ7HnEZ1AfaaqV
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/daft-disko-the-ritz-tickets/14
@@ -122,7 +137,7 @@ BEGIN:VEVENT
 SUMMARY:Mild Minds - DJ Set (21+)
 DTSTART:20260919T050000Z
 DTEND:20260919T070000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:Z7r9jZ1A7Pw7F
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7Pw7F\nVenue: 1015 
@@ -135,7 +150,7 @@ BEGIN:VEVENT
 SUMMARY:Steve Aoki (18+) - DIM MAK 30 TOUR
 DTSTART:20260920T020000Z
 DTEND:20260920T040000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZbyk0x_-f
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/steve-aoki-18-dim-mak-30-san-fran
@@ -163,7 +178,7 @@ BEGIN:VEVENT
 SUMMARY:Anish Kumar (21+)
 DTSTART:20260920T050000Z
 DTEND:20260920T070000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_ud0A07i
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/anish-kumar-21-san-francisco-cali
@@ -176,23 +191,10 @@ URL:https://www.ticketmaster.com/anish-kumar-21-san-francisco-california-0
  9-19-2026/event/1C0064D0E416412C
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Temples
-DTSTART:20260923T030000Z
-DTEND:20260923T050000Z
-DTSTAMP:20260910T025615Z
-UID:Z7r9jZ1A7x3vp
-CATEGORIES:edm
-DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7x3vp\nVenue: The C
- hapel\nLocation: 777 Valencia Street\, San Francisco\, CA\nGenres: Music\,
-  Dance/Electronic\nCategories: edm\nSource: ticketmaster/music
-LOCATION:777 Valencia Street\, San Francisco\, CA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A7x3vp
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Lionel Richie and Earth\, Wind & Fire - Sing a Song All Night Long
 DTSTART:20260927T023000Z
 DTEND:20260927T043000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_d2ADlKy
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/lionel-richie-and-earth-wind-fire
@@ -209,7 +211,7 @@ BEGIN:VEVENT
 SUMMARY:"The Hayley Williams Show"
 DTSTART:20261003T020000Z
 DTEND:20261003T040000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_1KoLUrp
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/the-hayley-williams-show-mountain
@@ -234,7 +236,7 @@ BEGIN:VEVENT
 SUMMARY:Madeon presents Victory Live (18+)
 DTSTART:20261003T030000Z
 DTEND:20261003T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_1K6Y0Pb
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/madeon-presents-victory-live-18-s
@@ -262,7 +264,7 @@ BEGIN:VEVENT
 SUMMARY:Sploinky Rave
 DTSTART:20261003T040000Z
 DTEND:20261003T060000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:rZ7HnEZ1AfJ4FS
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/sploinky-rave-the-ritz-tickets
@@ -286,7 +288,7 @@ BEGIN:VEVENT
 SUMMARY:Jon Batiste - Jon Batiste Live
 DTSTART:20261004T030000Z
 DTEND:20261004T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_F9s4AGq
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/jon-batiste-jon-batiste-live-berk
@@ -302,7 +304,7 @@ BEGIN:VEVENT
 SUMMARY:The Living Tombstone
 DTSTART:20261009T030000Z
 DTEND:20261009T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:Z7r9jZ1A7-OGU
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7-OGU\nVenue: San J
@@ -315,7 +317,7 @@ BEGIN:VEVENT
 SUMMARY:TRAITRS\, DJ Basura
 DTSTART:20261010T020000Z
 DTEND:20261010T040000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:rZ7HnEZ1AfaJG0
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/traitrs-dj-basura-the-ritz-tic
@@ -330,7 +332,7 @@ BEGIN:VEVENT
 SUMMARY:Holy Priest (18+)
 DTSTART:20261010T023000Z
 DTEND:20261010T043000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_CQwHuk4
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/holy-priest-18-san-francisco-cali

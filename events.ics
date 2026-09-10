@@ -8,45 +8,49 @@ BEGIN:VEVENT
 SUMMARY:[AI] Llama Lounge 26: The AI Startup Event Series @ Microsoft
 DTSTART:20260911T000000Z
 DTEND:20260911T033000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:evt-F09YBBMDvanF48y
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/llamalounge26\nLocation: Microsoft\, 1045 La Ave
  nida St\, Mountain View\, CA 94043\, USA\nHost: Llama Lounge: The AI Start
- up Series\nCategories: ai\nSource: luma-html/san-francisco
+ up Series\nCategories: ai\nSource: luma-html/san-francisco+luma/san-franci
+ sco+luma/san-jose+luma/virtual
 LOCATION:Microsoft\, 1045 La Avenida St\, Mountain View\, CA 94043\, USA
 URL:https://lu.ma/llamalounge26
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[AI] Mahjong Party for AI Builders
+SUMMARY:[Bay] Wine Tasting and Pearls of Wisdom
 DTSTART:20260911T000000Z
-DTEND:20260911T030000Z
-DTSTAMP:20260910T025615Z
-UID:evt-J34N2EWaaDQK31h
-CATEGORIES:ai
-DESCRIPTION:https://lu.ma/fm6e4puk\nLocation: San Francisco\, California\n
- Host: Workato Community\nCategories: ai\nSource: luma-html/san-francisco
-LOCATION:San Francisco\, California
-URL:https://lu.ma/fm6e4puk
+DTEND:20260911T023000Z
+DTSTAMP:20260910T103135Z
+UID:evt-3BYE9HFyRakO7wm
+CATEGORIES:community
+DESCRIPTION:https://lu.ma/blg6xzcp\nLocation: 334 State St\, Los Altos\, C
+ A 94022\, USA\nHost: 99VC Events\nCategories: community\nSource: luma/san-
+ francisco+luma/san-jose+luma/virtual
+LOCATION:334 State St\, Los Altos\, CA 94022\, USA
+URL:https://lu.ma/blg6xzcp
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[AI] Designing with AI: Panel hosted by Amplitude
+SUMMARY:[AI] [SV] AI meetup for GenAI\, LLMs\, and Agent
 DTSTART:20260911T003000Z
 DTEND:20260911T033000Z
-DTSTAMP:20260910T025615Z
-UID:evt-Y9oJb5001ZiOQUf
+DTSTAMP:20260910T103135Z
+UID:evt-ylrkm1JAuAeMonr
 CATEGORIES:ai
-DESCRIPTION:https://lu.ma/hc9mndo1\nLocation: San Francisco\, CA\nHost: Pe
- rsonal\nCategories: ai\nSource: luma-html/san-francisco
-LOCATION:San Francisco\, CA
-URL:https://lu.ma/hc9mndo1
+DESCRIPTION:https://lu.ma/oyjqtbrb\nLocation: ThoughtSpot\, 444 Castro St 
+ #1000\, Mountain View\, CA 94041\, USA\nHost: AICamp\nCategories: ai\nSour
+ ce: luma/san-francisco+luma/san-jose+luma/virtual
+LOCATION:ThoughtSpot\, 444 Castro St #1000\, Mountain View\, CA 94041\, US
+ A
+URL:https://lu.ma/oyjqtbrb
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[Bay/Free] Free Drive-In Movie Night + $2 Nachos at West Wind (Eas
  t Bay + San Jose)
 DTSTART;TZID=America/Los_Angeles:20260910T180000
 DTEND;TZID=America/Los_Angeles:20260910T200000
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:funcheap-20260910-freedriveinmovienight2na
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-drivein-movie-night-2-nachos-san-
@@ -77,10 +81,23 @@ URL:https://sf.funcheap.com/free-drivein-movie-night-2-nachos-san-jose-wes
  t-wind-drivein-fall-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[AI] AI Art Workshop: Create a Place You Wish Existed
+DTSTART:20260911T013000Z
+DTEND:20260911T033000Z
+DTSTAMP:20260910T103135Z
+UID:evt-tzpQSCEstVavDsq
+CATEGORIES:ai
+DESCRIPTION:https://lu.ma/jvc34lbb\nLocation: Gallery House\, 826 Santa Cr
+ uz Ave\, Menlo Park\, CA 94025\, USA\nHost: Personal\nCategories: ai\nSour
+ ce: luma/san-francisco+luma/san-jose+luma/virtual
+LOCATION:Gallery House\, 826 Santa Cruz Ave\, Menlo Park\, CA 94025\, USA
+URL:https://lu.ma/jvc34lbb
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Bay/Free] Bay Area Theatre Week 2026 (Sept. 10-20)
 DTSTART;TZID=America/Los_Angeles:20260910T190000
 DTEND;TZID=America/Los_Angeles:20260910T210000
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:funcheap-20260910-bayareatheatreweek2026se
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/bay-area-theatre-week-2026-sept-1020/\
@@ -106,7 +123,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] Soda Stereo - ECOS Tour
 DTSTART:20260911T030000Z
 DTEND:20260911T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_awwb7Mr
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/soda-stereo-ecos-tour-san-jose-ca
@@ -127,10 +144,25 @@ URL:https://www.ticketmaster.com/soda-stereo-ecos-tour-san-jose-california
  -09-10-2026/event/1C00649CB2604DDE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Bay] RDC Arcade Meetup x Play3AI
+DTSTART:20260911T030000Z
+DTEND:20260911T060000Z
+DTSTAMP:20260910T103135Z
+UID:evt-oqoggzyn36DUeX2
+CATEGORIES:community
+DESCRIPTION:https://lu.ma/d53u2j0j\nLocation: Dave & Buster's Milpitas - S
+ an Jose\, 940 Great Mall Dr\, Milpitas\, CA 95035\, USA\nHost: Personal\nC
+ ategories: community\nSource: luma-html/san-francisco+luma/san-francisco+l
+ uma-html/san-jose+luma/san-jose+luma/virtual
+LOCATION:Dave & Buster's Milpitas - San Jose\, 940 Great Mall Dr\, Milpita
+ s\, CA 95035\, USA
+URL:https://lu.ma/d53u2j0j
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Live/Free] SF’s Chinatown Night Market (Sept. 2026)
 DTSTART;TZID=America/Los_Angeles:20260911T170000
 DTEND;TZID=America/Los_Angeles:20260911T210000
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:funcheap-20260911-sfschinatownnightmarkets
 CATEGORIES:concert,free
 DESCRIPTION:https://sf.funcheap.com/sfs-chinatown-night-market-sept-2026/\
@@ -158,11 +190,26 @@ LOCATION:on Friday\, September 11\, 2026\, featuring lion dancing\, live m
 URL:https://sf.funcheap.com/sfs-chinatown-night-market-sept-2026/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[EDM] RDC Fixated x Everbloom After Hours'26
+DTSTART:20260912T020000Z
+DTEND:20260912T090000Z
+DTSTAMP:20260910T103135Z
+UID:evt-DwkNPDz9O5IKP3M
+CATEGORIES:edm
+DESCRIPTION:https://lu.ma/opjceyhi\nLocation: Mosaic Restaurant and Ultra 
+ Lounge\, 211 S 1st St\, San Jose\, CA 95113\, USA\nHost: Personal\nCategor
+ ies: edm\nSource: luma-html/san-francisco+luma/san-francisco+luma-html/san
+ -jose+luma/san-jose+luma/virtual
+LOCATION:Mosaic Restaurant and Ultra Lounge\, 211 S 1st St\, San Jose\, CA
+  95113\, USA
+URL:https://lu.ma/opjceyhi
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Bay/Free] Free Online Encore: 22nd Queer Women of Color Film Fest
   (2026)
 DTSTART;TZID=America/Los_Angeles:20260911T190000
 DTEND;TZID=America/Los_Angeles:20260911T210000
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:funcheap-20260911-freeonlineencore22ndquee
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-online-encore-22nd-queer-women-co
@@ -180,7 +227,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] CODICIADO - Así Es La Vida Tour
 DTSTART:20260912T030000Z
 DTEND:20260912T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZbz3nxnRH
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/codiciado-asi-es-la-vida-tour-san
@@ -198,7 +245,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Flux Pavilion - Ages 21+
 DTSTART:20260912T040000Z
 DTEND:20260912T060000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:Z7r9jZ1A7PyOK
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7PyOK\nVenue: The M
@@ -208,11 +255,38 @@ LOCATION:900 Marin St\, San Francisco\, CA
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7PyOK
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[AI] Agents\, Everywhere: Global Hackathon with OpenAI • Copilot
+ Kit • openrouter [SF]
+DTSTART:20260912T170000Z
+DTEND:20260913T000000Z
+DTSTAMP:20260910T103135Z
+UID:evt-ujjShIqs8ZCzIMA
+CATEGORIES:ai
+DESCRIPTION:https://lu.ma/66qm5unt\nLocation: San Francisco\, CA\nHost: AI
+  Tinkerers San Francisco\nCategories: ai\nSource: luma/san-francisco+luma/
+ san-jose+luma/virtual
+LOCATION:San Francisco\, CA
+URL:https://lu.ma/66qm5unt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bay] US Market Entry: GTM & Sales Insights Meetup
+DTSTART:20260912T170000Z
+DTEND:20260912T203000Z
+DTSTAMP:20260910T103135Z
+UID:evt-N6W43l3nYJ7sqbK
+CATEGORIES:community
+DESCRIPTION:https://lu.ma/4lx4k9yj\nLocation: KIC Silicon Valley\, 3003 N 
+ First St\, San Jose\, CA 95134\, USA\nHost: Personal\nCategories: communit
+ y\nSource: luma/san-francisco+luma/san-jose+luma/virtual
+LOCATION:KIC Silicon Valley\, 3003 N First St\, San Jose\, CA 95134\, USA
+URL:https://lu.ma/4lx4k9yj
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[EDM/Free] Google’s Free “Endless Summer Festival” w/ DJs\, 
  Magic & Giveaways (Mountain View)
 DTSTART;TZID=America/Los_Angeles:20260912T110000
 DTEND;TZID=America/Los_Angeles:20260912T160000
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:funcheap-20260912-googlesfreeendlesssummer
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/googles-free-endless-summer-festival-d
@@ -242,43 +316,37 @@ URL:https://sf.funcheap.com/googles-free-endless-summer-festival-djs-magic
  -giveaways-mountain-view/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Bay] Art Walk SF + Far Out Fest: Balboa Village Block Party (SF)
-DTSTART;TZID=America/Los_Angeles:20260912T170000
-DTEND;TZID=America/Los_Angeles:20260912T190000
-DTSTAMP:20260910T025615Z
-UID:funcheap-20260912-artwalksffaroutfestbalbo
+SUMMARY:[Bay] HYSTA Founders Club Annual Demo Day Preliminary Pitch
+DTSTART:20260912T193000Z
+DTEND:20260913T000000Z
+DTSTAMP:20260910T103135Z
+UID:evt-zWCi7fb7qduv3eP
 CATEGORIES:community
-DESCRIPTION:https://sf.funcheap.com/art-walk-sf-fest-balboa-village-block-
- party-sf/\nVenue: s in the Outer Richmond FREE And yes\, there’s music. 
- Far Out Fest brings legenda\nCategories: community\nSource: funcheap/san-f
- rancisco\n\nArt. Music. Makers. Great food. Neighborhood mischief. Balboa 
- Village is throwing one EPIC Saturday. Art Walk SF is teaming up with Far 
- Out Fest for an afternoon of live music\, local artists\, creators\, maker
- s\, small businesses\, and seriously good neighborhood energy. Art Walk SF
-  + Far Out Fest Take Over Balboa Village Saturday\, September 12\, 2026 | 
- Noon–5 PM Balboa Village\, San Francisco – Balboa Street between 35-38
- th Avenues in the Outer Richmond FREE And yes\, there’s music. Far Out F
- est brings legendary San Francisco surf-rock The Mermen to the party \, al
- ong with other live performances that will keep Balboa Village buzzing all
-  afternoon. Wander the neighborhood and discover local artists and makers 
- \, pop into independent shops\, grab a bite at one of the neighborhood’s
-  restaurants\, cafes\, and bakeries\, and soak up the very particular magi
- c of this corner of San Francisco. This isn’t a sit-and-watch kind of ev
- ent. It’s a wander-around\, meet-someone-new\, hear-something-great\, ea
- t-something-delicious kind of afternoon. Come for the music. Stay for the 
- art. Eat your way through Balboa Village. Support local artists and small 
- businesses. And make a day of it. Free\, lively\, local\, and
-LOCATION:s in the Outer Richmond FREE And yes\, there’s music. Far Out F
- est brings legenda
-URL:https://sf.funcheap.com/art-walk-sf-fest-balboa-village-block-party-sf
- /
+DESCRIPTION:https://lu.ma/fef4v9pw\nLocation: San Jose\, CA\nHost: HYSTA E
+ vent Calendar\nCategories: community\nSource: luma/san-francisco+luma/san-
+ jose+luma/virtual
+LOCATION:San Jose\, CA
+URL:https://lu.ma/fef4v9pw
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bay] 2026 HYSTA Annual Conference Volunteer In Person Meetup #2
+DTSTART:20260912T220000Z
+DTEND:20260913T000000Z
+DTSTAMP:20260910T103135Z
+UID:evt-mJmkhi9brlii0Ne
+CATEGORIES:community
+DESCRIPTION:https://lu.ma/hjqjnk2k\nLocation: San Jose\, CA\nHost: HYSTA E
+ vent Calendar\nCategories: community\nSource: luma/san-francisco+luma/san-
+ jose+luma/virtual
+LOCATION:San Jose\, CA
+URL:https://lu.ma/hjqjnk2k
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[EDM/Free] Free Summer Outdoor Movie Night: “Zootopia 2” w/ DJ
   + Popcorn (Oakland)
 DTSTART;TZID=America/Los_Angeles:20260912T190000
 DTEND;TZID=America/Los_Angeles:20260913T190000
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:funcheap-20260912-freesummeroutdoormovieni
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootop
@@ -312,7 +380,7 @@ SUMMARY:[Bay/Free] Free East Bay Drive-in Movie Night: Documentary + Free
  Pizza & Popcorn (Rodeo)
 DTSTART;TZID=America/Los_Angeles:20260912T190000
 DTEND;TZID=America/Los_Angeles:20260912T210000
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:funcheap-20260912-freeeastbaydriveinmovien
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-east-bay-drivein-movie-night-docu
@@ -334,7 +402,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] SABAI presents: IKIGAI Bay Area
 DTSTART:20260913T030000Z
 DTEND:20260913T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_6TJqbSx
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/sabai-presents-ikigai-bay-area-sa
@@ -350,7 +418,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] Palomazo Norteño - Clase Maestra Tour
 DTSTART:20260913T030000Z
 DTEND:20260913T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_FNtvEnU
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/palomazo-norteno-clase-maestra-to
@@ -382,7 +450,7 @@ SUMMARY:[Live/Free] Black Uhuru w/ The Jethro Jeremiah Band **SOLD OUT - T
  HANK YOU!*
 DTSTART:20260913T040000Z
 DTEND:20260913T060000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:rZ7HnEZ1AfOFON
 CATEGORIES:concert,free
 DESCRIPTION:https://www.ticketweb.com/event/black-uhuru-w-the-jethro-moes-
@@ -419,7 +487,7 @@ SUMMARY:[Bay/Free] Latino Conservation Week Guided Hike + Free Food (Redwo
  od City)
 DTSTART;TZID=America/Los_Angeles:20260913T100000
 DTEND;TZID=America/Los_Angeles:20260913T140000
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:funcheap-20260913-latinoconservationweekgu
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/latino-conservation-week-guided-hike-f
@@ -448,10 +516,52 @@ URL:https://sf.funcheap.com/latino-conservation-week-guided-hike-free-food
  -redwood-city/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[AI] Evals & Metrics for RAG & Agents Workshop
+DTSTART:20260913T180000Z
+DTEND:20260914T000000Z
+DTSTAMP:20260910T103135Z
+UID:evt-9NsZCQTVHxx6EFo
+CATEGORIES:ai
+DESCRIPTION:https://lu.ma/7h5hqfm0\nLocation: SupportVectors\, 46540 Fremo
+ nt Blvd Ste 506\, Fremont\, CA 94538\, USA\nHost: SupportVectors AI Events
+ \nCategories: ai\nSource: luma/san-francisco+luma/san-jose+luma/virtual
+LOCATION:SupportVectors\, 46540 Fremont Blvd Ste 506\, Fremont\, CA 94538\
+ , USA
+URL:https://lu.ma/7h5hqfm0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[AI] 20 Chair Lounge 001 - Multimodal Model Evaluation - Llama Bet
+ a Fellowship
+DTSTART:20260913T200000Z
+DTEND:20260914T000000Z
+DTSTAMP:20260910T103135Z
+UID:evt-PO2HVT1DJTbPukM
+CATEGORIES:ai
+DESCRIPTION:https://lu.ma/arqpdwe1\nLocation: 1070 Bryant St\, San Francis
+ co\, CA 94103\, USA\nHost: Llama Beta Fellowship\nCategories: ai\nSource: 
+ luma/san-francisco+luma/san-jose+luma/virtual
+LOCATION:1070 Bryant St\, San Francisco\, CA 94103\, USA
+URL:https://lu.ma/arqpdwe1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[AI] Agentic Commerce: Designing the Next Business Infrastructure
+DTSTART:20260913T210000Z
+DTEND:20260914T013000Z
+DTSTAMP:20260910T103135Z
+UID:evt-aXOYCnIVSrIiDL1
+CATEGORIES:ai
+DESCRIPTION:https://lu.ma/ucan-2026\nLocation: Plug and Play Tech Center\,
+  440 N Wolfe Rd\, Sunnyvale\, CA 94085\, USA\nHost: UCAN by Alibaba Design
+ \nCategories: ai\nSource: luma/san-francisco+luma/san-jose+luma/virtual
+LOCATION:Plug and Play Tech Center\, 440 N Wolfe Rd\, Sunnyvale\, CA 94085
+ \, USA
+URL:https://lu.ma/ucan-2026
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Live] ANDREA BOCELLI "Romanza - 30th Anniversary World Tour"
 DTSTART:20260914T030000Z
 DTEND:20260914T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_ddjjMmd
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniv
@@ -472,10 +582,23 @@ URL:https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-w
  orld-san-jose-california-09-13-2026/event/1C006430DC737B83
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[AI] Wiki3: Own Your Own AI Workshop
+DTSTART:20260917T010000Z
+DTEND:20260917T033000Z
+DTSTAMP:20260910T103135Z
+UID:evt-7tp4CN0aAVeeMih
+CATEGORIES:ai
+DESCRIPTION:https://lu.ma/Wiki3\nLocation: Hacker Dojo\, 855 Maude Ave\, M
+ ountain View\, CA 94043\, USA\nHost: Personal\nCategories: ai\nSource: lum
+ a/san-francisco+luma/san-jose+luma/virtual
+LOCATION:Hacker Dojo\, 855 Maude Ave\, Mountain View\, CA 94043\, USA
+URL:https://lu.ma/Wiki3
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Live] Five Finger Death Punch
 DTSTART:20260917T014500Z
 DTEND:20260917T034500Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_eplUIuH
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/five-finger-death-punch-mountain-
@@ -491,7 +614,7 @@ BEGIN:VEVENT
 SUMMARY:[Live/Free] Mustard Service
 DTSTART:20260918T030000Z
 DTEND:20260918T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:rZ7HnEZ1Af0Y0K
 CATEGORIES:concert,free
 DESCRIPTION:https://www.ticketweb.com/event/mustard-service-the-independen
@@ -508,7 +631,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] Carin Leon - De Sonora Para El Mundo Tour 2026
 DTSTART:20260919T030000Z
 DTEND:20260919T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_eBfZy7s
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/carin-leon-de-sonora-para-el-san-
@@ -532,7 +655,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] Kany Garcia: Puerta Abierta Tour
 DTSTART:20260919T030000Z
 DTEND:20260919T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_FQ8mbrW
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/kany-garcia-puerta-abierta-tour-s
@@ -547,7 +670,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Daft Disko
 DTSTART:20260919T040000Z
 DTEND:20260919T060000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:rZ7HnEZ1AfaaqV
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/daft-disko-the-ritz-tickets/14
@@ -564,7 +687,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Mild Minds - DJ Set (21+)
 DTSTART:20260919T050000Z
 DTEND:20260919T070000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:Z7r9jZ1A7Pw7F
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7Pw7F\nVenue: 1015 
@@ -574,40 +697,37 @@ LOCATION:1015 Folsom Street\, San Francisco\, CA
 URL:https://www.ticketmaster.com/event/Z7r9jZ1A7Pw7F
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Bay] District 6 SOMA Family Summit
-DTSTART;TZID=America/Los_Angeles:20260919T110000
-DTEND;TZID=America/Los_Angeles:20260919T143000
-DTSTAMP:20260910T025615Z
-UID:funcheap-20260919-district6somafamilysummi
-CATEGORIES:community
-DESCRIPTION:https://sf.funcheap.com/district-6-soma-family-summit/\nLocati
- on: south bay\nCategories: community\nSource: funcheap/south-bay+funcheap/
- san-francisco+funcheap/east-bay\n\nThis is Your City. This is Your Voice. 
- This is Your Future. Share your story about growing up and raising your fa
- mily in San Francisco. Every family has a story. Every voice matters. Plea
- se share yours. Join us for the District 6 SOMA Family Summit! The This Is
-  Your City: Family Summit Series invites families\, caregivers\, young peo
- ple\, and community members from across San Francisco to help shape the fu
- ture of our city. Saturday\, Sept. 19\, 2026\, 11:00 a.m. – 2:30 p.m. Ge
- ne Friend SOMA Recreation Center \, 270 6th St\, SF\, CA 94103 Free food\,
-  childcare\, and interpretation are provided. Please note all interpretati
- on requests must be made 48 hours or more prior to the Family Summit. Who 
- should attend? Everyone is welcome. This event highlights District 6\, but
-  you can attend any Family Summit that fits your schedule. Why are we gath
- ering? The Family Summit Series is part of San Francisco’s first Citywid
- e Community Needs Assessment. Through conversations with families across t
- he city\, we’re learning what matters most to children\, youth\, young a
- dults\, and families. What we learn will help improve future planning\, pr
- ograms\, and services. Whether you’ve lived in San Francisco your whole 
- lif
-LOCATION:south bay
-URL:https://sf.funcheap.com/district-6-soma-family-summit/
+SUMMARY:[AI] TrueFoundry Agent Harness Hackathon
+DTSTART:20260919T163000Z
+DTEND:20260920T030000Z
+DTSTAMP:20260910T103135Z
+UID:evt-x4XWFqVISgA8ctG
+CATEGORIES:ai
+DESCRIPTION:https://lu.ma/truefoundry-agent-harness-hackathon-sep19-2026\n
+ Location: 3120 Scott Blvd\, Santa Clara\, CA 95054\, USA\nHost: [SF] Hacke
+ rSquad\nCategories: ai\nSource: luma/san-francisco+luma/san-jose+luma/virt
+ ual
+LOCATION:3120 Scott Blvd\, Santa Clara\, CA 95054\, USA
+URL:https://lu.ma/truefoundry-agent-harness-hackathon-sep19-2026
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[AI] Hack for Humanity: San Francisco (powered by Google Gemini)
+DTSTART:20260919T180000Z
+DTEND:20260920T000000Z
+DTSTAMP:20260910T103135Z
+UID:evt-VaPGnXZvfYT3bD4
+CATEGORIES:ai
+DESCRIPTION:https://lu.ma/h4h-san-francisco\nLocation: San Francisco\, CA\
+ nHost: The AI Collective\nCategories: ai\nSource: luma/san-francisco+luma/
+ san-jose+luma/virtual
+LOCATION:San Francisco\, CA
+URL:https://lu.ma/h4h-san-francisco
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[Bay/Free] Pacific Pearl Mid-Autumn Moon Festival (Pleasanton)
 DTSTART;TZID=America/Los_Angeles:20260919T150000
 DTEND;TZID=America/Los_Angeles:20260919T170000
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:funcheap-20260919-pacificpearlmidautumnmoo
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/pacific-pearl-midautumn-moon-festival-
@@ -636,44 +756,42 @@ URL:https://sf.funcheap.com/pacific-pearl-midautumn-moon-festival-pleasant
  on/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Bay/Free] “Let’s Glow” BART Anime Festival (Warm Springs / 
- South Fremont)
-DTSTART;TZID=America/Los_Angeles:20260919T160000
-DTEND;TZID=America/Los_Angeles:20260919T210000
-DTSTAMP:20260910T025615Z
-UID:funcheap-20260919-letsglowbartanimefestiva
+SUMMARY:[Bay/Free] Let's Glow BART Anime Festival
+DTSTART:20260919T230000Z
+DTEND:20260920T040000Z
+DTSTAMP:20260910T103135Z
+UID:evt-WPLKrC59Zns3UjZ
 CATEGORIES:community,free
-DESCRIPTION:https://sf.funcheap.com/lets-glow-bart-anime-festival-warm-spr
- ings-south-fremont/\nVenue: Warm Springs/South Fremont Station RSVP on Eve
- ntbrite at letsglowfestival.eventb\nPrice: Free\nCategories: community\, f
- ree\nSource: funcheap/san-jose+funcheap/south-bay\n\nBART’s Let’s Glow
- ! BART Anime Festival returns to Warm Springs/South Fremont Station for a 
- celebration of anime\, art\, music\, cosplay and transit fandom. This year
- ’s free festival will be bigger and better than ever\, following a huge 
- turnout of more than 4\,000 attendees last year! The festival celebrates t
- he shared fandom of anime and transit\, with an expanded lineup of artists
- \, performances\, food\, cosplay\, and more. Get to know BART’s anime ma
- scots at bart.gov/anime . Details What: Let’s Glow! BART Anime Festival 
- When: Saturday\, September 19\, 4pm to 9pm Where: Warm Springs/South Fremo
- nt Station RSVP on Eventbrite at letsglowfestival.eventbrite.com . Not req
- uired but helps us get a headcount. Free to attend What to expect Artist A
- lley: More than 100 artists will sell a mix of BART\, anime-\, and transit
- -themed art\, along with their own original artwork. Check back for the fu
- ll catalog in the coming weeks. Music and performances: AniClover will DJ 
- all night\, and SanFlare will perform wotagei\, a high-energy style of syn
- chronized fan dancing. SanFlare will also teach attendees the official BAR
- T wotagei dance. Special Youtaite concert: An exclusive VTuber concert pro
- duced by Neon Shrine f
-LOCATION:Warm Springs/South Fremont Station RSVP on Eventbrite at letsglow
- festival.eventb
-URL:https://sf.funcheap.com/lets-glow-bart-anime-festival-warm-springs-sou
- th-fremont/
+DESCRIPTION:https://lu.ma/vaottzct\nVenue: Warm Springs/South Fremont Stat
+ ion RSVP on Eventbrite at letsglowfestival.eventb\nLocation: Warm Springs 
+ BART\, Warm Spgs BART\, Fremont\, CA 94539\, USA\nPrice: Free\nHost: Perso
+ nal\nCategories: community\, free\nSource: luma/san-francisco+luma/san-jos
+ e+luma/virtual+funcheap/san-jose+funcheap/south-bay\n\nBART’s Let’s Gl
+ ow! BART Anime Festival returns to Warm Springs/South Fremont Station for 
+ a celebration of anime\, art\, music\, cosplay and transit fandom. This ye
+ ar’s free festival will be bigger and better than ever\, following a hug
+ e turnout of more than 4\,000 attendees last year! The festival celebrates
+  the shared fandom of anime and transit\, with an expanded lineup of artis
+ ts\, performances\, food\, cosplay\, and more. Get to know BART’s anime 
+ mascots at bart.gov/anime . Details What: Let’s Glow! BART Anime Festiva
+ l When: Saturday\, September 19\, 4pm to 9pm Where: Warm Springs/South Fre
+ mont Station RSVP on Eventbrite at letsglowfestival.eventbrite.com . Not r
+ equired but helps us get a headcount. Free to attend What to expect Artist
+  Alley: More than 100 artists will sell a mix of BART\, anime-\, and trans
+ it-themed art\, along with their own original artwork. Check back for the 
+ full catalog in the coming weeks. Music and performances: AniClover will D
+ J all night\, and SanFlare will perform wotagei\, a high-energy style of s
+ ynchronized fan dancing. SanFlare will also teach attendees the official B
+ ART wotagei dance. Special Youtaite concert: An exclusive VTuber concert p
+ roduced by Neon Shrine f
+LOCATION:Warm Springs BART\, Warm Spgs BART\, Fremont\, CA 94539\, USA
+URL:https://lu.ma/vaottzct
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[EDM] Steve Aoki (18+) - DIM MAK 30 TOUR
 DTSTART:20260920T020000Z
 DTEND:20260920T040000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZbyk0x_-f
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/steve-aoki-18-dim-mak-30-san-fran
@@ -701,7 +819,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] GODSMACK - The Rise of Rock World Tour 2026
 DTSTART:20260920T020000Z
 DTEND:20260920T040000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_dKlXXzG
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/godsmack-the-rise-of-rock-world-m
@@ -717,7 +835,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Anish Kumar (21+)
 DTSTART:20260920T050000Z
 DTEND:20260920T070000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_ud0A07i
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/anish-kumar-21-san-francisco-cali
@@ -730,23 +848,10 @@ URL:https://www.ticketmaster.com/anish-kumar-21-san-francisco-california-0
  9-19-2026/event/1C0064D0E416412C
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[EDM] Temples
-DTSTART:20260923T030000Z
-DTEND:20260923T050000Z
-DTSTAMP:20260910T025615Z
-UID:Z7r9jZ1A7x3vp
-CATEGORIES:edm
-DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7x3vp\nVenue: The C
- hapel\nLocation: 777 Valencia Street\, San Francisco\, CA\nGenres: Music\,
-  Dance/Electronic\nCategories: edm\nSource: ticketmaster/music
-LOCATION:777 Valencia Street\, San Francisco\, CA
-URL:https://www.ticketmaster.com/event/Z7r9jZ1A7x3vp
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[Live] LE SSERAFIM - 2026 LE SSERAFIM 'PUREFLOW' TOUR IN SAN JOSE
 DTSTART:20260924T023000Z
 DTEND:20260924T043000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_1mWZNyw
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pure
@@ -779,10 +884,23 @@ URL:https://www.ticketmaster.com/le-sserafim-2026-le-sserafim-pureflow-san
  -jose-california-09-23-2026/event/1C0064ABBD023E72
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[AI] AI Applied in Cybersecurity Lightning Talks
+DTSTART:20260925T000000Z
+DTEND:20260925T030000Z
+DTSTAMP:20260910T103135Z
+UID:evt-qZobjBODNG7E1om
+CATEGORIES:ai
+DESCRIPTION:https://lu.ma/de7znk3m\nLocation: Nutanix\, 1740 Technology Dr
+ \, San Jose\, CA 95110\, USA\nHost: Women in Cybersecurity - Silicon Valle
+ y\nCategories: ai\nSource: luma/san-francisco+luma/san-jose+luma/virtual
+LOCATION:Nutanix\, 1740 Technology Dr\, San Jose\, CA 95110\, USA
+URL:https://lu.ma/de7znk3m
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Live] The Return Of The Carnival Of Sins: Mötley Crüe
 DTSTART:20260925T013000Z
 DTEND:20260925T033000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZbUD3X2kj
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/the-return-of-the-carnival-of-mou
@@ -799,7 +917,7 @@ SUMMARY:[EDM] Lionel Richie and Earth\, Wind & Fire - Sing a Song All Nigh
  t Long
 DTSTART:20260927T023000Z
 DTEND:20260927T043000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_d2ADlKy
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/lionel-richie-and-earth-wind-fire
@@ -816,7 +934,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] Marco Antonio Solis - Tour Gratitud 2026
 DTSTART:20260927T030000Z
 DTEND:20260927T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_1MnIoTf
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/marco-antonio-solis-tour-gratitud
@@ -837,10 +955,23 @@ URL:https://www.ticketmaster.com/marco-antonio-solis-tour-gratitud-2026-sa
  n-jose-california-09-26-2026/event/1C0064ADEAA11FD4
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Bay] Game Market West: Fall 2026
+DTSTART:20260927T170000Z
+DTEND:20260927T220000Z
+DTSTAMP:20260910T103135Z
+UID:evt-rei4Dr9qBvu1giN
+CATEGORIES:community
+DESCRIPTION:https://lu.ma/6d5nmzxb\nLocation: Guildhouse\, 420 First St\, 
+ San Jose\, CA 95113\, USA\nHost: Personal\nCategories: community\nSource: 
+ luma/san-francisco+luma/san-jose+luma/virtual
+LOCATION:Guildhouse\, 420 First St\, San Jose\, CA 95113\, USA
+URL:https://lu.ma/6d5nmzxb
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Live] Yandel - SINFÓNICO
 DTSTART:20260928T030000Z
 DTEND:20260928T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_aDynCGo
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/yandel-sinfonico-san-jose-califor
@@ -861,11 +992,25 @@ URL:https://www.ticketmaster.com/yandel-sinfonico-san-jose-california-09-2
  7-2026/event/1C00649EF9A8E311
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[AI] AIC SF Chapter Team & Volunteer Get-Together (w/ The AI Colle
+ ctive)
+DTSTART:20261001T003000Z
+DTEND:20261001T023000Z
+DTSTAMP:20260910T103135Z
+UID:evt-huVuSpeCdR7qvmO
+CATEGORIES:ai
+DESCRIPTION:https://lu.ma/aic-sf-team-gettogether\nLocation: San Francisco
+ \, CA\nHost: The AI Collective\nCategories: ai\nSource: luma/san-francisco
+ +luma/san-jose+luma/virtual
+LOCATION:San Francisco\, CA
+URL:https://lu.ma/aic-sf-team-gettogether
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Live] $uicideboy$ present Grey Day Tour 2026 w. Shoreline Mafia &
   more
 DTSTART:20261002T013000Z
 DTEND:20261002T033000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_6RUiHsh
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2
@@ -892,7 +1037,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] "The Hayley Williams Show"
 DTSTART:20261003T020000Z
 DTEND:20261003T040000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_1KoLUrp
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/the-hayley-williams-show-mountain
@@ -917,7 +1062,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Madeon presents Victory Live (18+)
 DTSTART:20261003T030000Z
 DTEND:20261003T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_1K6Y0Pb
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/madeon-presents-victory-live-18-s
@@ -945,7 +1090,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Sploinky Rave
 DTSTART:20261003T040000Z
 DTEND:20261003T060000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:rZ7HnEZ1AfJ4FS
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/sploinky-rave-the-ritz-tickets
@@ -969,7 +1114,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Jon Batiste - Jon Batiste Live
 DTSTART:20261004T030000Z
 DTEND:20261004T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_F9s4AGq
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/jon-batiste-jon-batiste-live-berk
@@ -985,7 +1130,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] SOMBR - You Are The Reason Tour
 DTSTART:20261008T020000Z
 DTEND:20261008T040000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_FLJZy-y
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/sombr-you-are-the-reason-tour-san
@@ -1009,7 +1154,7 @@ BEGIN:VEVENT
 SUMMARY:[Live] Mumford & Sons - Prizefighter Tour
 DTSTART:20261009T023000Z
 DTEND:20261009T043000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_AxtLqKN
 CATEGORIES:concert
 DESCRIPTION:https://www.ticketmaster.com/mumford-sons-prizefighter-tour-mo
@@ -1030,7 +1175,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] The Living Tombstone
 DTSTART:20261009T030000Z
 DTEND:20261009T050000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:Z7r9jZ1A7-OGU
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/event/Z7r9jZ1A7-OGU\nVenue: San J
@@ -1043,7 +1188,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] TRAITRS\, DJ Basura
 DTSTART:20261010T020000Z
 DTEND:20261010T040000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:rZ7HnEZ1AfaJG0
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketweb.com/event/traitrs-dj-basura-the-ritz-tic
@@ -1058,7 +1203,7 @@ BEGIN:VEVENT
 SUMMARY:[EDM] Holy Priest (18+)
 DTSTART:20261010T023000Z
 DTEND:20261010T043000Z
-DTSTAMP:20260910T025615Z
+DTSTAMP:20260910T103135Z
 UID:G5vYZ_CQwHuk4
 CATEGORIES:edm
 DESCRIPTION:https://www.ticketmaster.com/holy-priest-18-san-francisco-cali
