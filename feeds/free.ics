@@ -9,7 +9,7 @@ SUMMARY:Free Drive-In Movie Night + $2 Nachos at West Wind (East Bay + San
   Jose)
 DTSTART;TZID=America/Los_Angeles:20260910T180000
 DTEND;TZID=America/Los_Angeles:20260910T200000
-DTSTAMP:20260910T154621Z
+DTSTAMP:20260910T202406Z
 UID:funcheap-20260910-freedriveinmovienight2na
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-drivein-movie-night-2-nachos-san-
@@ -43,7 +43,7 @@ BEGIN:VEVENT
 SUMMARY:Bay Area Theatre Week 2026 (Sept. 10-20)
 DTSTART;TZID=America/Los_Angeles:20260910T190000
 DTEND;TZID=America/Los_Angeles:20260910T210000
-DTSTAMP:20260910T154621Z
+DTSTAMP:20260910T202406Z
 UID:funcheap-20260910-bayareatheatreweek2026se
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/bay-area-theatre-week-2026-sept-1020/\
@@ -69,7 +69,7 @@ BEGIN:VEVENT
 SUMMARY:SF’s Chinatown Night Market (Sept. 2026)
 DTSTART;TZID=America/Los_Angeles:20260911T170000
 DTEND;TZID=America/Los_Angeles:20260911T210000
-DTSTAMP:20260910T154621Z
+DTSTAMP:20260910T202406Z
 UID:funcheap-20260911-sfschinatownnightmarkets
 CATEGORIES:concert,free
 DESCRIPTION:https://sf.funcheap.com/sfs-chinatown-night-market-sept-2026/\
@@ -100,7 +100,7 @@ BEGIN:VEVENT
 SUMMARY:Free Online Encore: 22nd Queer Women of Color Film Fest (2026)
 DTSTART;TZID=America/Los_Angeles:20260911T190000
 DTEND;TZID=America/Los_Angeles:20260911T210000
-DTSTAMP:20260910T154621Z
+DTSTAMP:20260910T202406Z
 UID:funcheap-20260911-freeonlineencore22ndquee
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/free-online-encore-22nd-queer-women-co
@@ -115,47 +115,11 @@ URL:https://sf.funcheap.com/free-online-encore-22nd-queer-women-color-film
  -fest-2026/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:anaiis with special guest Elliott Skinner (SOLD OUT)
-DTSTART:20260912T040000Z
-DTEND:20260912T060000Z
-DTSTAMP:20260910T154621Z
-UID:rZ7HnEZ1AfPsZd
-CATEGORIES:concert,free
-DESCRIPTION:https://www.ticketweb.com/event/anaiis-with-special-guest-elli
- ott-swedish-american-hall-tickets/14971003\nVenue: Swedish American Hall\n
- Location: 2174 Market St\, San Francisco\, CA\nPrice: Free\nGenres: Music\
- , R&B\, Soul\nCategories: concert\, free\nSource: ticketmaster/music\n\nli
- mited first come first served open seating London-based polymath anaiis ma
- kes the kind of music that speaks to an innate sense of wonder. On her lat
- est album Devotion & The Black Divine\, the songs swell with emotional cla
- rity as she lovingly pushes herself beyond the edges of her comfort zone. 
- Recorded live-to-tape at London's 5db Studios\, the record feels like a co
- nversation with the natural world\, our inner selves\, and the power of re
- cognising one's own divinity. anaiis draws from the collective consciousne
- ss\, and this time\, that depth rests on a growing sense of homecoming. No
- t to a place\, but to the self. Artist Presale: Tue Jun 09\, 10:00 AM Publ
- ic Onsale: Fri Jun 12th \, 10:00 AM For any event that is listed as 18 or 
- 21 and over\, ANY ticket holder unable to present valid identification ind
- icating that they are of age will not be admitted to this event\, and will
-  not be eligible for a refund. Any event listed as All Ages\, means 6 year
- s of age or older. ALL tickets are standing room only unless otherwise spe
- cified. If you need special accommodations\, contact info@cafedunord.com. 
- Support acts are subject to change without refund. Professional Cameras ar
- e not allowed without prior approval. Professional Camera defined as detac
- hable lens or of professional grade as determined by the venue staff. When
-  in doubt\, just email us ahead of the show! We might be able to get you a
-  Photo Pass depending on Artist's approval. This event is 21 and over. Any
-  ticket holder unable to present
-LOCATION:2174 Market St\, San Francisco\, CA
-URL:https://www.ticketweb.com/event/anaiis-with-special-guest-elliott-swed
- ish-american-hall-tickets/14971003
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Google’s Free “Endless Summer Festival” w/ DJs\, Magic & Giv
  eaways (Mountain View)
 DTSTART;TZID=America/Los_Angeles:20260912T110000
 DTEND;TZID=America/Los_Angeles:20260912T160000
-DTSTAMP:20260910T154621Z
+DTSTAMP:20260910T202406Z
 UID:funcheap-20260912-googlesfreeendlesssummer
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/googles-free-endless-summer-festival-d
@@ -185,11 +149,45 @@ URL:https://sf.funcheap.com/googles-free-endless-summer-festival-djs-magic
  -giveaways-mountain-view/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:San Jose’s Free “Cultura in the Park” Festival w/ Live Maria
+ chi (Plaza de Cesar Chavez)
+DTSTART;TZID=America/Los_Angeles:20260912T120000
+DTEND;TZID=America/Los_Angeles:20260912T160000
+DTSTAMP:20260910T202406Z
+UID:funcheap-20260912-sanjosesfreeculturainthe
+CATEGORIES:community,free
+DESCRIPTION:https://sf.funcheap.com/san-joses-free-cultura-park-festival-l
+ ive-mariachi-plaza-de-cesar-chavez/\nVenue: Plaza De Cesar Chavez\, San Jo
+ se\, CAFeaturing:Live CumbiaLive MariachiDJ’sAztec D\nPrice: Free\nCateg
+ ories: community\, free\nSource: funcheap/san-jose\n\nCultura in the Park 
+ Festival brings a free celebration of art\, music\, and community to Plaza
+  de Cesar Chavez in San Jose. The event features live cumbia\, mariachi\, 
+ DJs\, Aztec and folklorico dance\, food vendors\, art\, resources\, and fr
+ ee activities for kids. Open to all ages\, this festival highlights Latin 
+ American culture and traditions. Original Event Description: _Celebrate vi
+ brant cultures with food\, music\, and fun at Cultura in the Park Festival
+  in San Jose!CULTURA IN THE PARK FESTIVAL\, San Jose\, CAGet ready for an 
+ epic day at the Cultura in the Park Festival in beautiful San Jose\, CA! T
+ his free in-person event is all about celebrating art\, music\, and commun
+ ity in the middle of the city. Bring your friends and family\, enjoy live 
+ performances\, delicious eats\, and celebrate the cultura with us. Free Ad
+ mission!Date: Saturday\, September 12\, 2026Time: 12pm – 4pmLocation: Pl
+ aza De Cesar Chavez\, San Jose\, CAFeaturing:Live CumbiaLive MariachiDJ’
+ sAztec DanceFolklorico DanceFoodArtVendorsResourcesJumpersFree Kids Activi
+ tiesCultura in The Park : Ven a disfrutar de un día lleno de música\, ba
+ ile y comida deliciosa en la Plaza de Cesar Chavez en San Jose\, CA\, USA.
+  Este evento en persona es un
+LOCATION:Plaza De Cesar Chavez\, San Jose\, CAFeaturing:Live CumbiaLive Ma
+ riachiDJ’sAztec D
+URL:https://sf.funcheap.com/san-joses-free-cultura-park-festival-live-mari
+ achi-plaza-de-cesar-chavez/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Free Summer Outdoor Movie Night: “Zootopia 2” w/ DJ + Popcorn 
  (Oakland)
 DTSTART;TZID=America/Los_Angeles:20260912T190000
 DTEND;TZID=America/Los_Angeles:20260913T190000
-DTSTAMP:20260910T154621Z
+DTSTAMP:20260910T202406Z
 UID:funcheap-20260912-freesummeroutdoormovieni
 CATEGORIES:edm,free
 DESCRIPTION:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootop
@@ -219,33 +217,10 @@ URL:https://sf.funcheap.com/free-summer-outdoor-movie-night-zootopia-2-dj-
  popcorn-oakland/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Free East Bay Drive-in Movie Night: Documentary + Free Pizza & Pop
- corn (Rodeo)
-DTSTART;TZID=America/Los_Angeles:20260912T190000
-DTEND;TZID=America/Los_Angeles:20260912T210000
-DTSTAMP:20260910T154621Z
-UID:funcheap-20260912-freeeastbaydriveinmovien
-CATEGORIES:community,free
-DESCRIPTION:https://sf.funcheap.com/free-east-bay-drivein-movie-night-docu
- mentary-free-pizza-popcorn-rodeo/\nLocation: east bay\nPrice: Free\nCatego
- ries: community\, free\nSource: funcheap/east-bay\n\nPlease join us Saturd
- ay September 12\, at Laurel Court Community Garden\, for our Drive-In Movi
- e Night. RCA is showing an environmental documentary called “Common Grou
- nd\,” that could change the World. Produced by Woody Harrelson\, it is a
-  story of what’s gone wrong with American farming practices\, and how we
-  can set it right. Beautiful photography\, and compelling stories. Free ad
- mission\, free popcorn\, and free pizza. Gate opens at 7:00pm. 861 Laurel 
- Court\, Rodeo. Event link https://facebook.com/events/s/drive-in-movie-nig
- ht/1606131491049289/?mibextid=Gg3lNB
-LOCATION:east bay
-URL:https://sf.funcheap.com/free-east-bay-drivein-movie-night-documentary-
- free-pizza-popcorn-rodeo/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Black Uhuru w/ The Jethro Jeremiah Band **SOLD OUT - THANK YOU!*
 DTSTART:20260913T040000Z
 DTEND:20260913T060000Z
-DTSTAMP:20260910T154621Z
+DTSTAMP:20260910T202406Z
 UID:rZ7HnEZ1AfOFON
 CATEGORIES:concert,free
 DESCRIPTION:https://www.ticketweb.com/event/black-uhuru-w-the-jethro-moes-
@@ -281,7 +256,7 @@ BEGIN:VEVENT
 SUMMARY:Latino Conservation Week Guided Hike + Free Food (Redwood City)
 DTSTART;TZID=America/Los_Angeles:20260913T100000
 DTEND;TZID=America/Los_Angeles:20260913T140000
-DTSTAMP:20260910T154621Z
+DTSTAMP:20260910T202406Z
 UID:funcheap-20260913-latinoconservationweekgu
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/latino-conservation-week-guided-hike-f
@@ -313,7 +288,7 @@ BEGIN:VEVENT
 SUMMARY:Pacific Pearl Mid-Autumn Moon Festival (Pleasanton)
 DTSTART;TZID=America/Los_Angeles:20260919T150000
 DTEND;TZID=America/Los_Angeles:20260919T170000
-DTSTAMP:20260910T154621Z
+DTSTAMP:20260910T202406Z
 UID:funcheap-20260919-pacificpearlmidautumnmoo
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/pacific-pearl-midautumn-moon-festival-
@@ -346,7 +321,7 @@ SUMMARY:“Let’s Glow” BART Anime Festival (Warm Springs / South Fremo
  nt)
 DTSTART;TZID=America/Los_Angeles:20260919T160000
 DTEND;TZID=America/Los_Angeles:20260919T210000
-DTSTAMP:20260910T154621Z
+DTSTAMP:20260910T202406Z
 UID:funcheap-20260919-letsglowbartanimefestiva
 CATEGORIES:community,free
 DESCRIPTION:https://sf.funcheap.com/lets-glow-bart-anime-festival-warm-spr
@@ -374,5 +349,39 @@ LOCATION:Warm Springs/South Fremont Station RSVP on Eventbrite at letsglow
  festival.eventb
 URL:https://sf.funcheap.com/lets-glow-bart-anime-festival-warm-springs-sou
  th-fremont/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Randall Museum 75th Anniversary: Free Science/Nature/Art Festival 
+ (SF)
+DTSTART;TZID=America/Los_Angeles:20260927T170000
+DTEND;TZID=America/Los_Angeles:20260927T190000
+DTSTAMP:20260910T202406Z
+UID:funcheap-20260927-randallmuseum75thanniver
+CATEGORIES:community,free
+DESCRIPTION:https://sf.funcheap.com/randall-museum-75th-anniversary-free-s
+ ciencenatureart-festival-sf/\nVenue: Randall Museum 199 Museum Way\, San F
+ rancisco\, CA 94114 Open in Maps Organizer Ra\nPrice: Free\nCategories: co
+ mmunity\, free\nSource: funcheap/san-jose+funcheap/san-francisco\n\nThe Ra
+ ndall Museum celebrates its 75th anniversary with a free\, family-friendly
+  festival featuring the opening of a new history exhibit\, live music\, cr
+ afts\, climbing wall\, skateboarding\, archery\, and more. The event inclu
+ des activities and entertainment for all ages\, instructor showcases\, and
+  guest speakers\, highlighting the museum’s legacy of hands-on art\, sci
+ ence\, and nature programming. Original Event Description: _The Randall Mu
+ seum (199 Museum Way) will celebrate its 75th anniversary on the slopes of
+  Corona Heights Park on Sunday\, September 27\, from 1 to 5 p.m. This free
+ \, family-friendly celebration will feature the opening of a new history e
+ xhibit\, live music\, crafts\, climbing\, skateboarding\, archery and more
+ . For decades\, the museum has offered hands-on art\, science and nature p
+ rogramming rooted in the area’s distinctive hillside ecology. Ahead of t
+ he milestone\, San Franciscans are invited to share their stories and memo
+ ries of how the Randall has brought joy\, inspiration\, learning and commu
+ nity to their lives. sun 27 sep Randall Museum 75th Anniversary Celebratio
+ n 1:00 pm – 5:00 pm Event Details September marks the 75th Anniversary o
+ f our opening on the slopes of Corona Hei
+LOCATION:Randall Museum 199 Museum Way\, San Francisco\, CA 94114 Open in 
+ Maps Organizer Ra
+URL:https://sf.funcheap.com/randall-museum-75th-anniversary-free-sciencena
+ tureart-festival-sf/
 END:VEVENT
 END:VCALENDAR
