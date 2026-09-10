@@ -5,76 +5,10 @@ X-WR-CALDESC:Kyros AI — ai events\, San Jose first.
 X-WR-CALNAME:Kyros AI
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-SUMMARY:The Corgi Cup 🏁🏆
-DTSTART:20260910T000000Z
-DTEND:20260910T020000Z
-DTSTAMP:20260909T202259Z
-UID:evt-wu4SpeSIQFoMoJW
-CATEGORIES:ai
-DESCRIPTION:https://lu.ma/the-corgi-cup\nLocation: 9 Claude Ln\, San Franc
- isco\, CA 94108\, USA\nHost: Arize AI\nCategories: ai\nSource: luma-html/s
- an-francisco
-LOCATION:9 Claude Ln\, San Francisco\, CA 94108\, USA
-URL:https://lu.ma/the-corgi-cup
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bay Area Frontier Research Club #22 | Robotics & Embodied AI: The 
- 20-Watt Problem (dinner + paper discussion @ Mission Robotics)
-DTSTART:20260910T003000Z
-DTEND:20260910T033000Z
-DTSTAMP:20260909T202259Z
-UID:evt-guGDoAdrP4myI9C
-CATEGORIES:ai
-DESCRIPTION:https://lu.ma/7wv4khq9\nLocation: San Francisco\, CA\nHost: Th
- e Frontier Syndicate\nCategories: ai\nSource: luma-html/san-francisco
-LOCATION:San Francisco\, CA
-URL:https://lu.ma/7wv4khq9
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Agentic PM Kickoff w/ PostHog\, Linear\, Supabase & Dreambase
-DTSTART:20260910T010000Z
-DTEND:20260910T040000Z
-DTSTAMP:20260909T202259Z
-UID:evt-mgs8akIoPXqIV1l
-CATEGORIES:ai
-DESCRIPTION:https://lu.ma/posthog-tpmz\nLocation: 2360 3rd St\, San Franci
- sco\, CA 94107\, USA\nHost: PostHog\nCategories: ai\nSource: luma-html/san
- -francisco
-LOCATION:2360 3rd St\, San Francisco\, CA 94107\, USA
-URL:https://lu.ma/posthog-tpmz
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Agents in Sales: Fireside Chat with Bobby Morrison (ex-Shopify CRO
- )
-DTSTART:20260910T013000Z
-DTEND:20260910T033000Z
-DTSTAMP:20260909T202259Z
-UID:evt-CjrBnlXY53B8AOu
-CATEGORIES:ai
-DESCRIPTION:https://lu.ma/agents-in-sales\nLocation: San Francisco\, CA\nH
- ost: Gumloop\nCategories: ai\nSource: luma-html/san-francisco
-LOCATION:San Francisco\, CA
-URL:https://lu.ma/agents-in-sales
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The True Cost of Every Prompt: The Sustainability of AI and Data C
- enters
-DTSTART:20260910T020000Z
-DTEND:20260910T040000Z
-DTSTAMP:20260909T202259Z
-UID:evt-8xp6C7FwWpWaILC
-CATEGORIES:ai
-DESCRIPTION:https://lu.ma/nqcd5thf\nLocation: 473A Haight St\, San Francis
- co\, CA 94117\, USA\nHost: Big Brain Lectures - Bay Area\nCategories: ai\n
- Source: luma-html/san-francisco
-LOCATION:473A Haight St\, San Francisco\, CA 94117\, USA
-URL:https://lu.ma/nqcd5thf
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Llama Lounge 26: The AI Startup Event Series @ Microsoft
 DTSTART:20260911T000000Z
 DTEND:20260911T033000Z
-DTSTAMP:20260909T202259Z
+DTSTAMP:20260910T025615Z
 UID:evt-F09YBBMDvanF48y
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/llamalounge26\nLocation: Microsoft\, 1045 La Ave
@@ -87,7 +21,7 @@ BEGIN:VEVENT
 SUMMARY:Mahjong Party for AI Builders
 DTSTART:20260911T000000Z
 DTEND:20260911T030000Z
-DTSTAMP:20260909T202259Z
+DTSTAMP:20260910T025615Z
 UID:evt-J34N2EWaaDQK31h
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/fm6e4puk\nLocation: San Francisco\, California\n
@@ -99,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:Designing with AI: Panel hosted by Amplitude
 DTSTART:20260911T003000Z
 DTEND:20260911T033000Z
-DTSTAMP:20260909T202259Z
+DTSTAMP:20260910T025615Z
 UID:evt-Y9oJb5001ZiOQUf
 CATEGORIES:ai
 DESCRIPTION:https://lu.ma/hc9mndo1\nLocation: San Francisco\, CA\nHost: Pe
